@@ -32,22 +32,22 @@ const NEWS_ITEMS = [
     },
     {
         slug: 'dia-de-africa-2026',
-        date: '2026-05-23',
+        date: '2026-05-27',
         homepagePriority: 2,
         categoryId: 'eventos',
-        image: 'images/news/dia-de-africa-no-tecnico-2026.jpeg',
+        image: 'images/news/dia-de-africa-2026/group-photo.jpg',
         url: 'dia-de-africa.html',
         copy: {
             pt: {
                 category: 'Eventos',
                 title: 'Dia de África no Técnico',
-                excerpt: 'Uma celebração da cultura, identidade e comunidade africana no Técnico Innovation Center.',
+                excerpt: 'No dia 27 de Maio, o NEAIST reuniu estudantes, convidados e comunidade académica num encontro de celebração, reflexão e partilha no Técnico Innovation Center.',
                 cta: 'Ler mais'
             },
             en: {
                 category: 'Events',
                 title: 'Africa Day at Técnico',
-                excerpt: 'A celebration of culture, identity, and African community at Técnico Innovation Center.',
+                excerpt: 'On May 27, NEAIST brought together students, guests, and the academic community for a gathering of celebration, reflection, and connection at the Técnico Innovation Center.',
                 cta: 'Read more'
             }
         }

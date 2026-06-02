@@ -1398,20 +1398,34 @@ const pageCopy = {
     "dia-de-africa.html": {
         pt: {
             title: "Dia de África no Técnico | NEAIST",
-            description: "Página do Dia de África no Técnico organizada pelo NEAIST, com cartaz, programa e informação do evento de 27 de maio de 2026.",
-            kicker: "Evento em destaque",
+            description: "Recap do Dia de África no Técnico, promovido pelo NEAIST a 27 de Maio de 2026, com programa, fotografias e destaques do encontro.",
+            kicker: "Memória do evento",
             subtitle: "Ubuntu: Eu Sou Porque Nós Somos",
             pageTitle: "Dia de África no Técnico",
             descriptions: [
-                "O NEAIST convida toda a comunidade académica para uma celebração especial do Dia de África no Técnico.",
-                "Prepara-te para uma tarde de música, cultura, partilha, convívio e orgulho africano, pensada para aproximar estudantes, convidados e toda a comunidade do Técnico.",
-                "Será um momento de celebração da diversidade, reflexão sobre identidade e valorização da presença africana no espaço académico.",
-                "Marca na agenda, convida os teus colegas e vem participar num encontro aberto, acolhedor e representativo do espírito do NEAIST."
+                "No dia 27 de Maio de 2026, o NEAIST viveu um Dia de África muito especial no Técnico Innovation Center, reunindo estudantes, convidados e comunidade académica num encontro de celebração, reflexão e pertença.",
+                "Entre intervenções, partilha de conhecimento, exposição cultural e momentos de convívio, a tarde afirmou a presença africana no Técnico com profundidade, alegria e sentido de comunidade.",
+                "Foi um programa construído em torno da memória, da identidade e do diálogo, encerrando num Sunset Picnic que prolongou este encontro para além do auditório.",
+                "Nesta página ficam o programa, algumas imagens e a memória de um momento que nos aproximou ainda mais enquanto núcleo e comunidade."
             ],
             metaLabels: ["Data", "Horário", "Local"],
             metaValues: ["27 de Maio de 2026", "14h00 às 20h00", "Técnico Innovation Center (TIC)"],
-            supportNote: "O programa decorre das 14h00 às 20h00 e termina com um Sunset Picnic entre as 18h00 e as 20h00.",
-            buttons: ["Voltar às notícias", "Instagram"],
+            supportNote: "Do acolhimento inicial ao Sunset Picnic de encerramento, o programa decorreu ao longo de toda a tarde e reuniu conversa, cultura, memória e comunidade num mesmo espaço.",
+            buttons: ["Voltar às notícias", "Ver fotografias", "Instagram"],
+            gratitudeTitle: "Obrigado a todos os que estiveram presentes",
+            gratitudeText: "A todos os estudantes, convidados, oradores e membros da comunidade que se juntaram a nós neste Dia de África, o nosso muito obrigado. A presença, a escuta, a partilha e a energia de cada pessoa ajudaram a transformar esta tarde num encontro verdadeiramente bonito, enriquecedor e cheio de significado para o NEAIST.",
+            recapTitle: "Como se viveu o encontro",
+            recapSubtitle: "Uma tarde de reflexão, identidade, convívio e celebração da presença africana no Técnico.",
+            recapCardTitles: [
+                "Um espaço de encontro e pertença",
+                "Conhecimento, memória e conversa",
+                "Cultura para além do palco"
+            ],
+            recapCardTexts: [
+                "O Dia de África no Técnico reuniu estudantes, convidados e comunidade académica num ambiente pensado para reforçar proximidade, escuta e reconhecimento mútuo.",
+                "As intervenções, apresentações e conversas abriram espaço para pensar história, identidade e narrativas africanas com profundidade, participação e sentido crítico.",
+                "A exposição cultural, os momentos de convívio e o Sunset Picnic ajudaram a prolongar a celebração para lá do programa formal, mantendo viva a energia comunitária do encontro."
+            ],
             agendaKicker: "Programa",
             agendaTitle: "Ubuntu: Eu Sou Porque Nós Somos",
             agendaSubtitle: "Consulta o programa completo do Dia de África no Técnico, incluindo o Sunset Picnic de encerramento.",
@@ -1432,6 +1446,9 @@ const pageCopy = {
                 "Encerramento e momento musical",
                 "Sunset Picnic"
             ],
+            galleryEyebrow: "Fotografias do dia",
+            galleryTitle: "Momentos que ficam",
+            gallerySubtitle: "Uma seleção de imagens que guarda a energia, os encontros e a atmosfera vivida neste Dia de África no Técnico.",
             merchKicker: "Merchandising",
             merchTitle: "Preview da Loja",
             merchSubtitle: "A loja do NEAIST reúne os artigos oficiais do núcleo com preços, variantes e acesso direto ao formulário de encomenda.",
@@ -1447,20 +1464,34 @@ const pageCopy = {
         },
         en: {
             title: "Africa Day at Técnico | NEAIST",
-            description: "Africa Day at Técnico page organized by NEAIST, with poster, programme, and event information for May 27, 2026.",
-            kicker: "Featured event",
+            description: "Recap of Africa Day at Técnico, organized by NEAIST on May 27, 2026, with programme, photographs, and highlights from the gathering.",
+            kicker: "Event recap",
             subtitle: "Ubuntu: I Am Because We Are",
             pageTitle: "Africa Day at Técnico",
             descriptions: [
-                "NEAIST invites the entire academic community to a special celebration of Africa Day at Técnico.",
-                "Get ready for an afternoon of music, culture, exchange, community, and African pride, designed to bring together students, guests, and the wider Técnico community.",
-                "It will be a moment to celebrate diversity, reflect on identity, and highlight the African presence within the academic space.",
-                "Save the date, invite your colleagues, and come take part in an open, welcoming, and representative gathering that reflects the spirit of NEAIST."
+                "On May 27, 2026, NEAIST held a very special Africa Day at the Técnico Innovation Center, bringing together students, guests, and the academic community in a gathering of celebration, reflection, and belonging.",
+                "Through talks, shared knowledge, a cultural exhibition, and moments of connection, the afternoon affirmed the African presence at Técnico with depth, joy, and a strong sense of community.",
+                "The programme was built around memory, identity, and dialogue, ending with a Sunset Picnic that extended the encounter beyond the auditorium.",
+                "This page keeps the programme, selected images, and the memory of a moment that brought us even closer together as an association and community."
             ],
             metaLabels: ["Date", "Time", "Location"],
             metaValues: ["May 27, 2026", "2:00 PM to 8:00 PM", "Técnico Innovation Center (TIC)"],
-            supportNote: "The programme runs from 2:00 PM to 8:00 PM and ends with a Sunset Picnic from 6:00 PM to 8:00 PM.",
-            buttons: ["Back to news", "Instagram"],
+            supportNote: "From the first welcome to the closing Sunset Picnic, the programme unfolded throughout the afternoon and brought together conversation, culture, memory, and community in one shared space.",
+            buttons: ["Back to news", "View photos", "Instagram"],
+            gratitudeTitle: "Thank you to everyone who joined us",
+            gratitudeText: "To all the students, guests, speakers, and community members who joined us for this Africa Day, thank you. Every person’s presence, listening, generosity, and energy helped transform the afternoon into a truly beautiful, enriching, and meaningful gathering for NEAIST.",
+            recapTitle: "How the gathering felt",
+            recapSubtitle: "An afternoon of reflection, identity, connection, and celebration of the African presence at Técnico.",
+            recapCardTitles: [
+                "A space for encounter and belonging",
+                "Knowledge, memory, and conversation",
+                "Culture beyond the stage"
+            ],
+            recapCardTexts: [
+                "Africa Day at Técnico brought together students, guests, and the academic community in an environment shaped to reinforce closeness, listening, and mutual recognition.",
+                "The talks, presentations, and conversations created room to think about African history, identity, and narratives with depth, participation, and critical reflection.",
+                "The cultural exhibition, shared moments, and Sunset Picnic extended the celebration beyond the formal programme while keeping the community energy of the gathering alive."
+            ],
             agendaKicker: "Programme",
             agendaTitle: "Ubuntu: I Am Because We Are",
             agendaSubtitle: "See the full Africa Day at Técnico programme, including the closing Sunset Picnic.",
@@ -1481,6 +1512,9 @@ const pageCopy = {
                 "Closing and musical moment",
                 "Sunset Picnic"
             ],
+            galleryEyebrow: "Photos from the day",
+            galleryTitle: "Moments that remain",
+            gallerySubtitle: "A selection of images that keeps the energy, encounters, and atmosphere of this Africa Day at Técnico alive.",
             merchKicker: "Merchandising",
             merchTitle: "Shop Preview",
             merchSubtitle: "The NEAIST shop gathers the association's official items with prices, variants, and direct access to the order form.",
@@ -1997,11 +2031,20 @@ function applyPageSpecificTranslations() {
         applyTextList(".event-meta-value", copy.metaValues);
         applyText(".event-support-note", copy.supportNote);
         applyTextList(".event-hero .event-link-row .btn", copy.buttons);
+        applyText(".event-gratitude-card h2", copy.gratitudeTitle);
+        applyText(".event-gratitude-card p", copy.gratitudeText);
+        applyText(".africa-day-recap .section-heading h2", copy.recapTitle);
+        applyText(".africa-day-recap .section-heading p", copy.recapSubtitle);
+        applyTextList(".africa-day-recap-card h3", copy.recapCardTitles);
+        applyTextList(".africa-day-recap-card p", copy.recapCardTexts);
         applyText(".agenda-section .section-kicker", copy.agendaKicker);
         applyText(".agenda-section .section-title", copy.agendaTitle);
         applyText(".agenda-section .section-subtitle", copy.agendaSubtitle);
         applyTextList(".agenda-table thead th", copy.agendaHeaders);
         applyTextList(".agenda-table tbody td:nth-child(2)", copy.agendaRows);
+        applyText(".africa-day-gallery .section-heading .eyebrow", copy.galleryEyebrow);
+        applyText(".africa-day-gallery .section-heading h2", copy.galleryTitle);
+        applyText(".africa-day-gallery .section-heading p", copy.gallerySubtitle);
         applyText(".merch-preview .section-kicker", copy.merchKicker);
         applyText(".merch-preview .section-title", copy.merchTitle);
         applyText(".merch-preview .section-subtitle", copy.merchSubtitle);
