@@ -183,38 +183,39 @@ const translations = {
         about_title: "Sobre Nós",
         about_subtitle: "Conheça a nossa história, missão e valores",
         about_who_title: "Quem Somos",
-        about_who_p1: "O NEAIST (Núcleo dos Estudantes Africanos do Instituto Superior Técnico) é uma associação estudantil que tem como objetivo principal criar um ambiente acolhedor e de apoio para estudantes africanos no IST.",
-        about_who_p2: "Fundado há mais de uma década, o NEAIST cresceu para se tornar uma das comunidades mais vibrantes e diversificadas do campus, representando estudantes de mais de 15 países africanos.",
+        about_who_p1: "O NEAIST — Núcleo de Estudantes Africanos do Instituto Superior Técnico — nasceu a 23 de outubro de 2019 com a missão de apoiar a integração dos estudantes africanos na vida académica e social do Técnico.",
+        about_who_p_middle: "Mais do que um núcleo de representação, somos um espaço de acolhimento, partilha e interajuda. Procuramos acompanhar os estudantes ao longo do seu percurso académico, promovendo redes de apoio, iniciativas culturais, atividades de convívio e momentos de reflexão sobre a experiência africana no IST.",
+        about_who_p2: "Acreditamos que a comunidade africana tem um papel essencial na construção de um campus mais diverso, inclusivo e consciente. Por isso, o NEAIST existe não só para apoiar estudantes africanos, mas também para aproximar toda a comunidade estudantil da riqueza, pluralidade e força das culturas africanas.",
         
         about_mission_title: "Missão",
-        about_mission_desc: "Promover a integração, apoio académico e cultural dos estudantes africanos no IST, criando uma rede de suporte que facilita a adaptação e o sucesso académico.",
+        about_mission_desc: "Apoiar a integração, adaptação e percurso académico dos estudantes africanos no Técnico, promovendo uma rede de suporte, partilha e entreajuda.",
         
         about_vision_title: "Visão",
-        about_vision_desc: "Ser a principal comunidade de referência para estudantes africanos em Portugal, promovendo a excelência académica e a riqueza cultural africana.",
+        about_vision_desc: "Contribuir para um Técnico mais inclusivo, diverso e intercultural, onde a presença africana seja valorizada, ouvida e representada.",
         
         about_values_title: "Valores",
-        about_values_desc: "Solidariedade, diversidade cultural, excelência académica, união, respeito mútuo e compromisso com o desenvolvimento da comunidade.",
+        about_values_desc: "Solidariedade, diversidade cultural, respeito mútuo, inclusão, interajuda, responsabilidade e compromisso com a comunidade.",
         
         about_what_title: "O Que Fazemos",
         about_what_subtitle: "As nossas principais atividades e iniciativas",
         
-        activity1_title: "Sessões de Estudo",
-        activity1_desc: "Organizamos grupos de estudo e sessões de esclarecimento de dúvidas para apoiar o sucesso académico",
+        activity1_title: "Apoio Académico",
+        activity1_desc: "Promovemos grupos de estudo, partilha de recursos e momentos de apoio entre estudantes para facilitar o percurso académico.",
         
         activity2_title: "Eventos Culturais",
-        activity2_desc: "Celebramos a diversidade africana através de eventos culturais, gastronomia e música",
+        activity2_desc: "Celebramos a diversidade africana através de momentos culturais, gastronomia, música, dança, arte e partilha de experiências.",
         
         activity3_title: "Mentoria",
         activity3_desc: "Conectamos novos estudantes com veteranos para facilitar a integração no IST",
         
-        activity4_title: "Networking",
-        activity4_desc: "Criamos oportunidades de networking com profissionais e alumni africanos",
+        activity4_title: "Comunidade & Rede",
+        activity4_desc: "Criamos espaços de encontro entre estudantes, alumni e parceiros, fortalecendo ligações dentro e fora do Técnico.",
         
         activity5_title: "Desporto & Lazer",
-        activity5_desc: "Organizamos atividades desportivas e sociais para fortalecer os laços da comunidade",
+        activity5_desc: "Organizamos atividades sociais, recreativas e desportivas que fortalecem os laços da comunidade.",
         
         activity6_title: "Palestras & Workshops",
-        activity6_desc: "Promovemos palestras sobre temas académicos, profissionais e culturais",
+        activity6_desc: "Promovemos conversas, debates e workshops sobre temas académicos, culturais, sociais e profissionais relevantes para a comunidade.",
         
         // Contact Page
         contact_title: "Contactos",
@@ -527,38 +528,39 @@ const translations = {
         about_title: "About Us",
         about_subtitle: "Learn about our history, mission and values",
         about_who_title: "Who We Are",
-        about_who_p1: "NEAIST (African Students Association at Instituto Superior Técnico) is a student association whose main objective is to create a welcoming and supportive environment for African students at IST.",
-        about_who_p2: "Founded over a decade ago, NEAIST has grown to become one of the most vibrant and diverse communities on campus, representing students from over 15 African countries.",
+        about_who_p1: "NEAIST — the African Students Association at Instituto Superior Técnico — was founded on October 23, 2019 with the mission of supporting the integration of African students into the academic and social life of Técnico.",
+        about_who_p_middle: "More than a representative association, we are a space for welcome, exchange, and mutual support. We aim to accompany students throughout their academic journey by promoting support networks, cultural initiatives, social activities, and moments of reflection on the African experience at IST.",
+        about_who_p2: "We believe the African community plays an essential role in building a campus that is more diverse, inclusive, and aware. For that reason, NEAIST exists not only to support African students, but also to bring the wider student community closer to the richness, plurality, and strength of African cultures.",
         
         about_mission_title: "Mission",
-        about_mission_desc: "To promote the integration, academic and cultural support of African students at IST, creating a support network that facilitates adaptation and academic success.",
+        about_mission_desc: "To support the integration, adaptation, and academic journey of African students at Técnico by promoting a network of support, exchange, and mutual help.",
         
         about_vision_title: "Vision",
-        about_vision_desc: "To be the leading reference community for African students in Portugal, promoting academic excellence and African cultural richness.",
+        about_vision_desc: "To contribute to a more inclusive, diverse, and intercultural Técnico where the African presence is valued, heard, and represented.",
         
         about_values_title: "Values",
-        about_values_desc: "Solidarity, cultural diversity, academic excellence, unity, mutual respect and commitment to community development.",
+        about_values_desc: "Solidarity, cultural diversity, mutual respect, inclusion, mutual support, responsibility, and commitment to the community.",
         
         about_what_title: "What We Do",
         about_what_subtitle: "Our main activities and initiatives",
         
-        activity1_title: "Study Sessions",
-        activity1_desc: "We organize study groups and Q&A sessions to support academic success",
+        activity1_title: "Academic Support",
+        activity1_desc: "We promote study groups, resource sharing, and peer support moments to make the academic journey easier.",
         
         activity2_title: "Cultural Events",
-        activity2_desc: "We celebrate African diversity through cultural events, gastronomy and music",
+        activity2_desc: "We celebrate African diversity through cultural moments, gastronomy, music, dance, art, and shared experiences.",
         
         activity3_title: "Mentoring",
         activity3_desc: "We connect new students with veterans to facilitate integration at IST",
         
-        activity4_title: "Networking",
-        activity4_desc: "We create networking opportunities with African professionals and alumni",
+        activity4_title: "Community & Network",
+        activity4_desc: "We create spaces for connection between students, alumni, and partners, strengthening ties inside and outside Técnico.",
         
         activity5_title: "Sports & Leisure",
-        activity5_desc: "We organize sports and social activities to strengthen community bonds",
+        activity5_desc: "We organize social, recreational, and sports activities that strengthen community bonds.",
         
-        activity6_title: "Lectures & Workshops",
-        activity6_desc: "We promote lectures on academic, professional and cultural topics",
+        activity6_title: "Talks & Workshops",
+        activity6_desc: "We promote talks, debates, and workshops on academic, cultural, social, and professional topics relevant to the community.",
         
         // Contact Page
         contact_title: "Contact",
@@ -928,97 +930,121 @@ const pageCopy = {
     "equipa.html": {
         pt: {
             title: "Equipa 2026 | NEAIST",
-            description: "Conhece a direção, o conselho fiscal e a mesa da assembleia geral do NEAIST para o mandato de 2026.",
+            description: "Conhece os órgãos sociais e departamentos do NEAIST para o mandato de 2026, com a equipa responsável pela coordenação, cultura, apoio académico, comunicação e comunidade.",
             pageTitle: "Direção e Equipa NEAIST 2026",
             pageSubtitle: "Conhece a equipa responsável pela coordenação das atividades, projetos e representação do NEAIST durante o mandato de 2026.",
-            sectionKickers: ["Direção", "Conselho Fiscal", "Mesa da Assembleia Geral"],
+            overviewKicker: "Mandato 2026",
+            overviewTitle: "A equipa que coordena o NEAIST",
+            overviewSubtitle: "A equipa do NEAIST 2026 reúne os órgãos sociais e os departamentos responsáveis pela representação institucional, organização interna, projetos, cultura, comunicação, apoio académico e atividades da comunidade.",
+            statLabels: ["Membros", "Órgãos sociais", "Departamentos"],
+            sectionKickers: ["Órgãos sociais", "Departamentos"],
             sectionTitles: [
-                "Coordenação do mandato de 2026",
-                "Acompanhamento e supervisão",
-                "Organização dos trabalhos assembleares"
+                "Estrutura institucional",
+                "Áreas de trabalho"
             ],
             sectionSubtitles: [
-                "Estrutura principal responsável pela representação, organização e acompanhamento das iniciativas do núcleo."
+                "Os órgãos sociais asseguram a coordenação, a participação democrática, a supervisão e o funcionamento formal do NEAIST.",
+                "Os departamentos desenvolvem o trabalho mais próximo da comunidade e tornam possíveis as iniciativas académicas, culturais, desportivas e institucionais do NEAIST."
             ],
-            roles: [
-                "Presidência",
-                "Vice-Presidência",
-                "Tesouraria / Secretariado",
+            cardLabels: [
+                "Órgão social",
+                "Órgão social",
+                "Órgão social",
+                "Departamento",
+                "Departamento",
+                "Departamento",
+                "Departamento",
+                "Departamento"
+            ],
+            cardTitles: [
+                "Presidência / Gestão Interna",
+                "Mesa da Assembleia Geral",
+                "Conselho Fiscal",
                 "Projetos & Parcerias",
+                "Desporto",
                 "Assuntos Académicos",
-                "Comunicação & Imagem",
-                "Comunidade & Cultura",
-                "Presidência",
-                "Vogal",
-                "Vogal",
-                "Presidência",
-                "Vice-Presidência",
-                "Secretariado"
+                "Comunidade e Cultura",
+                "Comunicação e Imagem"
             ],
-            namePending: "Nome a confirmar",
             descriptions: [
-                "Responsável pela coordenação geral do NEAIST e pela representação institucional do núcleo.",
-                "Apoio direto à presidência e acompanhamento da execução das principais atividades do mandato.",
-                "Gestão administrativa, financeira e documental das operações do núcleo.",
-                "Desenvolvimento de iniciativas estratégicas e articulação com parceiros externos e internos.",
-                "Promoção do apoio académico, integração no campus e valorização do percurso estudantil.",
-                "Gestão da comunicação do núcleo, identidade visual e presença digital.",
-                "Coordenação das iniciativas culturais, do convívio e da ligação entre estudantes.",
-                "Responsável pela coordenação da área.",
-                "Responsável pela coordenação da área.",
-                "Responsável pela coordenação da área.",
-                "Responsável pela coordenação da área.",
-                "Responsável pela coordenação da área.",
-                "Responsável pela coordenação da área."
+                "Assegura a coordenação geral, a representação institucional, a gestão interna e o acompanhamento estratégico do mandato.",
+                "Organiza e conduz os trabalhos assembleares, garantindo a participação dos membros e o registo das decisões.",
+                "Acompanha a atividade interna do NEAIST, zelando pelo cumprimento dos estatutos, regulamentos e boas práticas.",
+                "Desenvolve contactos, colaborações, apoios e iniciativas com entidades internas e externas, criando oportunidades que fortalecem o impacto do NEAIST.",
+                "Promove atividades desportivas, recreativas e de lazer que incentivam o convívio, a participação e o espírito de equipa.",
+                "Trabalha no apoio à integração e ao percurso académico dos estudantes africanos, através de mentoria, recursos, acompanhamento e canais de apoio.",
+                "Promove a valorização da diversidade africana no Técnico através de atividades culturais, momentos de convívio, integração e partilha.",
+                "Gere a presença pública do NEAIST, incluindo redes sociais, identidade visual, criação de conteúdos, divulgação de eventos e comunicação com a comunidade."
             ],
-            note: "A composição completa da equipa será atualizada em breve."
+            memberLists: [
+                ["Eric Muthami — Presidente", "Celine Acia — Vice-Presidente", "Miza Mabunda — Tesoureira"],
+                ["Evanio Rodrigues — Presidente", "Jennifer de Matos — 1.ª Vogal", "Simone Langa — 2.ª Vogal"],
+                ["Tarissa Pinto — Presidente", "Bibiana Abrantes — 1.ª Vogal", "Denilson Vieira — Vogal"],
+                ["Haiani Antonio — Coordenadora"],
+                ["Ndully Malate — Coordenador"],
+                ["Feliciana Carlos — Coordenadora", "Amabel Dayna Bastos André — Membro", "Prosperity Chiamaka Oguama — Membro"],
+                ["Francisco Davane — Coordenador", "Ayanda Amone — Membro"],
+                ["Alayna Lalgy — Coordenadora", "Andreia Andrade — Membro"]
+            ]
         },
         en: {
             title: "Team 2026 | NEAIST",
-            description: "Meet the NEAIST executive board, supervisory board, and general assembly bureau for the 2026 term.",
+            description: "Meet the NEAIST governing bodies and departments for the 2026 term, including the team responsible for coordination, culture, academic support, communication, and community work.",
             pageTitle: "NEAIST Board and Team 2026",
             pageSubtitle: "Meet the team responsible for coordinating NEAIST activities, projects, and representation during the 2026 term.",
-            sectionKickers: ["Executive Board", "Supervisory Board", "General Assembly Bureau"],
+            overviewKicker: "2026 Term",
+            overviewTitle: "The team coordinating NEAIST",
+            overviewSubtitle: "The 2026 NEAIST team brings together the governing bodies and departments responsible for institutional representation, internal organization, projects, culture, communication, academic support, and community activities.",
+            statLabels: ["Members", "Governing bodies", "Departments"],
+            sectionKickers: ["Governing bodies", "Departments"],
             sectionTitles: [
-                "Coordination of the 2026 term",
-                "Monitoring and oversight",
-                "Coordination of assembly work"
+                "Institutional structure",
+                "Working areas"
             ],
             sectionSubtitles: [
-                "Main structure responsible for representation, organization, and follow-up of the association’s initiatives."
+                "The governing bodies ensure NEAIST’s coordination, democratic participation, oversight, and formal functioning.",
+                "The departments carry out the work closest to the community and make NEAIST’s academic, cultural, sports, and institutional initiatives possible."
             ],
-            roles: [
-                "President",
-                "Vice-President",
-                "Treasury / Secretariat",
+            cardLabels: [
+                "Governing body",
+                "Governing body",
+                "Governing body",
+                "Department",
+                "Department",
+                "Department",
+                "Department",
+                "Department"
+            ],
+            cardTitles: [
+                "Presidency / Internal Management",
+                "General Assembly Bureau",
+                "Supervisory Board",
                 "Projects & Partnerships",
+                "Sports",
                 "Academic Affairs",
-                "Communication & Image",
-                "Community & Culture",
-                "Chair",
-                "Member",
-                "Member",
-                "Chair",
-                "Vice-Chair",
-                "Secretariat"
+                "Community and Culture",
+                "Communication and Image"
             ],
-            namePending: "Name to be confirmed",
             descriptions: [
-                "Responsible for the overall coordination of NEAIST and for the association’s institutional representation.",
-                "Direct support to the president and follow-up of the term’s main activities.",
-                "Administrative, financial, and documentary management of the association’s operations.",
-                "Development of strategic initiatives and coordination with external and internal partners.",
-                "Promotion of academic support, campus integration, and student development.",
-                "Management of the association’s communication, visual identity, and digital presence.",
-                "Coordination of cultural initiatives, community life, and student connections.",
-                "Responsible for coordinating this area.",
-                "Responsible for coordinating this area.",
-                "Responsible for coordinating this area.",
-                "Responsible for coordinating this area.",
-                "Responsible for coordinating this area.",
-                "Responsible for coordinating this area."
+                "Ensures overall coordination, institutional representation, internal management, and strategic follow-up of the term.",
+                "Organizes and conducts assembly work, ensuring member participation and the recording of decisions.",
+                "Monitors NEAIST’s internal activity, safeguarding compliance with statutes, regulations, and good practices.",
+                "Develops contacts, collaborations, support, and initiatives with internal and external entities, creating opportunities that strengthen NEAIST’s impact.",
+                "Promotes sports, recreational, and leisure activities that encourage connection, participation, and team spirit.",
+                "Works to support the integration and academic journey of African students through mentoring, resources, guidance, and support channels.",
+                "Promotes the appreciation of African diversity at Técnico through cultural activities, social moments, integration, and sharing.",
+                "Manages NEAIST’s public presence, including social media, visual identity, content creation, event promotion, and communication with the community."
             ],
-            note: "The full team composition will be updated soon."
+            memberLists: [
+                ["Eric Muthami — President", "Celine Acia — Vice-President", "Miza Mabunda — Treasurer"],
+                ["Evanio Rodrigues — President", "Jennifer de Matos — 1st Member", "Simone Langa — 2nd Member"],
+                ["Tarissa Pinto — President", "Bibiana Abrantes — 1st Member", "Denilson Vieira — Member"],
+                ["Haiani Antonio — Coordinator"],
+                ["Ndully Malate — Coordinator"],
+                ["Feliciana Carlos — Coordinator", "Amabel Dayna Bastos André — Member", "Prosperity Chiamaka Oguama — Member"],
+                ["Francisco Davane — Coordinator", "Ayanda Amone — Member"],
+                ["Alayna Lalgy — Coordinator", "Andreia Andrade — Member"]
+            ]
         }
     },
     "noticias.html": {
@@ -1050,47 +1076,49 @@ const pageCopy = {
             title: "Galeria | NEAIST",
             description: "Galeria fotográfica do NEAIST com arquivos institucionais, eventos culturais e momentos recentes da comunidade africana no Técnico.",
             pageTitle: "Galeria",
-            pageSubtitle: "Arquivo visual do NEAIST com momentos institucionais, eventos culturais, recrutamento e atividades recentes.",
-            sectionKickers: ["Arquivo 2024/2025", "Arquivo fotográfico"],
+            pageSubtitle: "Arquivo visual do NEAIST com fotografias, cartazes, cerimónias, eventos culturais e atividades recentes.",
+            sectionKickers: ["Mandato 2025/2026", "Arquivo fotográfico"],
             sectionTitles: [
-                "Tomada de Posse - Mandato 2024/2025",
+                "Tomada de Posse da Direção 2025/2026",
                 "Momentos da comunidade NEAIST"
             ],
             sectionSubtitles: [
-                "Registo da cerimónia realizada a 17 de fevereiro, com a tomada de posse dos órgãos sociais e momentos de representação institucional do NEAIST.",
-                "Explora as imagens já reunidas do mandato de 2026, incluindo cerimónias, eventos, cartazes e materiais visuais do núcleo."
+                "Registo da cerimónia realizada a 23 de março de 2026, que marcou o início do novo mandato do NEAIST e reuniu equipa, convidados institucionais e comunidade.",
+                "Explora as imagens reunidas no site, incluindo tomada de posse, Dia de África, Game Day, arquivos institucionais, cartazes e materiais visuais do núcleo."
             ],
             captions: [
-                "Presidente - Pedro Aguiar",
-                "Pres. MAG - Péricles Santos",
-                "Tesoureira - Miza Mabunda",
-                "Vogal MAG - Auzenda Alberta",
-                "Xanthy Silva e Pedro Aguiar",
-                "Momento da cerimónia"
-            ]
+                "Eric Muthami - Presidente",
+                "Celine Acia - Vice-Presidente",
+                "Miza Mabunda - Tesoureira",
+                "Prof. Luís Castro - Vice-Reitor",
+                "Equipa do mandato 2025/2026",
+                "Momento institucional da cerimónia"
+            ],
+            featureButton: "Ler artigo completo"
         },
         en: {
             title: "Gallery | NEAIST",
             description: "NEAIST photo gallery with institutional archives, cultural events, and recent moments from the African student community at Técnico.",
             pageTitle: "Gallery",
-            pageSubtitle: "NEAIST’s visual archive with institutional moments, cultural events, recruitment, and recent activities.",
-            sectionKickers: ["2024/2025 Archive", "Photo archive"],
+            pageSubtitle: "NEAIST’s visual archive with photographs, posters, ceremonies, cultural events, and recent activities.",
+            sectionKickers: ["2025/2026 Term", "Photo archive"],
             sectionTitles: [
-                "Inauguration Ceremony - 2024/2025 Term",
+                "Inauguration of the 2025/2026 Board",
                 "Moments from the NEAIST community"
             ],
             sectionSubtitles: [
-                "Record of the ceremony held on February 17, with the inauguration of the association’s governing bodies and institutional representation moments.",
-                "Explore the images already gathered from the 2026 term, including ceremonies, events, posters, and visual materials from the association."
+                "Record of the ceremony held on March 23, 2026, which marked the beginning of NEAIST’s new term and brought together the team, institutional guests, and the community.",
+                "Explore the images gathered across the site, including the inauguration, Africa Day, Game Day, institutional archives, posters, and visual materials from the association."
             ],
             captions: [
-                "President - Pedro Aguiar",
-                "General Assembly Chair - Péricles Santos",
-                "Treasurer - Miza Mabunda",
-                "General Assembly Member - Auzenda Alberta",
-                "Xanthy Silva and Pedro Aguiar",
-                "Ceremony moment"
-            ]
+                "Eric Muthami - President",
+                "Celine Acia - Vice-President",
+                "Miza Mabunda - Treasurer",
+                "Prof. Luís Castro - Vice-Rector",
+                "2025/2026 term team",
+                "Institutional moment from the ceremony"
+            ],
+            featureButton: "Read full article"
         }
     },
     "recursos.html": {
@@ -1398,37 +1426,36 @@ const pageCopy = {
     "dia-de-africa.html": {
         pt: {
             title: "Dia de África no Técnico | NEAIST",
-            description: "Recap do Dia de África no Técnico, promovido pelo NEAIST a 27 de Maio de 2026, com programa, fotografias e destaques do encontro.",
-            kicker: "Memória do evento",
+            description: "Notícia do Dia de África no Técnico, promovido pelo NEAIST a 27 de Maio de 2026, com artigo, programa e registos fotográficos do encontro.",
+            kicker: "Notícia",
             subtitle: "Ubuntu: Eu Sou Porque Nós Somos",
-            pageTitle: "Dia de África no Técnico",
+            pageTitle: "NEAIST promove Dia de África no Técnico",
             descriptions: [
-                "No dia 27 de Maio de 2026, o NEAIST viveu um Dia de África muito especial no Técnico Innovation Center, reunindo estudantes, convidados e comunidade académica num encontro de celebração, reflexão e pertença.",
-                "Entre intervenções, partilha de conhecimento, exposição cultural e momentos de convívio, a tarde afirmou a presença africana no Técnico com profundidade, alegria e sentido de comunidade.",
-                "Foi um programa construído em torno da memória, da identidade e do diálogo, encerrando num Sunset Picnic que prolongou este encontro para além do auditório.",
-                "Nesta página ficam o programa, algumas imagens e a memória de um momento que nos aproximou ainda mais enquanto núcleo e comunidade."
+                "No dia 27 de maio de 2026, o NEAIST promoveu o Dia de África no Técnico, uma iniciativa dedicada à celebração da presença africana na comunidade académica e à criação de um espaço de reflexão, partilha e convívio no Instituto Superior Técnico."
             ],
-            metaLabels: ["Data", "Horário", "Local"],
-            metaValues: ["27 de Maio de 2026", "14h00 às 20h00", "Técnico Innovation Center (TIC)"],
-            supportNote: "Do acolhimento inicial ao Sunset Picnic de encerramento, o programa decorreu ao longo de toda a tarde e reuniu conversa, cultura, memória e comunidade num mesmo espaço.",
-            buttons: ["Voltar às notícias", "Ver fotografias", "Instagram"],
-            gratitudeTitle: "Obrigado a todos os que estiveram presentes",
-            gratitudeText: "A todos os estudantes, convidados, oradores e membros da comunidade que se juntaram a nós neste Dia de África, o nosso muito obrigado. A presença, a escuta, a partilha e a energia de cada pessoa ajudaram a transformar esta tarde num encontro verdadeiramente bonito, enriquecedor e cheio de significado para o NEAIST.",
-            recapTitle: "Como se viveu o encontro",
-            recapSubtitle: "Uma tarde de reflexão, identidade, convívio e celebração da presença africana no Técnico.",
-            recapCardTitles: [
-                "Um espaço de encontro e pertença",
-                "Conhecimento, memória e conversa",
-                "Cultura para além do palco"
+            metaLabels: ["Data", "Local", "Organização"],
+            metaValues: ["27 de Maio de 2026", "Técnico Innovation Center", "NEAIST"],
+            buttons: ["Voltar às notícias", "Ver fotografias"],
+            articleTitle: "Dia de África no Técnico: Ubuntu — Eu Sou Porque Nós Somos",
+            articleParagraphs: [
+                "No dia 27 de maio de 2026, o NEAIST — Núcleo de Estudantes Africanos do Instituto Superior Técnico — organizou o <strong>Dia de África no Técnico</strong>, um encontro cultural, académico e comunitário dedicado à celebração da identidade africana, da memória, da criatividade e da presença da comunidade africana no espaço académico do Técnico.",
+                "Sob o mote <strong>“Ubuntu: Eu Sou Porque Nós Somos”</strong>, o evento procurou reunir estudantes, membros da comunidade académica, convidados, oradores e expositores num momento comum de aprendizagem, representação e celebração. Mais do que uma comemoração, o Dia de África no Técnico foi pensado como um espaço onde vozes, culturas, memórias e perspetivas africanas pudessem ser vistas, ouvidas e valorizadas.",
+                "A tarde começou com a receção dos participantes e uma sessão de abertura conduzida pelo NEAIST, marcada pela presença de representantes institucionais que se juntaram à comunidade nesta celebração. O NEAIST teve o privilégio de receber o <strong>Professor Rogério Colaço</strong>, Presidente do Instituto Superior Técnico, o <strong>Professor Pedro Amaral</strong>, Vice-Presidente do Técnico para a Interface Empresarial, Inovação e Empreendedorismo, e o <strong>Professor Luís Castro</strong>, Vice-Reitor da Universidade de Lisboa.",
+                "A presença destes convidados reforçou a relevância institucional do Dia de África no Técnico e sublinhou a importância de apoiar iniciativas que promovem a diversidade cultural, a inclusão, a representação e o diálogo dentro da comunidade académica.",
+                "Um dos pontos centrais do evento foi o espaço de exposição cultural, onde tivemos o privilégio de contar com três expositores que representaram diferentes expressões da criatividade e do património africano. A <strong>Pure Handcrafts Kenya</strong> apresentou produtos artesanais inspirados na tradição e arte queniana. A <strong>Jerrosa Nigeria</strong> trouxe uma expressão vibrante da moda, do design e da identidade cultural nigeriana. A <strong>Makonde Nangashinu Ntaluma</strong>, de Moçambique, partilhou trabalhos ligados à rica tradição artística Makonde, destacando a importância da preservação e valorização do património cultural africano através do artesanato e da expressão visual.",
+                "O programa continuou com dois convidados cujos contributos ajudaram a aprofundar a reflexão em torno da memória africana, da língua e da preservação cultural. O <strong>Professor Sóstenes Rego</strong> apresentou o seu trabalho e o seu dicionário, proporcionando aos participantes uma reflexão sobre a importância da língua enquanto arquivo vivo de identidade, conhecimento e continuidade cultural. De seguida, a <strong>Dra. Marta Lourenço</strong>, historiadora e profissional da área do património cultural, partilhou a sua perspetiva sobre história, memória e preservação, convidando o público a pensar sobre a forma como as histórias são guardadas, transmitidas e, por vezes, esquecidas.",
+                "Estas apresentações deram lugar à conversa <strong>“Quem Conta a História? — A Perspetiva de Quem Vive e de Quem Preserva”</strong>, moderada por <strong>Céline Acia</strong>, Vice-Presidente do NEAIST. Esta discussão criou uma ponte importante entre perspetivas académicas, históricas e vividas, convidando os participantes a refletir sobre quem tem o poder de contar a história, como as narrativas africanas têm sido preservadas ou silenciadas, e porque é essencial que as comunidades participem ativamente na construção e transmissão das suas próprias histórias.",
+                "Mais tarde, o evento passou para um momento mais informal, mas igualmente significativo, com o painel <strong>“Achismos”</strong>, organizado e moderado por <strong>Feliciana Carlos</strong>. A conversa juntou <strong>Eric Muthami</strong>, <strong>Herzen Myron da Graça Luís Matsinhe III</strong>, <strong>Ludovico Dos Santos Rafael Tonela</strong>, <strong>Tarissa Pinto</strong> e <strong>Thiago Alexandre dos Santos Andrade</strong>, criando um espaço de partilha de experiências, opiniões e reflexões pessoais sobre identidade, comunidade, pertença e o significado de ser africano, ou estar ligado a África, dentro do contexto universitário.",
+                "Ao longo de toda a tarde, o evento contou com a presença de muitos estudantes e membros da comunidade, tornando visível aquilo que o NEAIST procura construir: um espaço de encontro, reconhecimento e união. A participação ativa de tantas pessoas mostrou que existe no Técnico uma comunidade africana viva, diversa, presente e com muito para partilhar.",
+                "O Dia de África no Técnico terminou com um momento descontraído de convívio no <strong>Jardim do Arco do Cego</strong>, onde os participantes continuaram as conversas do dia num ambiente mais leve e próximo. Este encerramento traduziu de forma simples e bonita o espírito de Ubuntu: comunidade, presença, partilha e união.",
+                "O Dia de África no Técnico não foi apenas uma celebração da cultura africana. Foi também um lembrete de que a representação importa, de que os espaços culturais devem ser criados de forma intencional e de que a universidade se torna mais rica quando as identidades, histórias e percursos dos seus estudantes são reconhecidos.",
+                "Através da exposição, da conversa, da memória, da cultura e da comunidade, o NEAIST reafirmou o seu compromisso em tornar os estudantes africanos e as culturas africanas mais visíveis no Técnico.",
+                "Agradecemos a todos os oradores, expositores, convidados, organizadores, voluntários e participantes que tornaram este evento possível. Que este seja apenas o início de uma tradição que continue a crescer todos os anos.",
+                "<strong>Ubuntu: Eu sou porque nós somos.</strong>"
             ],
-            recapCardTexts: [
-                "O Dia de África no Técnico reuniu estudantes, convidados e comunidade académica num ambiente pensado para reforçar proximidade, escuta e reconhecimento mútuo.",
-                "As intervenções, apresentações e conversas abriram espaço para pensar história, identidade e narrativas africanas com profundidade, participação e sentido crítico.",
-                "A exposição cultural, os momentos de convívio e o Sunset Picnic ajudaram a prolongar a celebração para lá do programa formal, mantendo viva a energia comunitária do encontro."
-            ],
-            agendaKicker: "Programa",
+            agendaKicker: "Programa do evento",
             agendaTitle: "Ubuntu: Eu Sou Porque Nós Somos",
-            agendaSubtitle: "Consulta o programa completo do Dia de África no Técnico, incluindo o Sunset Picnic de encerramento.",
+            agendaSubtitle: "O programa reuniu sessões de abertura, apresentações, conversas, exposição cultural e o Sunset Picnic de encerramento.",
             agendaHeaders: ["Hora", "Atividade"],
             agendaRows: [
                 "Receção dos participantes",
@@ -1446,55 +1473,42 @@ const pageCopy = {
                 "Encerramento e momento musical",
                 "Sunset Picnic"
             ],
-            galleryEyebrow: "Fotografias do dia",
-            galleryTitle: "Momentos que ficam",
-            gallerySubtitle: "Uma seleção de imagens que guarda a energia, os encontros e a atmosfera vivida neste Dia de África no Técnico.",
-            merchKicker: "Merchandising",
-            merchTitle: "Preview da Loja",
-            merchSubtitle: "A loja do NEAIST reúne os artigos oficiais do núcleo com preços, variantes e acesso direto ao formulário de encomenda.",
-            merchButton: "Ver Loja",
-            spotlightKicker: "Também em destaque",
-            spotlightSubtitle: "Semana de África ULisboa",
-            spotlightTitle: "Semana de África Sem Margem",
-            spotlightTexts: [
-                "A Semana de África da ULisboa está a decorrer com uma programação dedicada à cultura, história, literatura, gastronomia, música e expressões artísticas africanas.",
-                "O NEAIST junta-se a esta iniciativa como parte de um movimento maior: aproximar comunidades, desafiar narrativas e celebrar a presença africana na vida académica."
-            ],
-            spotlightButton: "Ver destaque"
+            galleryEyebrow: "Galeria",
+            galleryTitle: "Registos do Dia de África no Técnico",
+            gallerySubtitle: "Alguns momentos que marcaram a tarde, entre conversas, exposição cultural, convidados e comunidade."
         },
         en: {
             title: "Africa Day at Técnico | NEAIST",
-            description: "Recap of Africa Day at Técnico, organized by NEAIST on May 27, 2026, with programme, photographs, and highlights from the gathering.",
-            kicker: "Event recap",
+            description: "News article about Africa Day at Técnico, organized by NEAIST on May 27, 2026, with the full article, programme, and photo records from the gathering.",
+            kicker: "News",
             subtitle: "Ubuntu: I Am Because We Are",
-            pageTitle: "Africa Day at Técnico",
+            pageTitle: "NEAIST holds Africa Day at Técnico",
             descriptions: [
-                "On May 27, 2026, NEAIST held a very special Africa Day at the Técnico Innovation Center, bringing together students, guests, and the academic community in a gathering of celebration, reflection, and belonging.",
-                "Through talks, shared knowledge, a cultural exhibition, and moments of connection, the afternoon affirmed the African presence at Técnico with depth, joy, and a strong sense of community.",
-                "The programme was built around memory, identity, and dialogue, ending with a Sunset Picnic that extended the encounter beyond the auditorium.",
-                "This page keeps the programme, selected images, and the memory of a moment that brought us even closer together as an association and community."
+                "On May 27, 2026, NEAIST organized Africa Day at Técnico, an initiative dedicated to celebrating the African presence in the academic community and to creating a space for reflection, exchange, and gathering at Instituto Superior Técnico."
             ],
-            metaLabels: ["Date", "Time", "Location"],
-            metaValues: ["May 27, 2026", "2:00 PM to 8:00 PM", "Técnico Innovation Center (TIC)"],
-            supportNote: "From the first welcome to the closing Sunset Picnic, the programme unfolded throughout the afternoon and brought together conversation, culture, memory, and community in one shared space.",
-            buttons: ["Back to news", "View photos", "Instagram"],
-            gratitudeTitle: "Thank you to everyone who joined us",
-            gratitudeText: "To all the students, guests, speakers, and community members who joined us for this Africa Day, thank you. Every person’s presence, listening, generosity, and energy helped transform the afternoon into a truly beautiful, enriching, and meaningful gathering for NEAIST.",
-            recapTitle: "How the gathering felt",
-            recapSubtitle: "An afternoon of reflection, identity, connection, and celebration of the African presence at Técnico.",
-            recapCardTitles: [
-                "A space for encounter and belonging",
-                "Knowledge, memory, and conversation",
-                "Culture beyond the stage"
+            metaLabels: ["Date", "Location", "Organization"],
+            metaValues: ["May 27, 2026", "Técnico Innovation Center", "NEAIST"],
+            buttons: ["Back to news", "View photos"],
+            articleTitle: "Africa Day at Técnico: Ubuntu — I Am Because We Are",
+            articleParagraphs: [
+                "On May 27, 2026, NEAIST — the African Students Association at Instituto Superior Técnico — organized <strong>Africa Day at Técnico</strong>, a cultural, academic, and community gathering dedicated to celebrating African identity, memory, creativity, and the presence of the African community within Técnico’s academic space.",
+                "Under the theme <strong>“Ubuntu: I Am Because We Are”</strong>, the event brought together students, members of the academic community, guests, speakers, and exhibitors in a shared moment of learning, representation, and celebration. More than a commemoration, Africa Day at Técnico was designed as a space where African voices, cultures, memories, and perspectives could be seen, heard, and valued.",
+                "The afternoon began with the reception of participants and an opening session led by NEAIST, marked by the presence of institutional representatives who joined the community for this celebration. NEAIST had the privilege of welcoming <strong>Professor Rogério Colaço</strong>, President of Instituto Superior Técnico, <strong>Professor Pedro Amaral</strong>, Vice-President of Técnico for Corporate Interface, Innovation and Entrepreneurship, and <strong>Professor Luís Castro</strong>, Vice-Rector of the University of Lisbon.",
+                "The presence of these guests reinforced the institutional relevance of Africa Day at Técnico and underlined the importance of supporting initiatives that promote cultural diversity, inclusion, representation, and dialogue within the academic community.",
+                "One of the event’s central elements was the cultural exhibition area, where we had the privilege of hosting three exhibitors representing different expressions of African creativity and heritage. <strong>Pure Handcrafts Kenya</strong> presented handmade products inspired by Kenyan tradition and art. <strong>Jerrosa Nigeria</strong> brought a vibrant expression of Nigerian fashion, design, and cultural identity. <strong>Makonde Nangashinu Ntaluma</strong>, from Mozambique, shared work linked to the rich Makonde artistic tradition, highlighting the importance of preserving and valuing African cultural heritage through craftsmanship and visual expression.",
+                "The programme continued with two guests whose contributions deepened reflection on African memory, language, and cultural preservation. <strong>Professor Sóstenes Rego</strong> presented his work and dictionary, offering participants a reflection on the importance of language as a living archive of identity, knowledge, and cultural continuity. Then <strong>Dr. Marta Lourenço</strong>, a historian and cultural heritage professional, shared her perspective on history, memory, and preservation, inviting the audience to think about how stories are stored, passed on, and sometimes forgotten.",
+                "These presentations led to the conversation <strong>“Who Tells the Story? — The Perspective of Those Who Live It and Those Who Preserve It”</strong>, moderated by <strong>Céline Acia</strong>, NEAIST’s Vice-President. The discussion created an important bridge between academic, historical, and lived perspectives, inviting participants to reflect on who has the power to tell history, how African narratives have been preserved or silenced, and why it is essential for communities to actively participate in building and transmitting their own stories.",
+                "Later, the event moved into a more informal but equally meaningful moment with the panel <strong>“Achismos”</strong>, organized and moderated by <strong>Feliciana Carlos</strong>. The conversation brought together <strong>Eric Muthami</strong>, <strong>Herzen Myron da Graça Luís Matsinhe III</strong>, <strong>Ludovico Dos Santos Rafael Tonela</strong>, <strong>Tarissa Pinto</strong>, and <strong>Thiago Alexandre dos Santos Andrade</strong>, creating a space to share experiences, opinions, and personal reflections on identity, community, belonging, and what it means to be African, or connected to Africa, within the university context.",
+                "Throughout the afternoon, the event welcomed many students and community members, making visible what NEAIST seeks to build: a space of encounter, recognition, and unity. The active participation of so many people showed that Técnico is home to a vibrant, diverse, present African community with much to share.",
+                "Africa Day at Técnico ended with a relaxed social moment in <strong>Jardim do Arco do Cego</strong>, where participants continued the day’s conversations in a lighter and more intimate atmosphere. This closing moment translated the spirit of Ubuntu in a simple and beautiful way: community, presence, sharing, and unity.",
+                "Africa Day at Técnico was not only a celebration of African culture. It was also a reminder that representation matters, that cultural spaces must be created intentionally, and that the university becomes richer when the identities, stories, and paths of its students are recognized.",
+                "Through the exhibition, conversation, memory, culture, and community, NEAIST reaffirmed its commitment to making African students and African cultures more visible at Técnico.",
+                "We thank all the speakers, exhibitors, guests, organizers, volunteers, and participants who made this event possible. May this be only the beginning of a tradition that continues to grow every year.",
+                "<strong>Ubuntu: I am because we are.</strong>"
             ],
-            recapCardTexts: [
-                "Africa Day at Técnico brought together students, guests, and the academic community in an environment shaped to reinforce closeness, listening, and mutual recognition.",
-                "The talks, presentations, and conversations created room to think about African history, identity, and narratives with depth, participation, and critical reflection.",
-                "The cultural exhibition, shared moments, and Sunset Picnic extended the celebration beyond the formal programme while keeping the community energy of the gathering alive."
-            ],
-            agendaKicker: "Programme",
+            agendaKicker: "Event programme",
             agendaTitle: "Ubuntu: I Am Because We Are",
-            agendaSubtitle: "See the full Africa Day at Técnico programme, including the closing Sunset Picnic.",
+            agendaSubtitle: "The programme brought together opening sessions, presentations, conversations, a cultural exhibition, and the closing Sunset Picnic.",
             agendaHeaders: ["Time", "Activity"],
             agendaRows: [
                 "Participant reception",
@@ -1512,21 +1526,9 @@ const pageCopy = {
                 "Closing and musical moment",
                 "Sunset Picnic"
             ],
-            galleryEyebrow: "Photos from the day",
-            galleryTitle: "Moments that remain",
-            gallerySubtitle: "A selection of images that keeps the energy, encounters, and atmosphere of this Africa Day at Técnico alive.",
-            merchKicker: "Merchandising",
-            merchTitle: "Shop Preview",
-            merchSubtitle: "The NEAIST shop gathers the association's official items with prices, variants, and direct access to the order form.",
-            merchButton: "Visit the Shop",
-            spotlightKicker: "Also featured",
-            spotlightSubtitle: "Africa Week ULisboa",
-            spotlightTitle: "Sem Margem Africa Week",
-            spotlightTexts: [
-                "ULisboa Africa Week is taking place with a programme dedicated to African culture, history, literature, gastronomy, music, and artistic expressions.",
-                "NEAIST joins this initiative as part of a broader movement: bringing communities closer together, challenging narratives, and celebrating the African presence in academic life."
-            ],
-            spotlightButton: "View highlight"
+            galleryEyebrow: "Gallery",
+            galleryTitle: "Records from Africa Day at Técnico",
+            gallerySubtitle: "Some of the moments that shaped the afternoon, among conversations, the cultural exhibition, guests, and community."
         }
     },
     "semana-africa-ulisboa.html": {
@@ -1685,26 +1687,29 @@ const pageCopy = {
     },
     "noticia-tomada-posse-2026.html": {
         pt: {
-            title: "Tomada de Posse da Direção 2026 | NEAIST",
-            description: "Notícia institucional do NEAIST sobre a tomada de posse da direção 2026 e o início de um novo ciclo de representação e compromisso no Técnico.",
+            title: "Tomada de Posse - Mandato 2025/2026 | NEAIST",
+            description: "Notícia institucional do NEAIST sobre a tomada de posse do mandato 2025/2026 e o início de um novo ciclo de representação e compromisso no Técnico.",
             heroMeta: "Institucional · 23 de Março de 2026",
-            heroTitle: "Tomada de Posse da Direção 2026",
-            heroIntro: "No dia 23 de Março, reunimo-nos para celebrar a tomada de posse da nova direção do NEAIST, dando início a um novo ciclo de trabalho, representação e compromisso com a comunidade africana no Instituto Superior Técnico.",
-            heroButtons: ["Voltar às notícias", "Instagram do NEAIST"],
+            heroTitle: "Tomada de Posse - Mandato 2025/2026",
+            heroIntro: "No dia 23 de Março de 2026, o NEAIST realizou a tomada de posse dos seus órgãos sociais e da equipa do mandato 2025/2026, assinalando o início de um novo ciclo de trabalho, representação e compromisso com a comunidade africana no Instituto Superior Técnico.",
+            heroButtons: ["Voltar às notícias", "Ver fotografias"],
             articleTitles: [
                 "Um novo ciclo para o NEAIST",
                 "Representação, união e continuidade",
                 "Agradecimento à comunidade"
             ],
             articleParagraphs: [
-                "No dia 23 de Março, reunimo-nos para celebrar a tomada de posse da nova direção do NEAIST — um momento que marcou o início de um novo ciclo de representação, compromisso e serviço à nossa comunidade no Instituto Superior Técnico.",
-                "Esta cerimónia foi mais do que uma formalidade. Foi um momento de afirmação do nosso propósito: representar, unir e inspirar os estudantes africanos no IST, garantindo que ninguém percorre este caminho sozinho.",
+                "No dia 23 de Março de 2026, o NEAIST realizou a tomada de posse dos seus órgãos sociais e da equipa do mandato 2025/2026, num momento que marcou oficialmente o início de um novo ciclo de representação, compromisso e serviço à comunidade africana no Instituto Superior Técnico.",
+                "Esta cerimónia foi mais do que uma formalidade. Foi um momento de afirmação do propósito do núcleo: representar, unir e apoiar os estudantes africanos no Técnico, reforçando a continuidade do trabalho coletivo e da presença institucional do NEAIST.",
                 "Deixamos um agradecimento especial à direção cessante, em particular ao Presidente cessante, Pedro Aguiar, pelo trabalho desenvolvido, pela dedicação ao NEAIST e pela passagem de testemunho.",
                 "Agradecemos também ao Vice-Reitor, Prof. Luís Castro, ao Presidente da AEIST, António Jarmela, e à AEIST pelo apoio e presença neste momento tão importante para o nosso núcleo.",
-                "O nosso agradecimento estende-se ainda aos Núcleos de Estudantes Africanos que estiveram presentes, reforçando os laços entre comunidades estudantis africanas, bem como a todos os estudantes do Técnico, colegas e amigos que se juntaram a nós para celebrar este novo ciclo.",
-                "A vossa presença reforçou aquilo que o NEAIST procura construir todos os dias: uma comunidade mais próxima, mais representada e mais unida.",
-                "Juntos, lembramo-nos do porquê de existirmos. Esta família vai muito além das paredes do IST."
+                "O nosso agradecimento estende-se ainda aos Núcleos de Estudantes Africanos que estiveram presentes, reforçando os laços entre comunidades estudantis africanas, bem como a todos os estudantes do Técnico, colegas e amigos que se juntaram a nós para assinalar este novo ciclo.",
+                "A presença da comunidade neste momento reforçou aquilo que o NEAIST procura construir todos os dias: uma estrutura mais próxima, mais representativa e mais unida.",
+                "Com este novo mandato, o NEAIST reafirma o compromisso de continuar a criar espaços de apoio, proximidade, representação e valorização da presença africana no Técnico."
             ],
+            galleryEyebrow: "Fotografias",
+            galleryTitle: "Momentos da tomada de posse",
+            galleryText: "Uma seleção de imagens da cerimónia, da nova equipa e dos convidados presentes neste início de mandato.",
             socialEyebrow: "Redes sociais",
             socialTitle: "Momentos partilhados pelo NEAIST",
             socialText: "Consulta as publicações oficiais relacionadas com a tomada de posse e o convite lançado à comunidade antes da cerimónia.",
@@ -1717,26 +1722,29 @@ const pageCopy = {
             socialLink: "Ver publicação no Instagram"
         },
         en: {
-            title: "Inauguration of the 2026 Board | NEAIST",
-            description: "Institutional NEAIST article about the inauguration of the 2026 board and the beginning of a new cycle of representation and commitment at Técnico.",
+            title: "Inauguration - 2025/2026 Term | NEAIST",
+            description: "Institutional NEAIST article about the inauguration of the 2025/2026 term and the beginning of a new cycle of representation and commitment at Técnico.",
             heroMeta: "Institutional · March 23, 2026",
-            heroTitle: "Inauguration of the 2026 Board",
-            heroIntro: "On March 23, we gathered to celebrate the inauguration of the new NEAIST board, opening a new cycle of work, representation, and commitment to the African community at Instituto Superior Técnico.",
-            heroButtons: ["Back to news", "NEAIST Instagram"],
+            heroTitle: "Inauguration - 2025/2026 Term",
+            heroIntro: "On March 23, 2026, NEAIST held the inauguration of its governing bodies and team for the 2025/2026 term, marking the beginning of a new cycle of work, representation, and commitment to the African community at Instituto Superior Técnico.",
+            heroButtons: ["Back to news", "View photos"],
             articleTitles: [
                 "A new cycle for NEAIST",
                 "Representation, unity, and continuity",
                 "Thanks to the community"
             ],
             articleParagraphs: [
-                "On March 23, we gathered to celebrate the inauguration of the new NEAIST board — a moment that marked the beginning of a new cycle of representation, commitment, and service to our community at Instituto Superior Técnico.",
-                "This ceremony was more than a formality. It was a moment that affirmed our purpose: to represent, unite, and inspire African students at IST, ensuring that no one goes through this journey alone.",
+                "On March 23, 2026, NEAIST held the inauguration of its governing bodies and team for the 2025/2026 term, in a moment that officially marked the beginning of a new cycle of representation, commitment, and service to the African community at Instituto Superior Técnico.",
+                "This ceremony was more than a formality. It reaffirmed the association’s purpose: to represent, unite, and support African students at Técnico, while strengthening the continuity of NEAIST’s collective work and institutional presence.",
                 "We leave a special word of thanks to the outgoing board, in particular to the outgoing President, Pedro Aguiar, for the work carried out, for his dedication to NEAIST, and for the handover of responsibilities.",
                 "We also thank the Vice-Rector, Prof. Luís Castro, the President of AEIST, António Jarmela, and AEIST for their support and presence at such an important moment for our association.",
-                "Our thanks also extend to the African Student Associations that were present, strengthening the ties between African student communities, as well as to all Técnico students, colleagues, and friends who joined us to celebrate this new cycle.",
-                "Your presence reinforced what NEAIST seeks to build every day: a community that is closer, better represented, and more united.",
-                "Together, we remember why we exist. This family goes far beyond the walls of IST."
+                "Our thanks also extend to the African Student Associations that were present, strengthening the ties between African student communities, as well as to all Técnico students, colleagues, and friends who joined us to mark this new cycle.",
+                "The presence of the community at this moment reinforced what NEAIST works to build every day: a structure that is closer, more representative, and more united.",
+                "With this new term, NEAIST reaffirms its commitment to continue creating spaces of support, connection, representation, and visibility for the African presence at Técnico."
             ],
+            galleryEyebrow: "Photos",
+            galleryTitle: "Moments from the inauguration",
+            galleryText: "A selection of images from the ceremony, the new team, and the guests present at the start of the new term.",
             socialEyebrow: "Social media",
             socialTitle: "Moments shared by NEAIST",
             socialText: "See the official posts related to the inauguration ceremony and the invitation shared with the community beforehand.",
@@ -1935,13 +1943,42 @@ function applyPageSpecificTranslations() {
     if (pageName === "equipa.html") {
         applyText(".page-header .page-title", copy.pageTitle);
         applyText(".page-header .page-subtitle", copy.pageSubtitle);
+        applyText(".team-overview .section-kicker", copy.overviewKicker);
+        applyText(".team-overview .section-title", copy.overviewTitle);
+        applyText(".team-overview .section-subtitle", copy.overviewSubtitle);
+        applyTextList(".team-stat span", copy.statLabels);
         applyTextList(".team-section .section-kicker", copy.sectionKickers);
         applyTextList(".team-section .section-title", copy.sectionTitles);
         applyTextList(".team-section .section-subtitle", copy.sectionSubtitles);
-        applyTextList(".team-role-label", copy.roles);
-        applyTextList(".team-card h3", Array.from({ length: 13 }, () => copy.namePending));
-        applyTextList(".team-card p", copy.descriptions);
-        applyText(".team-note p", copy.note);
+        applyTextList(".team-role-label", copy.cardLabels);
+        applyTextList(".org-card h3, .department-row h3", copy.cardTitles);
+        applyTextList(".org-card > p, .department-main p", copy.descriptions);
+        const memberGroups = copy.memberLists || [];
+        document.querySelectorAll(".team-member-list, .department-members").forEach((groupElement, groupIndex) => {
+            const members = memberGroups[groupIndex] || [];
+            if (groupElement.classList.contains("team-member-list")) {
+                groupElement.querySelectorAll("li").forEach((itemElement, itemIndex) => {
+                    const member = members[itemIndex];
+                    if (!member) return;
+                    const [name, role] = member.split(" — ");
+                    const nameEl = itemElement.querySelector("strong");
+                    const roleEl = itemElement.querySelector("span");
+                    if (nameEl) nameEl.textContent = name || member;
+                    if (roleEl) roleEl.textContent = role || "";
+                });
+                return;
+            }
+
+            groupElement.querySelectorAll(".member-chip").forEach((itemElement, itemIndex) => {
+                const member = members[itemIndex];
+                if (!member) return;
+                const [name, role] = member.split(" — ");
+                const nameEl = itemElement.querySelector("strong");
+                const roleEl = itemElement.querySelector("span");
+                if (nameEl) nameEl.textContent = name || member;
+                if (roleEl) roleEl.textContent = role || "";
+            });
+        });
         return;
     }
 
@@ -1963,6 +2000,7 @@ function applyPageSpecificTranslations() {
         applyTextList(".gallery-section .section-title", copy.sectionTitles);
         applyTextList(".gallery-section .section-subtitle", copy.sectionSubtitles);
         applyTextList(".gallery-feature-card p", copy.captions);
+        applyText(".gallery-feature-link", copy.featureButton);
         return;
     }
 
@@ -2026,17 +2064,13 @@ function applyPageSpecificTranslations() {
         applyText(".event-hero .section-kicker", copy.kicker);
         applyText(".event-hero .page-subtitle", copy.subtitle);
         applyText(".event-hero .page-title", copy.pageTitle);
-        applyTextList(".event-hero .event-description, .event-hero .event-copy > p:not(.page-subtitle):not(.event-support-note):not(.event-description)", copy.descriptions);
+        applyTextList(".event-hero .event-description", copy.descriptions);
         applyTextList(".event-meta-label", copy.metaLabels);
         applyTextList(".event-meta-value", copy.metaValues);
-        applyText(".event-support-note", copy.supportNote);
         applyTextList(".event-hero .event-link-row .btn", copy.buttons);
-        applyText(".event-gratitude-card h2", copy.gratitudeTitle);
-        applyText(".event-gratitude-card p", copy.gratitudeText);
-        applyText(".africa-day-recap .section-heading h2", copy.recapTitle);
-        applyText(".africa-day-recap .section-heading p", copy.recapSubtitle);
-        applyTextList(".africa-day-recap-card h3", copy.recapCardTitles);
-        applyTextList(".africa-day-recap-card p", copy.recapCardTexts);
+        applyText(".news-article-card .article-content h2", copy.articleTitle);
+        applyHTML(".news-article-card .article-lead", copy.articleParagraphs[0]);
+        applyHTMLList(".news-article-card .article-content p:not(.article-lead)", copy.articleParagraphs.slice(1));
         applyText(".agenda-section .section-kicker", copy.agendaKicker);
         applyText(".agenda-section .section-title", copy.agendaTitle);
         applyText(".agenda-section .section-subtitle", copy.agendaSubtitle);
@@ -2045,15 +2079,6 @@ function applyPageSpecificTranslations() {
         applyText(".africa-day-gallery .section-heading .eyebrow", copy.galleryEyebrow);
         applyText(".africa-day-gallery .section-heading h2", copy.galleryTitle);
         applyText(".africa-day-gallery .section-heading p", copy.gallerySubtitle);
-        applyText(".merch-preview .section-kicker", copy.merchKicker);
-        applyText(".merch-preview .section-title", copy.merchTitle);
-        applyText(".merch-preview .section-subtitle", copy.merchSubtitle);
-        applyText(".merch-preview .btn", copy.merchButton);
-        applyText(".event-spotlight-section .section-kicker", copy.spotlightKicker);
-        applyText(".event-spotlight-section .page-subtitle", copy.spotlightSubtitle);
-        applyText(".event-spotlight-section .page-title", copy.spotlightTitle);
-        applyTextList(".event-spotlight-section .event-copy > p:not(.page-subtitle)", copy.spotlightTexts);
-        applyText(".event-spotlight-section .btn", copy.spotlightButton);
         return;
     }
 
@@ -2100,13 +2125,16 @@ function applyPageSpecificTranslations() {
         applyTextList(".article-content h2", copy.articleTitles);
         applyText(".article-lead", copy.articleParagraphs[0]);
         applyTextList(".article-content p:not(.article-lead)", copy.articleParagraphs.slice(1));
-        applyText(".social-section .eyebrow", copy.socialEyebrow);
-        applyText(".social-section .section-heading h2", copy.socialTitle);
-        applyText(".social-section .section-heading p", copy.socialText);
-        applyTextList(".social-card h3", copy.socialCardTitles);
-        applyTextList(".social-card > p:not(.article-quote)", copy.socialCardTexts);
+        applyText(".tomada-posse-gallery .eyebrow", copy.galleryEyebrow);
+        applyText(".tomada-posse-gallery .section-heading h2", copy.galleryTitle);
+        applyText(".tomada-posse-gallery .section-heading p", copy.galleryText);
+        applyText(".tomada-posse-social .eyebrow", copy.socialEyebrow);
+        applyText(".tomada-posse-social .section-heading h2", copy.socialTitle);
+        applyText(".tomada-posse-social .section-heading p", copy.socialText);
+        applyTextList(".tomada-posse-social .social-card h3", copy.socialCardTitles);
+        applyTextList(".tomada-posse-social .social-card > p:not(.article-quote)", copy.socialCardTexts);
         applyHTML(".article-quote", copy.quote);
-        applyTextList(".social-link", [copy.socialLink, copy.socialLink]);
+        applyTextList(".tomada-posse-social .social-link", [copy.socialLink, copy.socialLink]);
         return;
     }
 

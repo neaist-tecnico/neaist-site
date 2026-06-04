@@ -133,14 +133,14 @@ const NEWS_ITEMS = [
         copy: {
             pt: {
                 category: 'Institucional',
-                title: 'Tomada de Posse da Direção 2026',
-                excerpt: 'No dia 23 de Março, o NEAIST celebrou a tomada de posse da nova direção, marcando o início de um novo ciclo de representação, união e compromisso com a comunidade africana no Técnico.',
+                title: 'Tomada de Posse - Mandato 2025/2026',
+                excerpt: 'A 23 de Março de 2026, o NEAIST realizou a tomada de posse dos seus órgãos sociais e da equipa do mandato 2025/2026, assinalando o início de um novo ciclo de representação no Técnico.',
                 cta: 'Ler mais'
             },
             en: {
                 category: 'Institutional',
-                title: 'Inauguration of the 2026 Board',
-                excerpt: 'On March 23, NEAIST celebrated the inauguration of its new board, marking the beginning of a new cycle of representation, unity, and commitment to the African community at Técnico.',
+                title: 'Inauguration - 2025/2026 Term',
+                excerpt: 'On March 23, 2026, NEAIST held the inauguration of its governing bodies and team for the 2025/2026 term, marking the start of a new cycle of representation at Técnico.',
                 cta: 'Read more'
             }
         }
@@ -167,27 +167,6 @@ const NEWS_ITEMS = [
                 alt: 'NEAIST Game Day poster with the April 23 date and the C9 location',
                 title: 'NEAIST Game Day',
                 excerpt: 'On April 23, 2026, NEAIST enjoyed an afternoon of games, connection, and joy, with thanks to all the students who made it such an enriching experience.',
-                cta: 'Read more'
-            }
-        }
-    },
-    {
-        slug: 'tomada-de-posse-2024-2025',
-        date: '2025-02-17',
-        categoryId: 'arquivo',
-        image: 'images/news/tomada-posse-2024-2025.jpeg',
-        url: 'galeria.html#tomada-posse-2024-2025',
-        copy: {
-            pt: {
-                category: 'Arquivo',
-                title: 'Tomada de Posse - Mandato 2024/2025',
-                excerpt: 'Cerimónia que marcou o início do mandato de 2024/2025, com tomada de posse dos órgãos sociais e presença da comunidade académica.',
-                cta: 'Ler mais'
-            },
-            en: {
-                category: 'Archive',
-                title: 'Inauguration Ceremony - 2024/2025 Term',
-                excerpt: 'Ceremony that marked the beginning of the 2024/2025 term, with the inauguration of the association’s governing bodies and the presence of the academic community.',
                 cta: 'Read more'
             }
         }
