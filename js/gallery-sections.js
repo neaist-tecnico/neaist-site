@@ -116,10 +116,9 @@
             const caption = sectionCopy.captions[index % sectionCopy.captions.length];
             const imagePath = encodeURI(`images/${sectionCopy.folder}/${filename}`);
             return `
-                <article class="gallery-feature-card fade-in-up${getDelayClass(index)}">
-                    <img src="${imagePath}" alt="${escapeHtml(caption)}">
-                    <p>${escapeHtml(caption)}</p>
-                </article>
+                <figure class="gallery-photo fade-in-up${getDelayClass(index)}">
+                    <img src="${imagePath}" alt="${escapeHtml(caption)}" loading="lazy">
+                </figure>
             `;
         }).join("");
     }
@@ -137,30 +136,8 @@
             return;
         }
 
-        const kicker = section.querySelector(".section-kicker");
-        const title = section.querySelector(".section-title");
-        const subtitle = section.querySelector(".section-subtitle");
-        const link = section.querySelector(".gallery-feature-link");
         const grid = section.querySelector("[data-gallery-grid]");
 
-        if (kicker) {
-            kicker.textContent = sectionCopy.kicker;
-        }
-        if (title) {
-            title.textContent = sectionCopy.title;
-        }
-        if (subtitle) {
-            subtitle.textContent = sectionCopy.subtitle;
-        }
-        if (link) {
-            if (sectionCopy.button && sectionCopy.href) {
-                link.textContent = sectionCopy.button;
-                link.setAttribute("href", sectionCopy.href);
-                link.hidden = false;
-            } else {
-                link.hidden = true;
-            }
-        }
         if (grid) {
             renderGalleryCards(grid, sectionCopy);
         }

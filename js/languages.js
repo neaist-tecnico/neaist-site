@@ -156,7 +156,7 @@ const translations = {
         africa_day_agenda_head_activity: "Atividade",
         africa_day_agenda_row_1: "Rececao dos participantes",
         africa_day_agenda_row_2: "Sessao de abertura: discurso do Presidente do NEAIST e convidados",
-        africa_day_agenda_row_3: "Apresentacao do Professor Sostenes Rego e do seu dicionario",
+        africa_day_agenda_row_3: "Apresentacao do Dr. Sostenes Rego e do seu dicionario",
         africa_day_agenda_row_4: "Intervalo",
         africa_day_agenda_row_5: "Apresentacao da historiadora Marta Lourenco",
         africa_day_agenda_row_6: "Intervalo e visita a exposicao cultural",
@@ -502,7 +502,7 @@ const translations = {
         africa_day_agenda_head_activity: "Activity",
         africa_day_agenda_row_1: "Participant reception",
         africa_day_agenda_row_2: "Opening session: speech by the NEAIST President and invited guests",
-        africa_day_agenda_row_3: "Presentation by Professor Sostenes Rego and his dictionary",
+        africa_day_agenda_row_3: "Presentation by Dr. Sostenes Rego and his dictionary",
         africa_day_agenda_row_4: "Break",
         africa_day_agenda_row_5: "Presentation by historian Marta Lourenco",
         africa_day_agenda_row_6: "Break and visit to the cultural exhibition",
@@ -959,7 +959,7 @@ const pageCopy = {
                 "Departamento"
             ],
             cardTitles: [
-                "Presidência / Gestão Interna",
+                "Presidência",
                 "Mesa da Assembleia Geral",
                 "Conselho Fiscal",
                 "Projetos & Parcerias",
@@ -979,12 +979,12 @@ const pageCopy = {
                 "Gere a presença pública do NEAIST, incluindo redes sociais, identidade visual, criação de conteúdos, divulgação de eventos e comunicação com a comunidade."
             ],
             memberLists: [
-                ["Eric Muthami — Presidente", "Celine Acia — Vice-Presidente", "Miza Mabunda — Tesoureira"],
+                ["Eric Muthami — Presidente", "Celine Machaieie — Vice-Presidente", "Miza Mabunda — Tesoureira"],
                 ["Evanio Rodrigues — Presidente", "Jennifer de Matos — 1.ª Vogal", "Simone Langa — 2.ª Vogal"],
                 ["Tarissa Pinto — Presidente", "Bibiana Abrantes — 1.ª Vogal", "Denilson Vieira — Vogal"],
                 ["Haiani Antonio — Coordenadora"],
                 ["Ndully Malate — Coordenador"],
-                ["Feliciana Carlos — Coordenadora", "Amabel Dayna Bastos André — Membro", "Prosperity Chiamaka Oguama — Membro"],
+                ["Feliciana Carlos — Coordenadora", "Amabel André — Membro", "Prosperity Oguama — Membro"],
                 ["Francisco Davane — Coordenador", "Ayanda Amone — Membro"],
                 ["Alayna Lalgy — Coordenadora", "Andreia Andrade — Membro"]
             ]
@@ -1018,7 +1018,7 @@ const pageCopy = {
                 "Department"
             ],
             cardTitles: [
-                "Presidency / Internal Management",
+                "Presidency",
                 "General Assembly Bureau",
                 "Supervisory Board",
                 "Projects & Partnerships",
@@ -1038,12 +1038,12 @@ const pageCopy = {
                 "Manages NEAIST’s public presence, including social media, visual identity, content creation, event promotion, and communication with the community."
             ],
             memberLists: [
-                ["Eric Muthami — President", "Celine Acia — Vice-President", "Miza Mabunda — Treasurer"],
+                ["Eric Muthami — President", "Celine Machaieie — Vice-President", "Miza Mabunda — Treasurer"],
                 ["Evanio Rodrigues — President", "Jennifer de Matos — 1st Member", "Simone Langa — 2nd Member"],
                 ["Tarissa Pinto — President", "Bibiana Abrantes — 1st Member", "Denilson Vieira — Member"],
                 ["Haiani Antonio — Coordinator"],
                 ["Ndully Malate — Coordinator"],
-                ["Feliciana Carlos — Coordinator", "Amabel Dayna Bastos André — Member", "Prosperity Chiamaka Oguama — Member"],
+                ["Feliciana Carlos — Coordinator", "Amabel André — Member", "Prosperity Oguama — Member"],
                 ["Francisco Davane — Coordinator", "Ayanda Amone — Member"],
                 ["Alayna Lalgy — Coordinator", "Andreia Andrade — Member"]
             ]
@@ -1409,9 +1409,9 @@ const pageCopy = {
                 "A tarde começou com a receção dos participantes e uma sessão de abertura conduzida pelo NEAIST, marcada pela presença de representantes institucionais que se juntaram à comunidade nesta celebração. O NEAIST teve o privilégio de receber o <strong>Professor Rogério Colaço</strong>, Presidente do Instituto Superior Técnico, o <strong>Professor Pedro Amaral</strong>, Vice-Presidente do Técnico para a Interface Empresarial, Inovação e Empreendedorismo, e o <strong>Professor Luís Castro</strong>, Vice-Reitor da Universidade de Lisboa.",
                 "A presença destes convidados reforçou a relevância institucional do Dia de África no Técnico e sublinhou a importância de apoiar iniciativas que promovem a diversidade cultural, a inclusão, a representação e o diálogo dentro da comunidade académica.",
                 "Um dos pontos centrais do evento foi o espaço de exposição cultural, onde tivemos o privilégio de contar com três expositores que representaram diferentes expressões da criatividade e do património africano. A <strong>Pure Handcrafts Kenya</strong> apresentou produtos artesanais inspirados na tradição e arte queniana. A <strong>Jerrosa Nigeria</strong> trouxe uma expressão vibrante da moda, do design e da identidade cultural nigeriana. A <strong>Makonde Nangashinu Ntaluma</strong>, de Moçambique, partilhou trabalhos ligados à rica tradição artística Makonde, destacando a importância da preservação e valorização do património cultural africano através do artesanato e da expressão visual.",
-                "O programa continuou com dois convidados cujos contributos ajudaram a aprofundar a reflexão em torno da memória africana, da língua e da preservação cultural. O <strong>Professor Sóstenes Rego</strong> apresentou o seu trabalho e o seu dicionário, proporcionando aos participantes uma reflexão sobre a importância da língua enquanto arquivo vivo de identidade, conhecimento e continuidade cultural. De seguida, a <strong>Dra. Marta Lourenço</strong>, historiadora e profissional da área do património cultural, partilhou a sua perspetiva sobre história, memória e preservação, convidando o público a pensar sobre a forma como as histórias são guardadas, transmitidas e, por vezes, esquecidas.",
-                "Estas apresentações deram lugar à conversa <strong>“Quem Conta a História? — A Perspetiva de Quem Vive e de Quem Preserva”</strong>, moderada por <strong>Céline Acia</strong>, Vice-Presidente do NEAIST. Esta discussão criou uma ponte importante entre perspetivas académicas, históricas e vividas, convidando os participantes a refletir sobre quem tem o poder de contar a história, como as narrativas africanas têm sido preservadas ou silenciadas, e porque é essencial que as comunidades participem ativamente na construção e transmissão das suas próprias histórias.",
-                "Mais tarde, o evento passou para um momento mais informal, mas igualmente significativo, com o painel <strong>“Achismos”</strong>, organizado e moderado por <strong>Feliciana Carlos</strong>. A conversa juntou <strong>Eric Muthami</strong>, <strong>Herzen Myron da Graça Luís Matsinhe III</strong>, <strong>Ludovico Dos Santos Rafael Tonela</strong>, <strong>Tarissa Pinto</strong> e <strong>Thiago Alexandre dos Santos Andrade</strong>, criando um espaço de partilha de experiências, opiniões e reflexões pessoais sobre identidade, comunidade, pertença e o significado de ser africano, ou estar ligado a África, dentro do contexto universitário.",
+                "O programa continuou com dois convidados cujos contributos ajudaram a aprofundar a reflexão em torno da memória africana, da língua e da preservação cultural. O <strong>Dr. Sóstenes Rego</strong> apresentou o seu trabalho e o seu dicionário, proporcionando aos participantes uma reflexão sobre a importância da língua enquanto arquivo vivo de identidade, conhecimento e continuidade cultural. De seguida, a <strong>Dra. Marta Lourenço</strong>, historiadora e profissional da área do património cultural, partilhou a sua perspetiva sobre história, memória e preservação, convidando o público a pensar sobre a forma como as histórias são guardadas, transmitidas e, por vezes, esquecidas.",
+                "Estas apresentações deram lugar à conversa <strong>“Quem Conta a História? — A Perspetiva de Quem Vive e de Quem Preserva”</strong>, moderada por <strong>Celine Machaieie</strong>, Vice-Presidente do NEAIST. Esta discussão criou uma ponte importante entre perspetivas académicas, históricas e vividas, convidando os participantes a refletir sobre quem tem o poder de contar a história, como as narrativas africanas têm sido preservadas ou silenciadas, e porque é essencial que as comunidades participem ativamente na construção e transmissão das suas próprias histórias.",
+                "Mais tarde, o evento passou para um momento mais informal, mas igualmente significativo, com o painel <strong>“Achismos”</strong>, organizado e moderado por <strong>Feliciana Carlos</strong>. A conversa juntou <strong>Eric Muthami</strong>, <strong>Herzen Matsinhe</strong>, <strong>Ludovico Tonela</strong>, <strong>Tarissa Pinto</strong> e <strong>Thiago Andrade</strong>, criando um espaço de partilha de experiências, opiniões e reflexões pessoais sobre identidade, comunidade, pertença e o significado de ser africano, ou estar ligado a África, dentro do contexto universitário.",
                 "Ao longo de toda a tarde, o evento contou com a presença de muitos estudantes e membros da comunidade, tornando visível aquilo que o NEAIST procura construir: um espaço de encontro, reconhecimento e união. A participação ativa de tantas pessoas mostrou que existe no Técnico uma comunidade africana viva, diversa, presente e com muito para partilhar.",
                 "O Dia de África no Técnico terminou com um momento descontraído de convívio no <strong>Jardim do Arco do Cego</strong>, onde os participantes continuaram as conversas do dia num ambiente mais leve e próximo. Este encerramento traduziu de forma simples e bonita o espírito de Ubuntu: comunidade, presença, partilha e união.",
                 "O Dia de África no Técnico não foi apenas uma celebração da cultura africana. Foi também um lembrete de que a representação importa, de que os espaços culturais devem ser criados de forma intencional e de que a universidade se torna mais rica quando as identidades, histórias e percursos dos seus estudantes são reconhecidos.",
@@ -1426,7 +1426,7 @@ const pageCopy = {
             agendaRows: [
                 "Receção dos participantes",
                 "Sessão de abertura: discurso do Presidente do NEAIST e convidados",
-                "Apresentação do Professor Sóstenes Rego e do seu dicionário",
+                "Apresentação do Dr. Sóstenes Rego e do seu dicionário",
                 "Intervalo",
                 "Apresentação da historiadora Marta Lourenço",
                 "Intervalo e visita à exposição cultural",
@@ -1462,9 +1462,9 @@ const pageCopy = {
                 "The afternoon began with the reception of participants and an opening session led by NEAIST, marked by the presence of institutional representatives who joined the community for this celebration. NEAIST had the privilege of welcoming <strong>Professor Rogério Colaço</strong>, President of Instituto Superior Técnico, <strong>Professor Pedro Amaral</strong>, Vice-President of Técnico for Corporate Interface, Innovation and Entrepreneurship, and <strong>Professor Luís Castro</strong>, Vice-Rector of the University of Lisbon.",
                 "The presence of these guests reinforced the institutional relevance of Africa Day at Técnico and underlined the importance of supporting initiatives that promote cultural diversity, inclusion, representation, and dialogue within the academic community.",
                 "One of the event’s central elements was the cultural exhibition area, where we had the privilege of hosting three exhibitors representing different expressions of African creativity and heritage. <strong>Pure Handcrafts Kenya</strong> presented handmade products inspired by Kenyan tradition and art. <strong>Jerrosa Nigeria</strong> brought a vibrant expression of Nigerian fashion, design, and cultural identity. <strong>Makonde Nangashinu Ntaluma</strong>, from Mozambique, shared work linked to the rich Makonde artistic tradition, highlighting the importance of preserving and valuing African cultural heritage through craftsmanship and visual expression.",
-                "The programme continued with two guests whose contributions deepened reflection on African memory, language, and cultural preservation. <strong>Professor Sóstenes Rego</strong> presented his work and dictionary, offering participants a reflection on the importance of language as a living archive of identity, knowledge, and cultural continuity. Then <strong>Dr. Marta Lourenço</strong>, a historian and cultural heritage professional, shared her perspective on history, memory, and preservation, inviting the audience to think about how stories are stored, passed on, and sometimes forgotten.",
-                "These presentations led to the conversation <strong>“Who Tells the Story? — The Perspective of Those Who Live It and Those Who Preserve It”</strong>, moderated by <strong>Céline Acia</strong>, NEAIST’s Vice-President. The discussion created an important bridge between academic, historical, and lived perspectives, inviting participants to reflect on who has the power to tell history, how African narratives have been preserved or silenced, and why it is essential for communities to actively participate in building and transmitting their own stories.",
-                "Later, the event moved into a more informal but equally meaningful moment with the panel <strong>“Achismos”</strong>, organized and moderated by <strong>Feliciana Carlos</strong>. The conversation brought together <strong>Eric Muthami</strong>, <strong>Herzen Myron da Graça Luís Matsinhe III</strong>, <strong>Ludovico Dos Santos Rafael Tonela</strong>, <strong>Tarissa Pinto</strong>, and <strong>Thiago Alexandre dos Santos Andrade</strong>, creating a space to share experiences, opinions, and personal reflections on identity, community, belonging, and what it means to be African, or connected to Africa, within the university context.",
+                "The programme continued with two guests whose contributions deepened reflection on African memory, language, and cultural preservation. <strong>Dr. Sóstenes Rego</strong> presented his work and dictionary, offering participants a reflection on the importance of language as a living archive of identity, knowledge, and cultural continuity. Then <strong>Dr. Marta Lourenço</strong>, a historian and cultural heritage professional, shared her perspective on history, memory, and preservation, inviting the audience to think about how stories are stored, passed on, and sometimes forgotten.",
+                "These presentations led to the conversation <strong>“Who Tells the Story? — The Perspective of Those Who Live It and Those Who Preserve It”</strong>, moderated by <strong>Celine Machaieie</strong>, NEAIST’s Vice-President. The discussion created an important bridge between academic, historical, and lived perspectives, inviting participants to reflect on who has the power to tell history, how African narratives have been preserved or silenced, and why it is essential for communities to actively participate in building and transmitting their own stories.",
+                "Later, the event moved into a more informal but equally meaningful moment with the panel <strong>“Achismos”</strong>, organized and moderated by <strong>Feliciana Carlos</strong>. The conversation brought together <strong>Eric Muthami</strong>, <strong>Herzen Matsinhe</strong>, <strong>Ludovico Tonela</strong>, <strong>Tarissa Pinto</strong>, and <strong>Thiago Andrade</strong>, creating a space to share experiences, opinions, and personal reflections on identity, community, belonging, and what it means to be African, or connected to Africa, within the university context.",
                 "Throughout the afternoon, the event welcomed many students and community members, making visible what NEAIST seeks to build: a space of encounter, recognition, and unity. The active participation of so many people showed that Técnico is home to a vibrant, diverse, present African community with much to share.",
                 "Africa Day at Técnico ended with a relaxed social moment in <strong>Jardim do Arco do Cego</strong>, where participants continued the day’s conversations in a lighter and more intimate atmosphere. This closing moment translated the spirit of Ubuntu in a simple and beautiful way: community, presence, sharing, and unity.",
                 "Africa Day at Técnico was not only a celebration of African culture. It was also a reminder that representation matters, that cultural spaces must be created intentionally, and that the university becomes richer when the identities, stories, and paths of its students are recognized.",
@@ -1479,7 +1479,7 @@ const pageCopy = {
             agendaRows: [
                 "Participant reception",
                 "Opening session: speech by the NEAIST President and invited guests",
-                "Presentation by Professor Sóstenes Rego and his dictionary",
+                "Presentation by Dr. Sóstenes Rego and his dictionary",
                 "Break",
                 "Presentation by historian Marta Lourenço",
                 "Break and visit to the cultural exhibition",
