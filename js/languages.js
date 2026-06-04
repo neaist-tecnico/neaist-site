@@ -9,6 +9,7 @@ const translations = {
         logo_subtext: "Núcleo de Estudantes Africanos no Instituto Superior Técnico",
         nav_home: "Início",
         nav_about: "Sobre Nós",
+        nav_who_we_are: "Quem Somos",
         nav_team: "Equipa",
         nav_shop: "Loja",
         nav_academic: "Académico",
@@ -354,6 +355,7 @@ const translations = {
         logo_subtext: "African Students Association at Instituto Superior Técnico",
         nav_home: "Home",
         nav_about: "About Us",
+        nav_who_we_are: "Who We Are",
         nav_team: "Team",
         nav_shop: "Shop",
         nav_academic: "Academic",
@@ -1076,49 +1078,13 @@ const pageCopy = {
             title: "Galeria | NEAIST",
             description: "Galeria fotográfica do NEAIST com arquivos institucionais, eventos culturais e momentos recentes da comunidade africana no Técnico.",
             pageTitle: "Galeria",
-            pageSubtitle: "Arquivo visual do NEAIST com fotografias, cartazes, cerimónias, eventos culturais e atividades recentes.",
-            sectionKickers: ["Mandato 2025/2026", "Arquivo fotográfico"],
-            sectionTitles: [
-                "Tomada de Posse da Direção 2025/2026",
-                "Momentos da comunidade NEAIST"
-            ],
-            sectionSubtitles: [
-                "Registo da cerimónia realizada a 23 de março de 2026, que marcou o início do novo mandato do NEAIST e reuniu equipa, convidados institucionais e comunidade.",
-                "Explora as imagens reunidas no site, incluindo tomada de posse, Dia de África, Game Day, arquivos institucionais, cartazes e materiais visuais do núcleo."
-            ],
-            captions: [
-                "Eric Muthami - Presidente",
-                "Celine Acia - Vice-Presidente",
-                "Miza Mabunda - Tesoureira",
-                "Prof. Luís Castro - Vice-Reitor",
-                "Equipa do mandato 2025/2026",
-                "Momento institucional da cerimónia"
-            ],
-            featureButton: "Ler artigo completo"
+            pageSubtitle: "Arquivo visual do NEAIST com galerias organizadas por evento, incluindo Dia de África, tomada de posse e Game Day."
         },
         en: {
             title: "Gallery | NEAIST",
             description: "NEAIST photo gallery with institutional archives, cultural events, and recent moments from the African student community at Técnico.",
             pageTitle: "Gallery",
-            pageSubtitle: "NEAIST’s visual archive with photographs, posters, ceremonies, cultural events, and recent activities.",
-            sectionKickers: ["2025/2026 Term", "Photo archive"],
-            sectionTitles: [
-                "Inauguration of the 2025/2026 Board",
-                "Moments from the NEAIST community"
-            ],
-            sectionSubtitles: [
-                "Record of the ceremony held on March 23, 2026, which marked the beginning of NEAIST’s new term and brought together the team, institutional guests, and the community.",
-                "Explore the images gathered across the site, including the inauguration, Africa Day, Game Day, institutional archives, posters, and visual materials from the association."
-            ],
-            captions: [
-                "Eric Muthami - President",
-                "Celine Acia - Vice-President",
-                "Miza Mabunda - Treasurer",
-                "Prof. Luís Castro - Vice-Rector",
-                "2025/2026 term team",
-                "Institutional moment from the ceremony"
-            ],
-            featureButton: "Read full article"
+            pageSubtitle: "NEAIST’s visual archive with event-based galleries, including Africa Day, the inauguration ceremony, and Game Day."
         }
     },
     "recursos.html": {
@@ -1855,7 +1821,9 @@ function applyCommonTranslations() {
     ]);
     applyTextList(".footer-links a", [
         getTranslationValue("nav_home"),
-        getTranslationValue("nav_about"),
+        getTranslationValue("nav_who_we_are"),
+        getTranslationValue("nav_team"),
+        getTranslationValue("nav_gallery"),
         getTranslationValue("nav_shop"),
         getTranslationValue("nav_news"),
         getTranslationValue("nav_africa_day"),
@@ -1996,11 +1964,6 @@ function applyPageSpecificTranslations() {
     if (pageName === "galeria.html") {
         applyText(".page-header .page-title", copy.pageTitle);
         applyText(".page-header .page-subtitle", copy.pageSubtitle);
-        applyTextList(".gallery-section .section-kicker", copy.sectionKickers);
-        applyTextList(".gallery-section .section-title", copy.sectionTitles);
-        applyTextList(".gallery-section .section-subtitle", copy.sectionSubtitles);
-        applyTextList(".gallery-feature-card p", copy.captions);
-        applyText(".gallery-feature-link", copy.featureButton);
         return;
     }
 
