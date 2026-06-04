@@ -43,9 +43,9 @@ const translations = {
         hero_slide_3_title: "Tomada de Posse",
         hero_slide_3_desc: "Momento institucional que marca o início do novo ciclo do núcleo.",
         africa_day_separator_kicker: "Dia de África 2026",
-        africa_day_separator_title: "27 de Maio no Técnico Innovation Center",
-        africa_day_separator_text: "Uma tarde dedicada à música, cultura, convívio e orgulho africano, com o cartaz oficial já disponível.",
-        africa_day_separator_cta: "Ver cartaz e detalhes",
+        africa_day_separator_title: "Uma tarde de cultura, memória e comunidade",
+        africa_day_separator_text: "O NEAIST reuniu estudantes, convidados, oradores e expositores no Técnico Innovation Center para celebrar a presença africana no Técnico sob o mote “Ubuntu: Eu Sou Porque Nós Somos”.",
+        africa_day_separator_cta: "Ler notícia",
 
         // Recent Highlights
         highlights_kicker: "Atualidade NEAIST",
@@ -389,9 +389,9 @@ const translations = {
         hero_slide_3_title: "Inauguration Ceremony",
         hero_slide_3_desc: "An institutional moment marking the beginning of the association's new cycle.",
         africa_day_separator_kicker: "Africa Day 2026",
-        africa_day_separator_title: "May 27 at Tecnico Innovation Center",
-        africa_day_separator_text: "An afternoon dedicated to music, culture, community, and African pride, with the official poster now live.",
-        africa_day_separator_cta: "View poster and details",
+        africa_day_separator_title: "An afternoon of culture, memory and community",
+        africa_day_separator_text: "NEAIST brought together students, guests, speakers and exhibitors at the Técnico Innovation Center to celebrate African presence at Técnico under the theme “Ubuntu: I Am Because We Are”.",
+        africa_day_separator_cta: "Read article",
 
         // Recent Highlights
         highlights_kicker: "NEAIST Updates",
