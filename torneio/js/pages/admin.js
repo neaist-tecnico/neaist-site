@@ -34,17 +34,22 @@ function bindStaticEvents() {
     document.getElementById('login-form').addEventListener('submit', async (event) => {
         event.preventDefault();
         const form = new FormData(event.currentTarget);
-        const submitButton = event.submitter;
-        submitButton.disabled = true;
-        submitButton.textContent = 'A entrar...';
+        const submitButton = event.submitter || event.currentTarget.querySelector('button[type="submit"]');
+
+        if (submitButton) {
+            submitButton.disabled = true;
+            submitButton.textContent = 'A entrar...';
+        }
 
         const response = await apiPost('auth.php?action=login', {
             username: form.get('username'),
             password: form.get('password')
         }, false);
 
-        submitButton.disabled = false;
-        submitButton.textContent = 'Entrar';
+        if (submitButton) {
+            submitButton.disabled = false;
+            submitButton.textContent = 'Entrar';
+        }
 
         if (!response.ok) {
             showMessage(response.error || 'Login falhou.', true);
@@ -52,6 +57,14 @@ function bindStaticEvents() {
         }
 
         csrfToken = response.csrfToken;
+        const status = await apiGet('auth.php?action=status');
+
+        if (!status.authenticated) {
+            showMessage('Login aceite, mas a sessão não ficou guardada no browser. Verifica cookies/sessões PHP no servidor.', true);
+            return;
+        }
+
+        csrfToken = status.csrfToken || csrfToken;
         await loadAdmin();
     });
 
@@ -90,7 +103,6 @@ async function loadAdmin() {
     const response = await apiPost('admin.php?action=list', {});
 
     if (!response.ok) {
-        showLogin();
         showMessage(response.error || 'Não foi possível abrir a administração.', true);
         return;
     }

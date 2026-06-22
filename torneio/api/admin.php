@@ -10,7 +10,6 @@ $action = $_GET['action'] ?? 'list';
 
 try {
     if ($action === 'list') {
-        require_post();
         json_response(['ok' => true, 'data' => admin_data()]);
     }
 

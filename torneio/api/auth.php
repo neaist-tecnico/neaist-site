@@ -64,7 +64,11 @@ if (basename($_SERVER['SCRIPT_NAME'] ?? '') === 'auth.php') {
             session_regenerate_id(true);
             $_SESSION['tournament_admin_logged_in'] = true;
             $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
-            json_response(['ok' => true, 'csrfToken' => $_SESSION['csrf_token']]);
+            json_response([
+                'ok' => true,
+                'authenticated' => true,
+                'csrfToken' => $_SESSION['csrf_token']
+            ]);
         }
 
         json_response(['ok' => false, 'error' => 'Utilizador ou password inválidos'], 401);
