@@ -44,6 +44,9 @@ load_env_file(dirname(__DIR__) . '/.env');
 $localConfig = __DIR__ . '/config.local.php';
 if (is_file($localConfig)) {
     require $localConfig;
+    define('TOURNAMENT_LOCAL_CONFIG_LOADED', true);
+} else {
+    define('TOURNAMENT_LOCAL_CONFIG_LOADED', false);
 }
 
 function env_value(string $key, string $default = ''): string

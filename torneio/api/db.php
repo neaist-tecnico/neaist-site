@@ -17,6 +17,13 @@ function db(): PDO
     $pass = defined('TOURNAMENT_DB_PASS') ? TOURNAMENT_DB_PASS : env_value('TOURNAMENT_DB_PASS', '');
     $charset = 'utf8mb4';
 
+    if ($pass === '' || $pass === 'put_database_password_here') {
+        json_response([
+            'ok' => false,
+            'error' => 'Database password is not configured on the server. Restore torneio/api/config.local.php or set torneio/.env with the real DB password.'
+        ], 500);
+    }
+
     $dsn = "mysql:host={$host};dbname={$name};charset={$charset}";
 
     try {
@@ -26,6 +33,16 @@ function db(): PDO
             PDO::ATTR_EMULATE_PREPARES => false
         ]);
     } catch (PDOException $error) {
+        error_log(sprintf(
+            'NEAIST tournament DB connection failed: %s | host=%s db=%s user=%s local_config=%s env_pass_present=%s',
+            $error->getMessage(),
+            $host,
+            $name,
+            $user,
+            TOURNAMENT_LOCAL_CONFIG_LOADED ? 'yes' : 'no',
+            env_value('TOURNAMENT_DB_PASS', '') !== '' ? 'yes' : 'no'
+        ));
+
         json_response([
             'ok' => false,
             'error' => 'Database connection failed. Check tournament DB configuration.'
