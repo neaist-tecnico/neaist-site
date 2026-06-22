@@ -8,12 +8,19 @@ let state = null;
 const loginView = document.getElementById('login-view');
 const adminView = document.getElementById('admin-view');
 const message = document.getElementById('admin-message');
+const logoutButton = document.getElementById('logout-button');
 
 init();
 
 async function init() {
     bindStaticEvents();
     const status = await apiGet('auth.php?action=status');
+
+    if (!status.ok) {
+        showLogin();
+        showMessage(status.error, true);
+        return;
+    }
 
     if (status.authenticated) {
         csrfToken = status.csrfToken;
@@ -27,10 +34,17 @@ function bindStaticEvents() {
     document.getElementById('login-form').addEventListener('submit', async (event) => {
         event.preventDefault();
         const form = new FormData(event.currentTarget);
+        const submitButton = event.submitter;
+        submitButton.disabled = true;
+        submitButton.textContent = 'A entrar...';
+
         const response = await apiPost('auth.php?action=login', {
             username: form.get('username'),
             password: form.get('password')
         }, false);
+
+        submitButton.disabled = false;
+        submitButton.textContent = 'Entrar';
 
         if (!response.ok) {
             showMessage(response.error || 'Login falhou.', true);
@@ -85,11 +99,13 @@ async function loadAdmin() {
     renderAdmin();
     loginView.hidden = true;
     adminView.hidden = false;
+    logoutButton.hidden = false;
 }
 
 function showLogin() {
     loginView.hidden = false;
     adminView.hidden = true;
+    logoutButton.hidden = true;
 }
 
 function renderAdmin() {
@@ -424,11 +440,10 @@ function showMessage(text, isError = false) {
 }
 
 async function apiGet(path) {
-    const response = await fetch(`${apiBase}/${path}`, {
+    return apiRequest(path, {
         credentials: 'same-origin',
         cache: 'no-store'
     });
-    return response.json();
 }
 
 async function apiPost(path, payload, includeCsrf = true) {
@@ -437,13 +452,36 @@ async function apiPost(path, payload, includeCsrf = true) {
         headers['X-CSRF-Token'] = csrfToken;
     }
 
-    const response = await fetch(`${apiBase}/${path}`, {
+    return apiRequest(path, {
         method: 'POST',
         credentials: 'same-origin',
         cache: 'no-store',
         headers,
         body: JSON.stringify(payload)
     });
+}
 
-    return response.json();
+async function apiRequest(path, options) {
+    try {
+        const response = await fetch(`${apiBase}/${path}`, options);
+        const text = await response.text();
+
+        try {
+            const payload = JSON.parse(text);
+            return payload.ok === undefined ? { ok: response.ok, ...payload } : payload;
+        } catch (error) {
+            const detail = text.trim().slice(0, 180);
+            return {
+                ok: false,
+                error: detail
+                    ? `A API não devolveu JSON válido. Resposta: ${detail}`
+                    : `A API não devolveu JSON válido. HTTP ${response.status}.`
+            };
+        }
+    } catch (error) {
+        return {
+            ok: false,
+            error: `Não foi possível contactar a API (${apiBase}/${path}). Confirma que estás a abrir isto num servidor com PHP, não só como ficheiro estático.`
+        };
+    }
 }

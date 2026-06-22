@@ -22,12 +22,16 @@
             <div class="tournament-links">
                 <a href="index.html">Público</a>
                 <a class="active" href="admin.html">Admin</a>
-                <button type="button" class="admin-logout" id="logout-button">Logout</button>
+                <button type="button" class="admin-logout" id="logout-button" hidden>Logout</button>
             </div>
         </div>
     </nav>
 
     <main class="admin-shell">
+        <div class="container">
+            <div class="admin-message" id="admin-message" hidden></div>
+        </div>
+
         <section class="login-section" id="login-view">
             <form class="login-card" id="login-form">
                 <span class="eyebrow">Área reservada</span>
@@ -54,8 +58,6 @@
                     </div>
                     <div class="admin-stats-grid" id="admin-stats"></div>
                 </div>
-
-                <div class="admin-message" id="admin-message" hidden></div>
 
                 <div class="admin-tabs">
                     <button class="active" type="button" data-admin-tab="settings">Definições</button>
