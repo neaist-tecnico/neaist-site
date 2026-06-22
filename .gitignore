@@ -43,6 +43,7 @@ pnpm-debug.log*
 .env
 .env.*
 !.env.example
+config.local.php
 
 # Temporary / backup files
 tmp/

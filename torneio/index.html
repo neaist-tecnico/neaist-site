@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página oficial do NEAIST Championship com calendário, equipas, resultados e classificação.">
+    <title>NEAIST Championship | Torneio</title>
+    <link rel="icon" type="image/png" href="../images/branding/neaist-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/torneio.css">
+</head>
+<body>
+    <nav class="tournament-nav">
+        <div class="container tournament-nav-inner">
+            <a class="brand-link" href="index.html">
+                <img src="../images/branding/neaist-logo.png" alt="NEAIST logo">
+                <span>NEAIST<small>Championship</small></span>
+            </a>
+            <div class="tournament-links">
+                <a class="active" href="index.html">Início</a>
+                <a href="equipas.html">Equipas</a>
+                <a href="calendario.html">Calendário</a>
+                <a href="resultados.html">Resultados</a>
+                <a href="classificacao.html">Classificação</a>
+                <a href="regras.html">Regras</a>
+                <a href="admin.html">Admin</a>
+                <a class="site-link" href="../index.html">Site NEAIST</a>
+            </div>
+        </div>
+    </nav>
+
+    <main id="home-content">
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <span class="eyebrow">Torneio oficial</span>
+                    <h1 id="tournament-name">NEAIST Championship</h1>
+                    <p id="tournament-description">Calendário, resultados e classificação do torneio.</p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="calendario.html"><i class="fas fa-calendar-days"></i> Ver calendário</a>
+                        <a class="btn btn-secondary" href="classificacao.html"><i class="fas fa-table"></i> Ver classificação</a>
+                    </div>
+                    <div class="stat-grid">
+                        <div class="stat-card"><strong id="stat-teams">0</strong><span>Equipas</span></div>
+                        <div class="stat-card"><strong id="stat-matches">0</strong><span>Jogos</span></div>
+                        <div class="stat-card"><strong id="stat-finished">0</strong><span>Terminados</span></div>
+                    </div>
+                </div>
+                <aside class="info-panel">
+                    <span class="eyebrow">Informação</span>
+                    <dl>
+                        <div><dt>Local</dt><dd id="tournament-venue">Instituto Superior Técnico</dd></div>
+                        <div><dt>Formato</dt><dd>Fase de grupos</dd></div>
+                        <div><dt>Desempate</dt><dd>Pontos, DG, golos marcados, vitórias</dd></div>
+                    </dl>
+                </aside>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container dashboard-grid">
+                <div>
+                    <div class="section-heading">
+                        <span class="eyebrow">Próximos jogos</span>
+                        <h2>Agenda</h2>
+                    </div>
+                    <div class="match-list" id="upcoming-list"></div>
+                </div>
+                <div>
+                    <div class="section-heading">
+                        <span class="eyebrow">Atualizações</span>
+                        <h2>Comunicados</h2>
+                    </div>
+                    <div class="dashboard-grid" id="announcement-list"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container" id="standings-preview"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 NEAIST. Todos os direitos reservados.</p>
+            <a href="mailto:neaist.sa@aeist.pt">neaist.sa@aeist.pt</a>
+        </div>
+    </footer>
+
+    <script src="js/config.js"></script>
+    <script type="module" src="js/pages/home.js"></script>
+</body>
+</html>

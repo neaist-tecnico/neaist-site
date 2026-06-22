@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Admin | NEAIST Championship</title>
+    <link rel="icon" type="image/png" href="../images/branding/neaist-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/torneio.css">
+</head>
+<body>
+    <nav class="tournament-nav">
+        <div class="container tournament-nav-inner">
+            <a class="brand-link" href="index.html">
+                <img src="../images/branding/neaist-logo.png" alt="NEAIST logo">
+                <span>NEAIST<small>Admin Torneio</small></span>
+            </a>
+            <div class="tournament-links">
+                <a href="index.html">Público</a>
+                <a class="active" href="admin.html">Admin</a>
+                <button type="button" class="admin-logout" id="logout-button">Logout</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="admin-shell">
+        <section class="login-section" id="login-view">
+            <form class="login-card" id="login-form">
+                <span class="eyebrow">Área reservada</span>
+                <h1>Admin do torneio</h1>
+                <label>
+                    Utilizador
+                    <input name="username" autocomplete="username" required>
+                </label>
+                <label>
+                    Password
+                    <input name="password" type="password" autocomplete="current-password" required>
+                </label>
+                <button class="btn btn-primary" type="submit">Entrar</button>
+            </form>
+        </section>
+
+        <section class="admin-area" id="admin-view" hidden>
+            <div class="container">
+                <div class="page-header admin-header">
+                    <div>
+                        <span class="eyebrow">Gestão</span>
+                        <h1>Painel do torneio</h1>
+                        <p>Atualiza equipas, jogos, resultados, comunicados e regras. As páginas públicas usam estes dados automaticamente.</p>
+                    </div>
+                    <div class="admin-stats-grid" id="admin-stats"></div>
+                </div>
+
+                <div class="admin-message" id="admin-message" hidden></div>
+
+                <div class="admin-tabs">
+                    <button class="active" type="button" data-admin-tab="settings">Definições</button>
+                    <button type="button" data-admin-tab="teams">Equipas</button>
+                    <button type="button" data-admin-tab="matches">Jogos</button>
+                    <button type="button" data-admin-tab="announcements">Comunicados</button>
+                    <button type="button" data-admin-tab="rules">Regras</button>
+                    <button type="button" data-admin-tab="standings">Classificação</button>
+                </div>
+
+                <section class="admin-panel" data-admin-panel="settings">
+                    <form class="admin-form" id="settings-form">
+                        <h2>Definições do torneio</h2>
+                        <div class="form-grid">
+                            <label>Nome<input name="tournamentName" required></label>
+                            <label>Subtítulo<input name="subtitle"></label>
+                            <label class="full">Descrição<textarea name="description" rows="3"></textarea></label>
+                            <label>Local<input name="venue"></label>
+                            <label>Contacto<input name="contactEmail" type="email"></label>
+                            <label>Data início<input name="startDate" type="date"></label>
+                            <label>Data fim<input name="endDate" type="date"></label>
+                            <label>Última atualização<input name="lastUpdated" type="date"></label>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Guardar definições</button>
+                    </form>
+                </section>
+
+                <section class="admin-panel" data-admin-panel="teams" hidden>
+                    <form class="admin-form" id="team-form">
+                        <div class="admin-form-heading">
+                            <h2>Equipas</h2>
+                            <button class="btn btn-secondary" type="button" data-clear-form="team-form">Nova equipa</button>
+                        </div>
+                        <div class="form-grid">
+                            <label>ID<input name="id" placeholder="a1" required></label>
+                            <label>Grupo<input name="group" placeholder="Grupo A" required></label>
+                            <label>Nome<input name="name" required></label>
+                            <label>Sigla<input name="shortName" required></label>
+                            <label>Logo URL<input name="logoUrl"></label>
+                            <label>Capitão<input name="captain"></label>
+                            <label>Ordem<input name="sortOrder" type="number" value="0"></label>
+                            <label class="check-row"><input name="active" type="checkbox" data-default-checked checked> Ativa</label>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Guardar equipa</button>
+                    </form>
+                    <div id="teams-table"></div>
+                </section>
+
+                <section class="admin-panel" data-admin-panel="matches" hidden>
+                    <form class="admin-form" id="match-form">
+                        <div class="admin-form-heading">
+                            <h2>Jogos e resultados</h2>
+                            <button class="btn btn-secondary" type="button" data-clear-form="match-form">Novo jogo</button>
+                        </div>
+                        <div class="form-grid">
+                            <label>ID<input name="id" placeholder="m1" required></label>
+                            <label>Grupo<input name="group" placeholder="Grupo A" required></label>
+                            <label>Jornada<input name="round" placeholder="Jornada 1"></label>
+                            <label>Data<input name="date" type="date"></label>
+                            <label>Hora<input name="time" type="time"></label>
+                            <label>Local<input name="venue"></label>
+                            <label>Casa<select name="homeTeamId" data-team-select required></select></label>
+                            <label>Fora<select name="awayTeamId" data-team-select required></select></label>
+                            <label>Golos casa<input name="homeScore" type="number" min="0"></label>
+                            <label>Golos fora<input name="awayScore" type="number" min="0"></label>
+                            <label>Estado<select name="status"><option value="scheduled">Agendado</option><option value="live">Ao vivo</option><option value="finished">Terminado</option><option value="postponed">Adiado</option></select></label>
+                            <label>Ordem<input name="sortOrder" type="number" value="0"></label>
+                            <label class="full">Notas<textarea name="notes" rows="2"></textarea></label>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Guardar jogo</button>
+                    </form>
+                    <div id="matches-table"></div>
+                </section>
+
+                <section class="admin-panel" data-admin-panel="announcements" hidden>
+                    <form class="admin-form" id="announcement-form">
+                        <div class="admin-form-heading">
+                            <h2>Comunicados</h2>
+                            <button class="btn btn-secondary" type="button" data-clear-form="announcement-form">Novo comunicado</button>
+                        </div>
+                        <div class="form-grid">
+                            <label>ID<input name="id" placeholder="n1" required></label>
+                            <label>Data<input name="date" type="date"></label>
+                            <label class="full">Título<input name="title" required></label>
+                            <label class="full">Texto<textarea name="body" rows="3" required></textarea></label>
+                            <label class="check-row"><input name="pinned" type="checkbox"> Fixo</label>
+                            <label class="check-row"><input name="active" type="checkbox" data-default-checked checked> Ativo</label>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Guardar comunicado</button>
+                    </form>
+                    <div id="announcements-table"></div>
+                </section>
+
+                <section class="admin-panel" data-admin-panel="rules" hidden>
+                    <form class="admin-form" id="rule-form">
+                        <div class="admin-form-heading">
+                            <h2>Regras</h2>
+                            <button class="btn btn-secondary" type="button" data-clear-form="rule-form">Nova regra</button>
+                        </div>
+                        <div class="form-grid">
+                            <label>ID<input name="id" placeholder="r1" required></label>
+                            <label>Ordem<input name="sortOrder" type="number" value="0"></label>
+                            <label class="full">Título<input name="title" required></label>
+                            <label class="full">Texto<textarea name="body" rows="3" required></textarea></label>
+                            <label class="check-row"><input name="active" type="checkbox" data-default-checked checked> Ativa</label>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Guardar regra</button>
+                    </form>
+                    <div id="rules-table"></div>
+                </section>
+
+                <section class="admin-panel" data-admin-panel="standings" hidden>
+                    <div id="admin-standings-preview"></div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/config.js"></script>
+    <script type="module" src="js/pages/admin.js"></script>
+</body>
+</html>

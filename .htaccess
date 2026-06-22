@@ -5,6 +5,10 @@ Redirect 301 /guia-do-caloiro/ /guia-caloiro.html
 Redirect 301 /galeria/ /galeria.html
 Redirect 301 /sessoes-informativas/ /noticias.html
 
+<FilesMatch "^(\.env|config\.local\.php)$">
+Require all denied
+</FilesMatch>
+
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteCond %{THE_REQUEST} \s/+index\.php[\s?] [NC]
