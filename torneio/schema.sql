@@ -29,6 +29,8 @@ CREATE TABLE IF NOT EXISTS torneio_matches (
     away_score INT NULL,
     status VARCHAR(30) NOT NULL DEFAULT 'scheduled',
     notes TEXT NULL,
+    player_of_match_player_id VARCHAR(64) NULL,
+    player_of_match_name VARCHAR(160) NULL,
     sort_order INT NOT NULL DEFAULT 0,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -36,6 +38,38 @@ CREATE TABLE IF NOT EXISTS torneio_matches (
     INDEX idx_torneio_matches_status (status),
     CONSTRAINT fk_torneio_home_team FOREIGN KEY (home_team_id) REFERENCES torneio_teams(id) ON UPDATE CASCADE,
     CONSTRAINT fk_torneio_away_team FOREIGN KEY (away_team_id) REFERENCES torneio_teams(id) ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS torneio_players (
+    id VARCHAR(64) PRIMARY KEY,
+    team_id VARCHAR(64) NOT NULL,
+    name VARCHAR(160) NOT NULL,
+    shirt_number INT NULL,
+    position VARCHAR(80) NULL,
+    active TINYINT(1) NOT NULL DEFAULT 1,
+    sort_order INT NOT NULL DEFAULT 0,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    INDEX idx_torneio_players_team (team_id),
+    CONSTRAINT fk_torneio_players_team FOREIGN KEY (team_id) REFERENCES torneio_teams(id) ON UPDATE CASCADE ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS torneio_goals (
+    id VARCHAR(64) PRIMARY KEY,
+    match_id VARCHAR(64) NOT NULL,
+    team_id VARCHAR(64) NOT NULL,
+    player_id VARCHAR(64) NULL,
+    player_name VARCHAR(160) NULL,
+    minute INT NULL,
+    own_goal TINYINT(1) NOT NULL DEFAULT 0,
+    penalty TINYINT(1) NOT NULL DEFAULT 0,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    INDEX idx_torneio_goals_match (match_id),
+    INDEX idx_torneio_goals_player (player_id),
+    CONSTRAINT fk_torneio_goals_match FOREIGN KEY (match_id) REFERENCES torneio_matches(id) ON UPDATE CASCADE ON DELETE CASCADE,
+    CONSTRAINT fk_torneio_goals_team FOREIGN KEY (team_id) REFERENCES torneio_teams(id) ON UPDATE CASCADE,
+    CONSTRAINT fk_torneio_goals_player FOREIGN KEY (player_id) REFERENCES torneio_players(id) ON UPDATE CASCADE ON DELETE SET NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 CREATE TABLE IF NOT EXISTS torneio_announcements (

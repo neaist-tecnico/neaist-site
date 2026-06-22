@@ -6,6 +6,8 @@ const fallbackData = {
     settings: sampleSettings,
     teams: sampleTeams,
     matches: sampleMatches,
+    players: [],
+    goals: [],
     announcements: sampleAnnouncements,
     rules: sampleRules
 };
@@ -17,6 +19,8 @@ export async function loadTournamentData() {
         settings: normalizeSettings(apiData.settings),
         teams: normalizeTeams(apiData.teams),
         matches: normalizeMatches(apiData.matches),
+        players: normalizePlayers(apiData.players),
+        goals: normalizeGoals(apiData.goals),
         announcements: normalizeAnnouncements(apiData.announcements),
         rules: normalizeRules(apiData.rules)
     };
@@ -51,6 +55,8 @@ async function loadApiData() {
             settings: {},
             teams: [],
             matches: [],
+            players: [],
+            goals: [],
             announcements: [],
             rules: []
         };
@@ -98,9 +104,40 @@ function normalizeMatches(matches) {
             homeScore: parseScore(match.homeScore),
             awayScore: parseScore(match.awayScore),
             status: clean(match.status) || 'scheduled',
-            notes: clean(match.notes)
+            notes: clean(match.notes),
+            playerOfMatchPlayerId: clean(match.playerOfMatchPlayerId),
+            playerOfMatchName: clean(match.playerOfMatchName)
         }))
         .filter((match) => match.id && match.homeTeamId && match.awayTeamId);
+}
+
+function normalizePlayers(players) {
+    return (players || [])
+        .map((player) => ({
+            id: clean(player.id),
+            teamId: clean(player.teamId),
+            name: clean(player.name),
+            shirtNumber: parseScore(player.shirtNumber),
+            position: clean(player.position),
+            active: parseBool(player.active, true),
+            sortOrder: Number(player.sortOrder) || 0
+        }))
+        .filter((player) => player.id && player.teamId && player.name && player.active);
+}
+
+function normalizeGoals(goals) {
+    return (goals || [])
+        .map((goal) => ({
+            id: clean(goal.id),
+            matchId: clean(goal.matchId),
+            teamId: clean(goal.teamId),
+            playerId: clean(goal.playerId),
+            playerName: clean(goal.playerName),
+            minute: parseScore(goal.minute),
+            ownGoal: parseBool(goal.ownGoal, false),
+            penalty: parseBool(goal.penalty, false)
+        }))
+        .filter((goal) => goal.id && goal.matchId && goal.teamId);
 }
 
 function normalizeAnnouncements(announcements) {

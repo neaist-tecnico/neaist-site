@@ -26,6 +26,10 @@ export function teamShortName(teamById, id) {
     return teamById.get(id)?.shortName || 'TBD';
 }
 
+export function teamLogo(teamById, id) {
+    return teamById.get(id)?.logoUrl || '';
+}
+
 export function formatMatchDate(match) {
     if (!match.date) {
         return 'Data por confirmar';
@@ -78,11 +82,13 @@ export function renderMatchCard(match, teamById) {
             </div>
             <a class="match-card-body" href="jogo.html?id=${encodeURIComponent(match.id)}">
                 <div class="match-team">
+                    ${renderTeamBadge(teamById, match.homeTeamId)}
                     <strong>${escapeHtml(teamName(teamById, match.homeTeamId))}</strong>
                     <span>${escapeHtml(teamShortName(teamById, match.homeTeamId))}</span>
                 </div>
                 <div class="match-score">${escapeHtml(renderScore(match))}</div>
                 <div class="match-team match-team-away">
+                    ${renderTeamBadge(teamById, match.awayTeamId)}
                     <strong>${escapeHtml(teamName(teamById, match.awayTeamId))}</strong>
                     <span>${escapeHtml(teamShortName(teamById, match.awayTeamId))}</span>
                 </div>
@@ -93,6 +99,14 @@ export function renderMatchCard(match, teamById) {
             </div>
         </article>
     `;
+}
+
+function renderTeamBadge(teamById, id) {
+    const logoUrl = teamLogo(teamById, id);
+
+    return logoUrl
+        ? `<img class="match-team-logo" src="${escapeHtml(logoUrl)}" alt="">`
+        : '';
 }
 
 export function renderStandingsTable(group) {

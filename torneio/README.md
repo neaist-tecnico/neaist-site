@@ -21,6 +21,8 @@ The public pages read from `api/data.php`. The admin page writes through `api/ad
 - `torneio_settings`
 - `torneio_teams`
 - `torneio_matches`
+- `torneio_players`
+- `torneio_goals`
 - `torneio_announcements`
 - `torneio_rules`
 
@@ -32,3 +34,5 @@ The public pages read from `api/data.php`. The admin page writes through `api/ad
 - `postponed`
 
 Only `finished` matches with both scores filled count for standings.
+
+The admin panel can also manage players, goalscorers, player-of-the-match nominations, group draw assignments, and prize/statistics previews.

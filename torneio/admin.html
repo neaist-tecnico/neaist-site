@@ -62,10 +62,12 @@
                 <div class="admin-tabs">
                     <button class="active" type="button" data-admin-tab="settings">Definições</button>
                     <button type="button" data-admin-tab="teams">Equipas</button>
+                    <button type="button" data-admin-tab="players">Jogadores</button>
+                    <button type="button" data-admin-tab="draw">Sorteio/Grupos</button>
                     <button type="button" data-admin-tab="matches">Jogos</button>
-                    <button type="button" data-admin-tab="announcements">Comunicados</button>
-                    <button type="button" data-admin-tab="rules">Regras</button>
+                    <button type="button" data-admin-tab="goals">Marcadores</button>
                     <button type="button" data-admin-tab="standings">Classificação</button>
+                    <button type="button" data-admin-tab="stats">Prémios/Estatísticas</button>
                 </div>
 
                 <section class="admin-panel" data-admin-panel="settings">
@@ -92,11 +94,12 @@
                             <button class="btn btn-secondary" type="button" data-clear-form="team-form">Nova equipa</button>
                         </div>
                         <div class="form-grid">
-                            <label>ID<input name="id" placeholder="a1" required></label>
+                            <label>ID<input name="id" placeholder="gerado automaticamente" readonly></label>
                             <label>Grupo<input name="group" placeholder="Grupo A" required></label>
                             <label>Nome<input name="name" required></label>
                             <label>Sigla<input name="shortName" required></label>
                             <label>Logo URL<input name="logoUrl"></label>
+                            <div class="image-preview" id="team-logo-preview"><span>Sem imagem</span></div>
                             <label>Capitão<input name="captain"></label>
                             <label>Ordem<input name="sortOrder" type="number" value="0"></label>
                             <label class="check-row"><input name="active" type="checkbox" data-default-checked checked> Ativa</label>
@@ -106,6 +109,47 @@
                     <div id="teams-table"></div>
                 </section>
 
+                <section class="admin-panel" data-admin-panel="players" hidden>
+                    <form class="admin-form" id="player-form">
+                        <div class="admin-form-heading">
+                            <h2>Jogadores</h2>
+                            <button class="btn btn-secondary" type="button" data-clear-form="player-form">Novo jogador</button>
+                        </div>
+                        <div class="form-grid">
+                            <label>ID<input name="id" placeholder="gerado automaticamente" readonly></label>
+                            <label>Equipa<select name="teamId" data-team-select required></select></label>
+                            <label>Nome<input name="name" required></label>
+                            <label>Número<input name="shirtNumber" type="number" min="0"></label>
+                            <label>Posição<input name="position" placeholder="Goalkeeper, Avançado..."></label>
+                            <label>Ordem<input name="sortOrder" type="number" value="0"></label>
+                            <label class="check-row"><input name="active" type="checkbox" data-default-checked checked> Ativo</label>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Guardar jogador</button>
+                    </form>
+                    <div id="players-table"></div>
+                </section>
+
+                <section class="admin-panel" data-admin-panel="draw" hidden>
+                    <div class="admin-form">
+                        <div class="admin-form-heading">
+                            <h2>Sorteio de grupos</h2>
+                            <button class="btn btn-secondary" type="button" id="draw-groups-button">Sortear grupos</button>
+                        </div>
+                        <div class="form-grid">
+                            <label>Número de grupos
+                                <select id="draw-group-count">
+                                    <option value="2">2 grupos</option>
+                                    <option value="3">3 grupos</option>
+                                    <option value="4">4 grupos</option>
+                                </select>
+                            </label>
+                        </div>
+                        <p>O sorteio distribui equipas ativas de forma equilibrada. Guardar grupos vai substituir os grupos atuais das equipas.</p>
+                        <div id="draw-preview" class="draw-preview"></div>
+                        <button class="btn btn-primary" type="button" id="save-groups-button" disabled>Guardar grupos</button>
+                    </div>
+                </section>
+
                 <section class="admin-panel" data-admin-panel="matches" hidden>
                     <form class="admin-form" id="match-form">
                         <div class="admin-form-heading">
@@ -113,7 +157,7 @@
                             <button class="btn btn-secondary" type="button" data-clear-form="match-form">Novo jogo</button>
                         </div>
                         <div class="form-grid">
-                            <label>ID<input name="id" placeholder="m1" required></label>
+                            <label>ID<input name="id" placeholder="gerado automaticamente" readonly></label>
                             <label>Grupo<input name="group" placeholder="Grupo A" required></label>
                             <label>Jornada<input name="round" placeholder="Jornada 1"></label>
                             <label>Data<input name="date" type="date"></label>
@@ -125,6 +169,8 @@
                             <label>Golos fora<input name="awayScore" type="number" min="0"></label>
                             <label>Estado<select name="status"><option value="scheduled">Agendado</option><option value="live">Ao vivo</option><option value="finished">Terminado</option><option value="postponed">Adiado</option></select></label>
                             <label>Ordem<input name="sortOrder" type="number" value="0"></label>
+                            <label>Jogador do jogo<select name="playerOfMatchPlayerId" data-player-select></select></label>
+                            <label>Jogador do jogo manual<input name="playerOfMatchName" placeholder="Nome livre"></label>
                             <label class="full">Notas<textarea name="notes" rows="2"></textarea></label>
                         </div>
                         <button class="btn btn-primary" type="submit">Guardar jogo</button>
@@ -132,51 +178,40 @@
                     <div id="matches-table"></div>
                 </section>
 
-                <section class="admin-panel" data-admin-panel="announcements" hidden>
-                    <form class="admin-form" id="announcement-form">
+                <section class="admin-panel" data-admin-panel="goals" hidden>
+                    <form class="admin-form" id="goal-form">
                         <div class="admin-form-heading">
-                            <h2>Comunicados</h2>
-                            <button class="btn btn-secondary" type="button" data-clear-form="announcement-form">Novo comunicado</button>
+                            <h2>Marcadores</h2>
+                            <button class="btn btn-secondary" type="button" data-clear-form="goal-form">Novo golo</button>
                         </div>
                         <div class="form-grid">
-                            <label>ID<input name="id" placeholder="n1" required></label>
-                            <label>Data<input name="date" type="date"></label>
-                            <label class="full">Título<input name="title" required></label>
-                            <label class="full">Texto<textarea name="body" rows="3" required></textarea></label>
-                            <label class="check-row"><input name="pinned" type="checkbox"> Fixo</label>
-                            <label class="check-row"><input name="active" type="checkbox" data-default-checked checked> Ativo</label>
+                            <label>ID<input name="id" placeholder="gerado automaticamente" readonly></label>
+                            <label>Jogo<select name="matchId" data-match-select required></select></label>
+                            <label>Equipa<select name="teamId" data-team-select required></select></label>
+                            <label>Jogador<select name="playerId" data-player-select></select></label>
+                            <label>Nome manual<input name="playerName" placeholder="se não estiver registado"></label>
+                            <label>Minuto<input name="minute" type="number" min="0"></label>
+                            <label class="check-row"><input name="ownGoal" type="checkbox"> Auto-golo</label>
+                            <label class="check-row"><input name="penalty" type="checkbox"> Penalti</label>
                         </div>
-                        <button class="btn btn-primary" type="submit">Guardar comunicado</button>
+                        <button class="btn btn-primary" type="submit">Guardar marcador</button>
                     </form>
-                    <div id="announcements-table"></div>
-                </section>
-
-                <section class="admin-panel" data-admin-panel="rules" hidden>
-                    <form class="admin-form" id="rule-form">
-                        <div class="admin-form-heading">
-                            <h2>Regras</h2>
-                            <button class="btn btn-secondary" type="button" data-clear-form="rule-form">Nova regra</button>
-                        </div>
-                        <div class="form-grid">
-                            <label>ID<input name="id" placeholder="r1" required></label>
-                            <label>Ordem<input name="sortOrder" type="number" value="0"></label>
-                            <label class="full">Título<input name="title" required></label>
-                            <label class="full">Texto<textarea name="body" rows="3" required></textarea></label>
-                            <label class="check-row"><input name="active" type="checkbox" data-default-checked checked> Ativa</label>
-                        </div>
-                        <button class="btn btn-primary" type="submit">Guardar regra</button>
-                    </form>
-                    <div id="rules-table"></div>
+                    <div id="goals-warning"></div>
+                    <div id="goals-table"></div>
                 </section>
 
                 <section class="admin-panel" data-admin-panel="standings" hidden>
                     <div id="admin-standings-preview"></div>
+                </section>
+
+                <section class="admin-panel" data-admin-panel="stats" hidden>
+                    <div id="admin-stats-preview"></div>
                 </section>
             </div>
         </section>
     </main>
 
     <script src="js/config.js"></script>
-    <script type="module" src="js/pages/admin.js?v=20260622-auth-fix"></script>
+    <script type="module" src="js/pages/admin.js?v=20260623-admin-stats"></script>
 </body>
 </html>

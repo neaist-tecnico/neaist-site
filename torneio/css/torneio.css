@@ -420,6 +420,15 @@ dd {
     font-weight: 800;
 }
 
+.match-team-logo {
+    width: 34px;
+    height: 34px;
+    margin-bottom: 7px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid var(--neaist-line);
+}
+
 .match-team-away {
     text-align: right;
 }
@@ -594,6 +603,41 @@ dd {
     font-weight: 800;
 }
 
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.match-goals {
+    margin: 24px 0;
+    padding: 20px;
+    border: 1px solid var(--neaist-line);
+    border-radius: var(--radius);
+    background: #f8fcff;
+}
+
+.match-goals ul {
+    display: grid;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.match-goals li {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    border-bottom: 1px solid var(--neaist-line);
+    padding-bottom: 10px;
+}
+
+.match-goals li:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
 .admin-shell {
     min-height: calc(100vh - 76px);
 }
@@ -746,6 +790,71 @@ dd {
     grid-column: 1 / -1;
 }
 
+.image-preview {
+    min-height: 74px;
+    display: grid;
+    place-items: center;
+    border: 1px dashed var(--neaist-line);
+    border-radius: var(--radius);
+    background: #f8fcff;
+    color: var(--neaist-muted);
+    font-weight: 800;
+}
+
+.image-preview img {
+    width: 68px;
+    height: 68px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.admin-thumb {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid var(--neaist-line);
+}
+
+.admin-thumb-fallback {
+    color: var(--neaist-muted);
+    font-weight: 800;
+}
+
+.admin-warning {
+    margin-bottom: 16px;
+    padding: 16px;
+    border: 1px solid rgba(183, 121, 31, 0.28);
+    border-radius: var(--radius);
+    background: #fff8e8;
+    color: var(--warning);
+    font-weight: 700;
+}
+
+.admin-warning p {
+    margin: 6px 0 0;
+    color: inherit;
+}
+
+.draw-preview {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    margin: 18px 0;
+}
+
+.draw-card {
+    padding: 16px;
+    border: 1px solid var(--neaist-line);
+    border-radius: var(--radius);
+    background: #f8fcff;
+}
+
+.draw-card ul {
+    margin: 0;
+    padding-left: 18px;
+}
+
 .check-row {
     display: inline-flex !important;
     grid-auto-flow: column;
@@ -817,8 +926,10 @@ dd {
     .dashboard-grid,
     .match-list,
     .rules-grid,
+    .stats-grid,
     .admin-header,
-    .form-grid {
+    .form-grid,
+    .draw-preview {
         grid-template-columns: 1fr;
     }
 
