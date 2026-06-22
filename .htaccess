@@ -1,0 +1,16 @@
+Redirect 301 /sobre-nos/ /sobre-nos.html
+Redirect 301 /contactos/ /contactos.html
+Redirect 301 /programa-mentorado/ /mentoria.html
+Redirect 301 /guia-do-caloiro/ /guia-caloiro.html
+Redirect 301 /galeria/ /galeria.html
+Redirect 301 /sessoes-informativas/ /noticias.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{THE_REQUEST} \s/+index\.php[\s?] [NC]
+RewriteRule ^index\.php$ / [R=301,L]
+RewriteCond %{QUERY_STRING} ^p=[0-9]+$ [NC]
+RewriteRule ^$ /? [R=301,L]
+RewriteCond %{QUERY_STRING} ^p=[0-9]+$ [NC]
+RewriteRule ^index\.html$ /? [R=301,L]
+</IfModule>

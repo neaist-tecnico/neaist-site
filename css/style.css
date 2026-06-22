@@ -2035,6 +2035,9 @@ section {
 .department-members {
     display: grid;
     gap: 0.8rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .member-chip {
