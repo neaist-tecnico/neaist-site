@@ -18,7 +18,7 @@ const translations = {
         nav_gallery: "Galeria",
         nav_africa_day: "Dia de África",
         nav_resources: "Recursos",
-        nav_guide: "Guia do Caloiro",
+        nav_guide: "Welcome to Técnico",
         nav_mentoring: "Programa Mentorado",
         nav_contact: "Contactos",
         nav_recruitment: "Recrutamento",
@@ -293,17 +293,17 @@ const translations = {
         link4_desc: "Serviços de apoio à carreira",
         
         // Guide Page
-        guide_title: "Guia do Caloiro",
-        guide_subtitle: "Bem-vindo ao IST! Estamos aqui para te ajudar a começar",
+        guide_title: "WELCOME TO TÉCNICO",
+        guide_subtitle: "Primeiros passos, apoio NEAIST e Guia para Novos Alunos 2026/27.",
         guide_welcome_title: "Bem-vindo ao Instituto Superior Técnico!",
         guide_welcome_p1: "Parabéns por teres ingressado no IST! Este é o início de uma jornada incrível de aprendizagem, crescimento e novas experiências. Este guia foi criado para te ajudar a navegar pelos primeiros passos desta nova etapa da tua vida.",
-        guide_docs_kicker: "Guias PDF",
+        guide_docs_kicker: "Guia PDF",
         guide_docs_title: "Documentos de apoio para novos estudantes",
-        guide_docs_subtitle: "Acede diretamente aos dois guias preparados para te acompanhar nos primeiros passos no Técnico.",
-        guide_doc1_title: "Guia 1 - Primeiros Passos",
-        guide_doc1_desc: "Introdução essencial para novos alunos, com orientações iniciais sobre adaptação, organização e vida académica.",
-        guide_doc2_title: "Guia 2 - Próximos Passos",
-        guide_doc2_desc: "Guia complementar com informação prática para os primeiros tempos no IST e integração no campus.",
+        guide_docs_subtitle: "Acede ao Guia para Novos Alunos 2026/27, preparado para te acompanhar nos primeiros passos no Técnico.",
+        guide_doc1_title: "Guia para Novos Alunos 2026/27",
+        guide_doc1_desc: "Informação prática para os primeiros passos no Técnico e em Lisboa.",
+        guide_doc2_title: "Guia para Novos Alunos 2026/27",
+        guide_doc2_desc: "Informação prática para os primeiros passos no Técnico e em Lisboa.",
 
         guide_steps_title: "Primeiros Passos",
         guide_step1_title: "Antes de Chegares",
@@ -364,7 +364,7 @@ const translations = {
         nav_gallery: "Gallery",
         nav_africa_day: "Africa Day",
         nav_resources: "Resources",
-        nav_guide: "Freshman Guide",
+        nav_guide: "Welcome to Técnico",
         nav_mentoring: "Mentoring Program",
         nav_contact: "Contact",
         nav_recruitment: "Recruitment",
@@ -634,17 +634,17 @@ const translations = {
         link4_desc: "Career support services",
         
         // Guide Page
-        guide_title: "Freshman Guide",
-        guide_subtitle: "Welcome to IST! We're here to help you get started",
+        guide_title: "WELCOME TO TÉCNICO",
+        guide_subtitle: "First steps, NEAIST support, and the 2026/27 New Students Guide.",
         guide_welcome_title: "Welcome to Instituto Superior Técnico!",
         guide_welcome_p1: "Congratulations on joining IST! This is the beginning of an incredible journey of learning, growth and new experiences. This guide was created to help you navigate the first steps of this new chapter in your life.",
-        guide_docs_kicker: "PDF Guides",
+        guide_docs_kicker: "PDF Guide",
         guide_docs_title: "Support documents for new students",
-        guide_docs_subtitle: "Access the two guides prepared to accompany you through your first steps at Técnico.",
-        guide_doc1_title: "Guide 1 - First Steps",
-        guide_doc1_desc: "Essential introduction for new students, with initial guidance on adaptation, organization, and academic life.",
-        guide_doc2_title: "Guide 2 - Next Steps",
-        guide_doc2_desc: "Complementary guide with practical information for your first period at IST and integration on campus.",
+        guide_docs_subtitle: "Access the 2026/27 New Students Guide, prepared to support your first steps at Técnico.",
+        guide_doc1_title: "New Students Guide 2026/27",
+        guide_doc1_desc: "Practical information for your first steps at Técnico and in Lisbon.",
+        guide_doc2_title: "New Students Guide 2026/27",
+        guide_doc2_desc: "Practical information for your first steps at Técnico and in Lisbon.",
 
         guide_steps_title: "First Steps",
         guide_step1_title: "Before Arriving",
@@ -791,8 +791,8 @@ const pageCopy = {
     },
     "guia-caloiro.html": {
         pt: {
-            title: "Guia do Caloiro | NEAIST",
-            description: "Guia do caloiro NEAIST com primeiros passos, FAQ e apoio para novos estudantes africanos no Instituto Superior Técnico.",
+            title: "Welcome to Técnico | Guia para Novos Alunos 2026/27 — NEAIST",
+            description: "Novo no Técnico? Encontra informação útil para os teus primeiros passos, Guia para Novos Alunos 2026/27, Mentorado NEAIST, Study Squads e respostas às dúvidas mais frequentes.",
             stepLists: [
                 "Confirmar matrícula e inscrição",
                 "Organizar alojamento",
@@ -824,8 +824,8 @@ const pageCopy = {
             ]
         },
         en: {
-            title: "Freshman Guide | NEAIST",
-            description: "NEAIST freshman guide with first steps, FAQ, and support for new African students at Instituto Superior Técnico.",
+            title: "Welcome to Técnico | New Students Guide 2026/27 — NEAIST",
+            description: "New at Técnico? Find useful first-step information, the 2026/27 New Students Guide, NEAIST Mentoring, Study Squads, and frequent questions.",
             stepLists: [
                 "Confirm enrolment and registration",
                 "Arrange accommodation",
@@ -1090,7 +1090,7 @@ const pageCopy = {
     "recursos.html": {
         pt: {
             title: "Recursos Académicos | NEAIST",
-            description: "Documentos, guias e recursos académicos do NEAIST, incluindo Study Squads, apoio institucional e repositórios por curso.",
+            description: "Documentos, Guia para Novos Alunos 2026/27 e recursos académicos do NEAIST, incluindo Study Squads, apoio institucional e repositórios por curso.",
             introKicker: "Apoio académico e institucional",
             introTitle: "Documentos, guias e recursos por curso",
             introText: "Reunimos nesta página os principais documentos do NEAIST, guias para novos estudantes, materiais de mentoria e ligações úteis para apoio académico no Técnico.",
@@ -1102,22 +1102,20 @@ const pageCopy = {
                 "Serviços e plataformas do Técnico que ajudam na vida académica, integração no campus e acesso a apoio institucional.",
                 "Repositórios e bibliotecas úteis organizados por área, com uma apresentação mais limpa e consistente para consulta rápida."
             ],
-            featureTags: ["Projeto académico", "Oportunidade", "Documento", "PDF", "Caloiros", "Caloiros"],
+            featureTags: ["Projeto académico", "Oportunidade", "Documento", "PDF", "2026/2027"],
             featureTitles: [
                 "Study Squads NEAIST",
                 "Candidatura a Tutor",
                 "Estatutos do NEAIST",
                 "Projeto Study Squads",
-                "Guia 1 - Primeiros Passos",
-                "Guia 2 - Próximos Passos"
+                "Guia para Novos Alunos - 2026/27"
             ],
             featureTexts: [
                 "Conhece a iniciativa de grupos de estudo criada para reforçar a aprendizagem colaborativa ao longo do semestre.",
                 "Formulário para estudantes que queiram integrar a primeira fase do projeto Study Squads como Tutores.",
                 "Consulta institucional dos estatutos do núcleo em formato PDF.",
                 "Documento complementar com o enquadramento, objetivos e estrutura base da iniciativa.",
-                "Documento de apoio inicial para novos alunos do Técnico, com orientações essenciais para começar.",
-                "Continuação do guia de integração, com informação prática para os primeiros tempos no IST."
+                "Informação prática para os primeiros passos no Técnico e em Lisboa, incluindo matrícula, ferramentas digitais, ação social, alojamento, NIF, SNS e autorização de residência."
             ],
             supportTitles: [
                 "Fénix",
@@ -1172,7 +1170,7 @@ const pageCopy = {
         },
         en: {
             title: "Academic Resources | NEAIST",
-            description: "NEAIST documents, guides, and academic resources, including Study Squads, institutional support, and course repositories.",
+            description: "NEAIST documents, the 2026/27 New Students Guide, and academic resources, including Study Squads, institutional support, and course repositories.",
             introKicker: "Academic and institutional support",
             introTitle: "Documents, guides, and course resources",
             introText: "This page brings together NEAIST’s main documents, guides for new students, mentoring materials, and useful links for academic support at Técnico.",
@@ -1184,22 +1182,20 @@ const pageCopy = {
                 "Técnico services and platforms that support academic life, campus integration, and access to institutional support.",
                 "Useful repositories and libraries organized by area, with a cleaner and more consistent presentation for quick consultation."
             ],
-            featureTags: ["Academic project", "Opportunity", "Document", "PDF", "Freshmen", "Freshmen"],
+            featureTags: ["Academic project", "Opportunity", "Document", "PDF", "2026/2027"],
             featureTitles: [
                 "Study Squads NEAIST",
                 "Apply as a Tutor",
                 "NEAIST Statutes",
                 "Study Squads Project",
-                "Guide 1 - First Steps",
-                "Guide 2 - Next Steps"
+                "New Students Guide - 2026/27"
             ],
             featureTexts: [
                 "Learn about the study-group initiative created to strengthen collaborative learning throughout the semester.",
                 "Form for students who want to join the first phase of the Study Squads project as Tutors.",
                 "Institutional PDF version of the association’s statutes.",
                 "Complementary document with the initiative’s framework, goals, and core structure.",
-                "Introductory support document for new Técnico students, with essential guidance to get started.",
-                "Continuation of the integration guide, with practical information for the first weeks at IST."
+                "Practical information for first steps at Técnico and in Lisbon, including enrollment, digital tools, social support, accommodation, NIF, SNS, and residence permits."
             ],
             supportTitles: [
                 "Fénix",

@@ -2,6 +2,8 @@ Redirect 301 /sobre-nos/ /sobre-nos.html
 Redirect 301 /contactos/ /contactos.html
 Redirect 301 /programa-mentorado/ /mentoria.html
 Redirect 301 /guia-do-caloiro/ /guia-caloiro.html
+Redirect 301 /files/Guia-para-Novos-Alunos.pdf /files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf
+Redirect 301 /files/Guia-2-Proximos-Passos-Caloiros.pdf /files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf
 Redirect 301 /galeria/ /galeria.html
 Redirect 301 /sessoes-informativas/ /noticias.html
 
