@@ -1100,7 +1100,7 @@ const pageCopy = {
             sectionTexts: [
                 "Os principais documentos, projetos e pontos de entrada académicos do núcleo, reunidos numa secção mais direta e fácil de consultar.",
                 "Serviços e plataformas do Técnico que ajudam na vida académica, integração no campus e acesso a apoio institucional.",
-                "Repositórios e bibliotecas úteis organizados por área, com uma apresentação mais limpa e consistente para consulta rápida."
+                "Repositórios, bibliotecas e comunidades de estudantes organizados por área para encontrares o apoio certo mais depressa."
             ],
             featureTags: ["Projeto académico", "Oportunidade", "Documento", "PDF", "2026/2027"],
             featureTitles: [
@@ -1141,32 +1141,35 @@ const pageCopy = {
             ],
             supportTags: ["Portal", "Institucional", "Associação", "Apoio", "Académico", "Saúde", "Residências", "Bolsas", "Mobilidade"],
             courseTitles: [
-                "LEAer e MEAer",
-                "LEBiom e MEBiom",
-                "LEEC e MEEC",
-                "LEIC e MEIC — Eden Box",
-                "LEIC e MEIC — Dropbox",
-                "LEIC e MEIC — Dropbox Shelf LEIC",
-                "LEIC e MEIC — Resumos LEIC-A",
-                "LEIC e MEIC — LEIC My Box",
-                "LENO e MENO",
-                "LETI e METI",
-                "LMAC e MMAC"
+                "Engenharia Aeroespacial",
+                "Engenharia Biomédica",
+                "Engenharia Eletrotécnica e de Computadores",
+                "Engenharia Informática",
+                "Engenharia Naval e Oceânica",
+                "Telecomunicações e Informática",
+                "Matemática Aplicada e Computação"
             ],
             courseTexts: [
-                "Repositório de apoio para estudantes de engenharia aeroespacial.",
-                "Materiais académicos organizados para engenharia biomédica.",
-                "Recursos úteis para engenharia eletrotécnica e de computadores.",
-                "Repositório de materiais académicos para estudantes de informática.",
-                "Biblioteca partilhada com materiais de apoio e ficheiros de estudo.",
-                "Arquivo complementar para estudantes de LEIC com materiais de várias cadeiras.",
-                "Coleção de resumos de apoio para estudantes de LEIC-A.",
-                "Biblioteca adicional de materiais académicos para informática.",
-                "Recursos de apoio para engenharia naval e oceânica.",
-                "Materiais partilhados para telecomunicações e informática.",
-                "Recursos e repositórios para matemática aplicada e computação."
+                "AeroCloud da AeroTéc, com materiais e partilhas da comunidade aeroespacial.",
+                "Repositório académico do NEBM com materiais de apoio para a área biomédica.",
+                "Drive de recursos do NEEC com fichas, exames e materiais partilhados.",
+                "Resumos e bibliotecas comunitárias para apoio ao estudo em informática.",
+                "Biblioteca Virtual de Naval com materiais de apoio para a comunidade da área.",
+                "NEETI Shelf com materiais académicos para telecomunicações e informática.",
+                "Repositório NMATH com materiais organizados por unidade curricular."
             ],
-            courseTags: ["Repositório", "Repositório", "Repositório", "Repositório", "Dropbox", "Biblioteca", "Resumo", "Biblioteca", "Repositório", "Repositório", "Repositório"]
+            courseBadges: ["Núcleo", "Comunidade", "Núcleo", "Arquivo", "Núcleo", "Arquivo", "Comunidade", "Arquivo", "Comunidade", "Arquivo", "Núcleo", "Arquivo", "Comunidade", "Arquivo"],
+            courseCtas: ["Abrir AeroCloud", "Abrir repositório", "Abrir Drive", "Ver Resumos LEIC-A", "Abrir LEIC My Box", "Abrir biblioteca", "Abrir NEETI Shelf", "Abrir repositório"],
+            courseControlsLabel: "Procurar e filtrar recursos por curso",
+            courseSearchLabel: "Procurar por curso ou recurso",
+            courseSearchPlaceholder: "Procurar curso ou recurso",
+            courseFiltersLabel: "Filtrar por área",
+            courseFilters: ["Todos", "Engenharia", "Informática", "Matemática"],
+            courseStatusTemplate: "{count} recursos visíveis.",
+            courseDisclaimerTitle: "Nota importante.",
+            courseDisclaimerText: "Estes são recursos de apoio criados por estudantes e núcleos. Confirma sempre a informação oficial sobre unidades curriculares no Fénix.",
+            courseDisclaimerLink: "Consultar no Fénix",
+            courseEmpty: "Não encontrámos recursos com estes critérios."
         },
         en: {
             title: "Academic Resources | NEAIST",
@@ -1180,7 +1183,7 @@ const pageCopy = {
             sectionTexts: [
                 "The association’s main documents, projects, and academic entry points, gathered in a more direct and easier-to-browse section.",
                 "Técnico services and platforms that support academic life, campus integration, and access to institutional support.",
-                "Useful repositories and libraries organized by area, with a cleaner and more consistent presentation for quick consultation."
+                "Student repositories, libraries, and communities organized by area to help you find the right support sooner."
             ],
             featureTags: ["Academic project", "Opportunity", "Document", "PDF", "2026/2027"],
             featureTitles: [
@@ -1221,32 +1224,35 @@ const pageCopy = {
             ],
             supportTags: ["Portal", "Institutional", "Association", "Support", "Academic", "Health", "Housing", "Scholarships", "Mobility"],
             courseTitles: [
-                "LEAer and MEAer",
-                "LEBiom and MEBiom",
-                "LEEC and MEEC",
-                "LEIC and MEIC — Eden Box",
-                "LEIC and MEIC — Dropbox",
-                "LEIC and MEIC — Dropbox Shelf LEIC",
-                "LEIC and MEIC — LEIC-A Summaries",
-                "LEIC and MEIC — LEIC My Box",
-                "LENO and MENO",
-                "LETI and METI",
-                "LMAC and MMAC"
+                "Aerospace Engineering",
+                "Biomedical Engineering",
+                "Electrical and Computer Engineering",
+                "Computer Science and Engineering",
+                "Naval and Ocean Engineering",
+                "Telecommunications and Informatics",
+                "Applied Mathematics and Computation"
             ],
             courseTexts: [
-                "Support repository for aerospace engineering students.",
-                "Academic materials organized for biomedical engineering.",
-                "Useful resources for electrical and computer engineering.",
-                "Academic materials repository for computer science students.",
-                "Shared library with support materials and study files.",
-                "Complementary archive for LEIC students with materials from multiple courses.",
-                "Collection of support summaries for LEIC-A students.",
-                "Additional library of academic materials for computer science.",
-                "Support resources for naval and ocean engineering.",
-                "Shared materials for telecommunications and informatics.",
-                "Resources and repositories for applied mathematics and computation."
+                "AeroTéc’s AeroCloud, with materials and shared resources from the aerospace community.",
+                "NEBM’s academic repository with support materials for biomedical engineering.",
+                "NEEC resource drive with problem sheets, exams, and shared materials.",
+                "Community summaries and libraries supporting computer science studies.",
+                "Naval’s virtual library with support materials for the area’s community.",
+                "NEETI Shelf with academic materials for telecommunications and informatics.",
+                "NMATH repository with materials organized by course unit."
             ],
-            courseTags: ["Repository", "Repository", "Repository", "Repository", "Dropbox", "Library", "Summary", "Library", "Repository", "Repository", "Repository"]
+            courseBadges: ["Student group", "Community", "Student group", "Archive", "Student group", "Archive", "Community", "Archive", "Community", "Archive", "Student group", "Archive", "Community", "Archive"],
+            courseCtas: ["Open AeroCloud", "Open repository", "Open Drive", "View LEIC-A summaries", "Open LEIC My Box", "Open library", "Open NEETI Shelf", "Open repository"],
+            courseControlsLabel: "Search and filter course resources",
+            courseSearchLabel: "Search by course or resource",
+            courseSearchPlaceholder: "Search course or resource",
+            courseFiltersLabel: "Filter by area",
+            courseFilters: ["All", "Engineering", "Computing", "Mathematics"],
+            courseStatusTemplate: "{count} resources visible.",
+            courseDisclaimerTitle: "Important note.",
+            courseDisclaimerText: "These are support resources created by students and student groups. Always confirm official course-unit information on Fénix.",
+            courseDisclaimerLink: "Check Fénix",
+            courseEmpty: "No resources match these criteria."
         }
     },
     "study-squads.html": {
@@ -1977,9 +1983,24 @@ function applyPageSpecificTranslations() {
         applyTextList("#apoio-institucional .resource-course-card h3", copy.supportTitles);
         applyTextList("#apoio-institucional .resource-course-card p", copy.supportTexts);
         applyTextList("#apoio-institucional .resource-course-card .resource-tag", copy.supportTags);
-        applyTextList("#recursos-por-curso .resource-course-card h3", copy.courseTitles);
-        applyTextList("#recursos-por-curso .resource-course-card p", copy.courseTexts);
-        applyTextList("#recursos-por-curso .resource-course-card .resource-tag", copy.courseTags);
+        applyTextList("#recursos-por-curso .course-area-card h3", copy.courseTitles);
+        applyTextList("#recursos-por-curso .course-area-description", copy.courseTexts);
+        applyTextList("#recursos-por-curso .course-resource-badge", copy.courseBadges);
+        applyTextList("#recursos-por-curso .course-resource-cta span", copy.courseCtas);
+        applyText(".course-resource-controls .visually-hidden", copy.courseSearchLabel);
+        applyAttr(".course-resource-controls", "aria-label", copy.courseControlsLabel);
+        applyAttr(".course-resource-search", "placeholder", copy.courseSearchPlaceholder);
+        applyAttr(".course-resource-search", "aria-label", copy.courseSearchLabel);
+        applyAttr(".course-resource-filters", "aria-label", copy.courseFiltersLabel);
+        applyTextList(".course-resource-filter", copy.courseFilters);
+        applyText(".course-disclaimer-title", copy.courseDisclaimerTitle);
+        applyText(".course-disclaimer-text", copy.courseDisclaimerText);
+        applyText(".course-resource-disclaimer a span", copy.courseDisclaimerLink);
+        applyText(".course-resource-empty span", copy.courseEmpty);
+        const courseStatus = document.querySelector(".course-resource-status");
+        if (courseStatus) {
+            courseStatus.dataset.statusTemplate = copy.courseStatusTemplate;
+        }
         return;
     }
 
@@ -2164,6 +2185,8 @@ function updatePageLanguage() {
     if (typeof window.renderGallery === "function") {
         window.renderGallery();
     }
+
+    window.dispatchEvent(new CustomEvent("languagechange", { detail: { language: currentLanguage } }));
 }
 
 function updateLanguageButton() {
