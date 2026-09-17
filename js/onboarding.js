@@ -21,11 +21,12 @@
     const syncMenu = () => {
         const expanded = menu.classList.contains('active');
         toggle.setAttribute('aria-expanded', String(expanded));
-        toggle.setAttribute('aria-label', expanded ? 'Fechar menu' : 'Abrir menu');
+        toggle.setAttribute('aria-label', getTranslationValue(expanded ? 'onboarding_menu_close' : 'onboarding_menu_open'));
         menu.inert = mobile.matches && !expanded;
     };
     new MutationObserver(syncMenu).observe(menu, { attributes: true, attributeFilter: ['class'] });
     mobile.addEventListener('change', syncMenu);
+    window.addEventListener('languagechange', syncMenu);
     syncMenu();
     document.addEventListener('keydown', (event) => {
         if (event.key === 'Escape' && mobile.matches && menu.classList.contains('active')) {

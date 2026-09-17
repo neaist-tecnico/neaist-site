@@ -48,7 +48,7 @@ If port 8000 is busy, use 8001 in both the command and URL. In a Windows browser
 the same localhost URL works when the server runs in WSL.
 
 Use the browser's responsive/device toolbar to check the page at 390px and on
-desktop. Check the guide, both form actions, mobile navigation, and FAQ rows.
+desktop. Check the guide, both form actions, mobile navigation, and PT/EN switching.
 Previewing does not push or deploy anything. Python's server does not apply
 Apache `.htaccess` redirects; use the direct `.html` URL above locally.
 
@@ -80,6 +80,8 @@ Apache `.htaccess` redirects; use the direct `.html` URL above locally.
   centralized in `NEAIST_ONBOARDING` in `js/onboarding.js`; when changing a destination,
   also update the matching HTML `href` fallbacks so links still work without JavaScript.
 - Never publish the private WhatsApp invitation link. Access is requested via the form.
-- The hub content stays in Portuguese (`lang="pt-PT"` on its main region); the shared
-  navigation and footer retain the site's PT/EN switch.
-
+- The whole hub uses the site's PT/EN switch, including accessibility labels and
+  page metadata. The selected language is remembered across visits. Its copy lives
+  under `onboarding_*` keys in `js/languages.js`; the HTML keeps Portuguese fallbacks.
+- The same guide and onboarding form are linked in both languages. The English
+  page identifies the guide PDF as Portuguese; the PDF itself is not translated.

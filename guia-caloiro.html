@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/onboarding.css">
 </head>
 <body class="onboarding-page">
-    <a class="ob-skip-link" href="#conteudo">Saltar para o conteúdo</a>
+    <a class="ob-skip-link" href="#conteudo" data-i18n="onboarding_skip">Saltar para o conteúdo</a>
 
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
@@ -91,49 +91,49 @@
         <section class="ob-hero" aria-labelledby="onboarding-title">
             <div class="container ob-hero-grid">
                 <div class="ob-hero-copy">
-                    <p class="ob-eyebrow"><span class="ob-status-dot" aria-hidden="true"></span> NEAIST · NOVOS ESTUDANTES 2026/27</p>
-                    <h1 id="onboarding-title">NOVO NO<br> TÉCNICO<span>?</span></h1>
-                    <p class="ob-hero-welcome">Bem-vindo à comunidade.</p>
-                    <p class="ob-lead">Reunimos num só lugar o que precisas para os teus primeiros passos no Técnico — informação prática, o Guia para Novos Alunos, mentoria, apoio académico e acesso à comunidade NEAIST.</p>
+                    <p class="ob-eyebrow"><span class="ob-status-dot" aria-hidden="true"></span> <span data-i18n="onboarding_hero_eyebrow">NEAIST · NOVOS ESTUDANTES 2026/27</span></p>
+                    <h1 id="onboarding-title" data-i18n-html="onboarding_hero_title">NOVO NO<br> TÉCNICO<span>?</span></h1>
+                    <p class="ob-hero-welcome" data-i18n="onboarding_hero_welcome">Bem-vindo à comunidade.</p>
+                    <p class="ob-lead" data-i18n="onboarding_hero_intro">Reunimos num só lugar o que precisas para os teus primeiros passos no Técnico — informação prática, o Guia para Novos Alunos, mentoria, apoio académico e acesso à comunidade NEAIST.</p>
                     <div class="ob-hero-actions">
-                        <a class="ob-button ob-button-primary" href="files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf" target="_blank" rel="noopener noreferrer" data-guide-link>Consultar o Guia 2026/27<svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a>
+                        <a class="ob-button ob-button-primary" href="files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf" target="_blank" rel="noopener noreferrer" data-guide-link><span data-i18n="onboarding_guide_year_cta">Consultar o Guia 2026/27</span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a>
                         <div class="ob-secondary-actions">
-                            <a class="ob-button ob-button-secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header" target="_blank" rel="noopener noreferrer" data-onboarding-action="group">Pedir acesso ao grupo<svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a>
-                            <a class="ob-button ob-button-secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header" target="_blank" rel="noopener noreferrer" data-onboarding-action="mentor">Quero um Mentor<svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a>
+                            <a class="ob-button ob-button-secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header" target="_blank" rel="noopener noreferrer" data-onboarding-action="group"><span data-i18n="onboarding_group_cta">Pedir acesso ao grupo</span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a>
+                            <a class="ob-button ob-button-secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header" target="_blank" rel="noopener noreferrer" data-onboarding-action="mentor"><span data-i18n="onboarding_mentor_cta">Quero um Mentor</span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a>
                         </div>
                     </div>
-                    <p class="ob-hero-footnote">Do primeiro dia ao sentimento de pertença.</p>
+                    <p class="ob-hero-footnote" data-i18n="onboarding_hero_note">Do primeiro dia ao sentimento de pertença.</p>
                 </div>
                 <figure class="ob-cover-stage">
-                    <div class="ob-cover-label"><span>UM GUIA PARA O TEU NOVO CAPÍTULO</span><span>2026/27</span></div>
-                    <a class="ob-cover-book" href="files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf" target="_blank" rel="noopener noreferrer" data-guide-link><img src="files/caloiros/2026-2027/guia-novos-alunos-2026-2027-capa.jpg" alt="Capa do Guia para Novos Alunos 2026/2027 do NEAIST" width="805" height="1137" fetchpriority="high"></a>
-                    <figcaption class="ob-cover-caption"><svg class="ob-icon" aria-hidden="true" width="24" height="24"><use href="#ob-book"></use></svg> 8 páginas para os teus primeiros passos.</figcaption>
+                    <div class="ob-cover-label"><span data-i18n="onboarding_cover_label">UM GUIA PARA O TEU NOVO CAPÍTULO</span><span>2026/27</span></div>
+                    <a class="ob-cover-book" href="files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf" target="_blank" rel="noopener noreferrer" data-guide-link><img src="files/caloiros/2026-2027/guia-novos-alunos-2026-2027-capa.jpg" alt="Capa do Guia para Novos Alunos 2026/2027 do NEAIST" data-onboarding-alt="onboarding_cover_alt" width="805" height="1137" fetchpriority="high"></a>
+                    <figcaption class="ob-cover-caption"><svg class="ob-icon" aria-hidden="true" width="24" height="24"><use href="#ob-book"></use></svg> <span data-i18n="onboarding_cover_caption">8 páginas para os teus primeiros passos.</span></figcaption>
                 </figure>
             </div>
-            <div class="container ob-hero-bottom"><span>INSTITUTO SUPERIOR TÉCNICO</span><a href="#comeca-aqui">Encontra o teu ponto de partida <span aria-hidden="true">↓</span></a></div>
+            <div class="container ob-hero-bottom"><span>INSTITUTO SUPERIOR TÉCNICO</span><a href="#comeca-aqui"><span data-i18n="onboarding_start_link">Encontra o teu ponto de partida</span> <span aria-hidden="true">↓</span></a></div>
         </section>
 
         <section class="ob-section" id="comeca-aqui" aria-labelledby="start-title">
             <div class="container">
-                <div class="ob-section-heading"><p class="ob-eyebrow">O TEU PONTO DE PARTIDA</p><h2 id="start-title">Começa aqui</h2><p>Três formas simples de começares o teu percurso com o apoio do NEAIST.</p></div>
+                <div class="ob-section-heading"><p class="ob-eyebrow" data-i18n="onboarding_start_eyebrow">O TEU PONTO DE PARTIDA</p><h2 id="start-title" data-i18n="onboarding_start_title">Começa aqui</h2><p data-i18n="onboarding_start_intro">Três formas simples de começares o teu percurso com o apoio do NEAIST.</p></div>
                 <div class="ob-action-grid">
-                    <article class="ob-action-card ob-action-featured">
-                        <div class="ob-card-top"><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-book"></use></svg><span>01 / ORIENTAÇÃO</span></div>
-                        <h3>Guia para Novos<br> Alunos 2026/27</h3>
-                        <p>Informação prática para organizares os teus primeiros passos no Técnico e em Lisboa.</p>
-                        <a class="ob-text-link" href="files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf" target="_blank" rel="noopener noreferrer" data-guide-link>Consultar o Guia<svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a>
+                    <article class="ob-action-card ob-action-featured" id="guia-pdf">
+                        <div class="ob-card-top"><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-book"></use></svg><span data-i18n="onboarding_guide_card_label">01 / ORIENTAÇÃO</span></div>
+                        <h3 data-i18n-html="onboarding_guide_card_title">Guia para Novos<br> Alunos 2026/27</h3>
+                        <p data-i18n="onboarding_guide_card_intro">Informação prática para organizares os teus primeiros passos no Técnico e em Lisboa.</p>
+                        <a class="ob-text-link" href="files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf" target="_blank" rel="noopener noreferrer" data-guide-link><span data-i18n="onboarding_guide_cta">Consultar o Guia</span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a>
                     </article>
                     <article class="ob-action-card">
-                        <div class="ob-card-top"><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-users"></use></svg><span>02 / COMUNIDADE</span></div>
-                        <h3>Grupo de Novos<br> Estudantes</h3>
-                        <p>Conhece outros estudantes que também estão a começar o seu percurso no Técnico.</p>
-                        <a class="ob-text-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header" target="_blank" rel="noopener noreferrer" data-onboarding-action="group">Pedir acesso<svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a>
+                        <div class="ob-card-top"><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-users"></use></svg><span data-i18n="onboarding_group_card_label">02 / COMUNIDADE</span></div>
+                        <h3 data-i18n-html="onboarding_group_card_title">Grupo de Novos<br> Estudantes</h3>
+                        <p data-i18n="onboarding_group_card_intro">Conhece outros estudantes que também estão a começar o seu percurso no Técnico.</p>
+                        <a class="ob-text-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header" target="_blank" rel="noopener noreferrer" data-onboarding-action="group"><span data-i18n="onboarding_access_cta">Pedir acesso</span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a>
                     </article>
                     <article class="ob-action-card">
-                        <div class="ob-card-top"><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-hand"></use></svg><span>03 / ACOMPANHAMENTO</span></div>
-                        <h3>Programa<br> de Mentoria</h3>
-                        <p>Pede acompanhamento de um estudante que já conhece o Técnico e pode ajudar-te durante a adaptação.</p>
-                        <a class="ob-text-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header" target="_blank" rel="noopener noreferrer" data-onboarding-action="mentor">Quero um Mentor<svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a>
+                        <div class="ob-card-top"><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-hand"></use></svg><span data-i18n="onboarding_mentor_card_label">03 / ACOMPANHAMENTO</span></div>
+                        <h3 data-i18n-html="onboarding_mentor_card_title">Programa<br> de Mentoria</h3>
+                        <p data-i18n="onboarding_mentor_card_intro">Pede acompanhamento de um estudante que já conhece o Técnico e pode ajudar-te durante a adaptação.</p>
+                        <a class="ob-text-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header" target="_blank" rel="noopener noreferrer" data-onboarding-action="mentor"><span data-i18n="onboarding_mentor_cta">Quero um Mentor</span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a>
                     </article>
                 </div>
             </div>
@@ -141,92 +141,65 @@
 
         <section class="ob-section ob-journey" id="primeiros-passos" aria-labelledby="journey-title">
             <div class="container">
-                <div class="ob-section-heading ob-heading-split"><div><p class="ob-eyebrow">UM PASSO DE CADA VEZ</p><h2 id="journey-title">Primeiros passos</h2></div><p>Não tens de resolver tudo no primeiro dia.<br> Há um tempo para cada etapa.</p></div>
+                <div class="ob-section-heading ob-heading-split"><div><p class="ob-eyebrow" data-i18n="onboarding_journey_eyebrow">UM PASSO DE CADA VEZ</p><h2 id="journey-title" data-i18n="onboarding_journey_title">Primeiros passos</h2></div><p data-i18n-html="onboarding_journey_intro">Não tens de resolver tudo no primeiro dia.<br> Há um tempo para cada etapa.</p></div>
                 <ol class="ob-timeline">
-                    <li><span class="ob-step-number" aria-hidden="true">01</span><h3>Antes de chegares</h3><p class="ob-step-topics">Matrícula · Alojamento · Documentação</p><p>Organiza os documentos essenciais e prepara a tua chegada.</p></li>
-                    <li><span class="ob-step-number" aria-hidden="true">02</span><h3>Primeira semana</h3><p class="ob-step-topics">Fénix · Campus · Cartão · Comunidade</p><p>Conhece as ferramentas, os espaços e as pessoas que vão fazer parte do teu dia a dia.</p></li>
-                    <li><span class="ob-step-number" aria-hidden="true">03</span><h3>Primeiro mês</h3><p class="ob-step-topics">Rotina · Study Squads · Atividades · Lisboa</p><p>Constrói a tua rotina, encontra apoio académico e começa a participar na comunidade.</p></li>
+                    <li><span class="ob-step-number" aria-hidden="true">01</span><h3 data-i18n="onboarding_before_title">Antes de chegares</h3><p class="ob-step-topics" data-i18n="onboarding_before_topics">Matrícula · Alojamento · Documentação</p><p data-i18n="onboarding_before_intro">Organiza os documentos essenciais e prepara a tua chegada.</p></li>
+                    <li><span class="ob-step-number" aria-hidden="true">02</span><h3 data-i18n="onboarding_week_title">Primeira semana</h3><p class="ob-step-topics" data-i18n="onboarding_week_topics">Fénix · Campus · Cartão · Comunidade</p><p data-i18n="onboarding_week_intro">Conhece as ferramentas, os espaços e as pessoas que vão fazer parte do teu dia a dia.</p></li>
+                    <li><span class="ob-step-number" aria-hidden="true">03</span><h3 data-i18n="onboarding_month_title">Primeiro mês</h3><p class="ob-step-topics" data-i18n="onboarding_month_topics">Rotina · Study Squads · Atividades · Lisboa</p><p data-i18n="onboarding_month_intro">Constrói a tua rotina, encontra apoio académico e começa a participar na comunidade.</p></li>
                 </ol>
-            </div>
-        </section>
-
-        <section class="ob-section ob-guide-feature" id="guia-pdf" aria-labelledby="guide-title">
-            <div class="container ob-guide-grid">
-                <div class="ob-guide-preview">
-                    <a class="ob-cover-book" href="files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf" target="_blank" rel="noopener noreferrer" data-guide-link><img src="files/caloiros/2026-2027/guia-novos-alunos-2026-2027-capa.jpg" alt="Capa do Guia para Novos Alunos 2026/2027 do NEAIST" width="805" height="1137" loading="lazy" decoding="async"></a>
-                    <div class="ob-guide-edition"><span>EDIÇÃO 2026/2027</span><span>PDF · 8 PÁGINAS</span></div>
-                </div>
-                <div class="ob-feature-copy">
-                    <p class="ob-eyebrow">GUIA PARA NOVOS ALUNOS 2026/2027</p>
-                    <h2 id="guide-title">Leva o Guia<br> contigo</h2>
-                    <p>Preparámos o Guia para Novos Alunos 2026/2027 com informação prática sobre matrícula, Fénix, transportes, alojamento, NIF, SNS, AIMA e outros passos importantes para começares o teu percurso no Técnico e em Portugal.</p>
-                    <ul class="ob-chips" aria-label="Temas do Guia"><li>Matrícula</li><li>Fénix</li><li>Alojamento</li><li>NIF</li><li>SNS</li><li>AIMA</li></ul>
-                    <a class="ob-button ob-button-primary" href="files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf" target="_blank" rel="noopener noreferrer" data-guide-link>Abrir o Guia<svg class="ob-icon" aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a>
-                    <p class="ob-small ob-print-note"><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-book"></use></svg> Também disponível em formato impresso nas iniciativas de acolhimento do NEAIST.</p>
-                </div>
             </div>
         </section>
 
         <section class="ob-section" id="recursos-iniciais" aria-labelledby="resources-title">
             <div class="container">
-                <div class="ob-section-heading"><p class="ob-eyebrow">O ESSENCIAL, NUM SÓ LUGAR</p><h2 id="resources-title">O que podes precisar<br> nos primeiros dias</h2><p>Reunimos no Guia para Novos Alunos informação mais detalhada sobre estes e outros passos.</p></div>
+                <div class="ob-section-heading"><p class="ob-eyebrow" data-i18n="onboarding_resources_eyebrow">O ESSENCIAL, NUM SÓ LUGAR</p><h2 id="resources-title" data-i18n-html="onboarding_resources_title">O que podes precisar<br> nos primeiros dias</h2><p data-i18n="onboarding_resources_intro">Preparámos o Guia para Novos Alunos 2026/2027 com informação prática sobre matrícula, Fénix, transportes, alojamento, NIF, SNS, AIMA e outros passos importantes para começares o teu percurso no Técnico e em Portugal.</p></div>
                 <div class="ob-resource-grid">
-                    <article class="ob-resource-tile"><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-laptop"></use></svg><div><h3>Fénix</h3><p>Horários, UCs, avaliações e documentos.</p></div></article>
-                    <article class="ob-resource-tile"><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-home"></use></svg><div><h3>Alojamento</h3><p>Residências e outras opções.</p></div></article>
-                    <article class="ob-resource-tile"><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-id"></use></svg><div><h3>NIF</h3><p>Informação sobre o processo e apoio disponível.</p></div></article>
-                    <article class="ob-resource-tile"><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-health"></use></svg><div><h3>SNS</h3><p>Número de utente e acesso aos serviços de saúde.</p></div></article>
-                    <article class="ob-resource-tile"><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-doc"></use></svg><div><h3>AIMA</h3><p>Informação para estudantes que precisam de tratar da sua situação de residência.</p></div></article>
-                    <article class="ob-resource-tile"><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-book"></use></svg><div><h3>Study Squads</h3><p>Apoio académico e grupos de estudo.</p></div></article>
+                    <article class="ob-resource-tile"><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-laptop"></use></svg><div><h3>Fénix</h3><p data-i18n="onboarding_fenix_intro">Horários, UCs, avaliações e documentos.</p></div></article>
+                    <article class="ob-resource-tile"><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-home"></use></svg><div><h3 data-i18n="onboarding_accommodation">Alojamento</h3><p data-i18n="onboarding_accommodation_intro">Residências e outras opções.</p></div></article>
+                    <article class="ob-resource-tile"><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-id"></use></svg><div><h3>NIF</h3><p data-i18n="onboarding_nif_intro">Informação sobre o processo e apoio disponível.</p></div></article>
+                    <article class="ob-resource-tile"><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-health"></use></svg><div><h3>SNS</h3><p data-i18n="onboarding_sns_intro">Número de utente e acesso aos serviços de saúde.</p></div></article>
+                    <article class="ob-resource-tile"><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-doc"></use></svg><div><h3>AIMA</h3><p data-i18n="onboarding_aima_intro">Informação para estudantes que precisam de tratar da sua situação de residência.</p></div></article>
+                    <article class="ob-resource-tile"><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-book"></use></svg><div><h3>Study Squads</h3><p data-i18n="onboarding_study_tile_intro">Apoio académico e grupos de estudo.</p></div></article>
                 </div>
-                <div class="ob-guide-strip"><p>Toda a informação, passos e contactos estão reunidos no nosso <strong>Guia para Novos Alunos 2026/27.</strong></p><a class="ob-button ob-button-light" href="files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf" target="_blank" rel="noopener noreferrer" data-guide-link>Consultar o Guia<svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a></div>
+
             </div>
         </section>
 
         <section class="ob-section ob-mentoring" id="mentorado" aria-labelledby="mentor-title">
             <div class="container ob-support-grid">
                 <div class="ob-feature-copy">
-                    <p class="ob-eyebrow">PROGRAMA DE MENTORIA</p>
-                    <h2 id="mentor-title">Não precisas de descobrir tudo sozinho.</h2>
-                    <p>O Programa de Mentoria do NEAIST liga novos estudantes a colegas que já conhecem o Técnico e podem acompanhar-te durante a tua adaptação à universidade.</p>
-                    <ul class="ob-chips" aria-label="Apoio da mentoria"><li>Integração</li><li>Vida académica</li><li>Comunidade</li></ul>
-                    <a class="ob-button ob-button-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header" target="_blank" rel="noopener noreferrer" data-onboarding-action="mentor">Quero um Mentor<svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a>
-                    <p class="ob-small ob-form-note">O pedido de mentoria é feito através do mesmo formulário utilizado para o acolhimento de novos estudantes.</p>
-                    <a href="mentoria.html" class="ob-text-link ob-small">Conhecer o programa<svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a>
+                    <p class="ob-eyebrow" data-i18n="onboarding_mentor_eyebrow">PROGRAMA DE MENTORIA</p>
+                    <h2 id="mentor-title" data-i18n="onboarding_mentor_title">Não precisas de descobrir tudo sozinho.</h2>
+                    <p data-i18n="onboarding_mentor_intro">O Programa de Mentoria do NEAIST liga novos estudantes a colegas que já conhecem o Técnico e podem acompanhar-te durante a tua adaptação à universidade.</p>
+                    <ul class="ob-chips" aria-label="Apoio da mentoria" data-onboarding-aria-label="onboarding_mentor_support"><li data-i18n="onboarding_integration">Integração</li><li data-i18n="onboarding_academic_life">Vida académica</li><li data-i18n="onboarding_community">Comunidade</li></ul>
+                    <a class="ob-button ob-button-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header" target="_blank" rel="noopener noreferrer" data-onboarding-action="mentor"><span data-i18n="onboarding_mentor_cta">Quero um Mentor</span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a>
+                    <p class="ob-small ob-form-note" data-i18n="onboarding_mentor_note">O pedido de mentoria é feito através do mesmo formulário utilizado para o acolhimento de novos estudantes.</p>
+                    <a href="mentoria.html" class="ob-text-link ob-small"><span data-i18n="onboarding_mentor_learn">Conhecer o programa</span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a>
                 </div>
                 <div class="ob-mentor-art" aria-hidden="true">
-                    <span class="ob-mentor-note">O primeiro passo pode ser uma conversa.</span>
-                    <div class="ob-mentor-connection"><div class="ob-profile"><span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-person"></use></svg></span><strong>Novo estudante</strong></div><span class="ob-connection-line"><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-chat"></use></svg></span><div class="ob-profile ob-profile-mentor"><span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-cap"></use></svg></span><strong>Mentor</strong></div></div>
-                    <p>Quem já chegou.<br> <strong>Ao lado de quem está a chegar.</strong></p>
+                    <span class="ob-mentor-note" data-i18n="onboarding_mentor_art_note">O primeiro passo pode ser uma conversa.</span>
+                    <div class="ob-mentor-connection"><div class="ob-profile"><span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-person"></use></svg></span><strong data-i18n="onboarding_new_student">Novo estudante</strong></div><span class="ob-connection-line"><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-chat"></use></svg></span><div class="ob-profile ob-profile-mentor"><span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-cap"></use></svg></span><strong>Mentor</strong></div></div>
+                    <p data-i18n-html="onboarding_mentor_art_caption">Quem já chegou.<br> <strong>Ao lado de quem está a chegar.</strong></p>
                 </div>
             </div>
         </section>
 
         <section class="ob-section" id="grupo" aria-labelledby="group-title">
             <div class="container ob-community-grid">
-                <div class="ob-community-mark" aria-hidden="true"><div class="ob-avatar-stack"><span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-person"></use></svg></span><span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-person"></use></svg></span><span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-person"></use></svg></span><span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-users"></use></svg></span></div><p>Novos percursos.<br> <strong>Um ponto de encontro.</strong></p><span class="ob-community-year">2026 / 27</span></div>
-                <div class="ob-feature-copy"><p class="ob-eyebrow">A TUA COMUNIDADE, DESDE O INÍCIO</p><h2 id="group-title">Grupo de Novos<br> Estudantes 2026/27</h2><p>Criámos um espaço para os novos estudantes conhecerem colegas, esclarecerem dúvidas e acompanharem as iniciativas de acolhimento do NEAIST.</p>
-                    <div class="ob-privacy-note"><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-lock"></use></svg><div><strong>O link não é público.</strong><p>Para proteger a comunidade e evitar acessos não autorizados, o link de acesso ao grupo de WhatsApp não é público. Preenche um breve formulário e, após confirmação dos teus dados, a equipa do NEAIST envia-te o convite.</p></div></div>
-                    <a class="ob-button ob-button-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header" target="_blank" rel="noopener noreferrer" data-onboarding-action="group">Pedir acesso ao grupo<svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a>
-                    <p class="ob-small ob-form-note">Um único formulário para o acolhimento, o acesso ao grupo e o interesse na mentoria.</p>
+                <div class="ob-community-mark" aria-hidden="true"><div class="ob-avatar-stack"><span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-person"></use></svg></span><span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-person"></use></svg></span><span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-person"></use></svg></span><span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-users"></use></svg></span></div><p data-i18n-html="onboarding_group_art_caption">Novos percursos.<br> <strong>Um ponto de encontro.</strong></p><span class="ob-community-year">2026 / 27</span></div>
+                <div class="ob-feature-copy"><p class="ob-eyebrow" data-i18n="onboarding_group_eyebrow">A TUA COMUNIDADE, DESDE O INÍCIO</p><h2 id="group-title" data-i18n-html="onboarding_group_title">Grupo de Novos<br> Estudantes 2026/27</h2><p data-i18n="onboarding_group_intro">Criámos um espaço para os novos estudantes conhecerem colegas, esclarecerem dúvidas e acompanharem as iniciativas de acolhimento do NEAIST.</p>
+                    <div class="ob-privacy-note"><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-lock"></use></svg><div><strong data-i18n="onboarding_group_private">O link não é público.</strong><p data-i18n="onboarding_group_privacy">Para proteger a comunidade e evitar acessos não autorizados, o link de acesso ao grupo de WhatsApp não é público. Preenche um breve formulário e, após confirmação dos teus dados, a equipa do NEAIST envia-te o convite.</p></div></div>
+                    <a class="ob-button ob-button-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header" target="_blank" rel="noopener noreferrer" data-onboarding-action="group"><span data-i18n="onboarding_group_cta">Pedir acesso ao grupo</span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a>
+                    <p class="ob-small ob-form-note" data-i18n="onboarding_group_note">Um único formulário para o acolhimento, o acesso ao grupo e o interesse na mentoria.</p>
                 </div>
             </div>
         </section>
 
         <section class="ob-study" id="study-squads" aria-labelledby="study-title">
-            <div class="container"><div class="ob-study-panel"><img class="ob-study-poster" src="files/study-squads/study-squads-poster.png" alt="Cartaz Study Squads do NEAIST" width="1055" height="1491" loading="lazy" decoding="async"><div><p class="ob-eyebrow">STUDY SQUADS · APOIO ACADÉMICO</p><h2 id="study-title">Estudar também é mais fácil em comunidade.</h2><p>Os Study Squads são uma iniciativa de apoio académico do NEAIST que procura aproximar estudantes através de grupos e momentos de estudo.</p><div class="ob-study-actions"><a href="study-squads.html" class="ob-text-link">Conhecer os Study Squads<svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a><a href="recursos.html" class="ob-text-link">Explorar recursos académicos<svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a></div></div></div></div>
+            <div class="container"><div class="ob-study-panel"><img class="ob-study-poster" src="files/study-squads/study-squads-poster.png" alt="Cartaz Study Squads do NEAIST" data-onboarding-alt="onboarding_study_alt" width="1055" height="1491" loading="lazy" decoding="async"><div><p class="ob-eyebrow" data-i18n="onboarding_study_eyebrow">STUDY SQUADS · APOIO ACADÉMICO</p><h2 id="study-title" data-i18n="onboarding_study_title">Estudar também é mais fácil em comunidade.</h2><p data-i18n="onboarding_study_intro">Os Study Squads são uma iniciativa de apoio académico do NEAIST que procura aproximar estudantes através de grupos e momentos de estudo.</p><div class="ob-study-actions"><a href="study-squads.html" class="ob-text-link"><span data-i18n="onboarding_study_cta">Conhecer os Study Squads</span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a><a href="recursos.html" class="ob-text-link"><span data-i18n="onboarding_resources_cta">Explorar recursos académicos</span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a></div></div></div></div>
         </section>
 
-        <section class="ob-section" id="faq" aria-labelledby="faq-title">
-            <div class="container ob-faq-layout"><div class="ob-section-heading"><p class="ob-eyebrow">AINDA TENS DÚVIDAS?</p><h2 id="faq-title">Perguntas<br> frequentes</h2><p>O essencial para saberes<br> onde ir a seguir.</p><a href="contactos.html" class="ob-text-link">Fala connosco<svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a></div><div class="ob-faq-list">
-                <details class="ob-faq-item"><summary>Tenho dúvidas sobre NIF, SNS, AIMA ou outros procedimentos. Onde encontro informação?<span class="ob-faq-toggle" aria-hidden="true"></span></summary><div class="ob-faq-answer"><p>O Guia para Novos Alunos 2026/27 reúne informação e contactos úteis para estes primeiros passos. Alguns procedimentos dependem da situação individual de cada estudante, pelo que deves confirmar sempre a informação mais recente junto dos serviços oficiais competentes.</p><a class="ob-text-link" href="files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf" target="_blank" rel="noopener noreferrer" data-guide-link>Consultar o Guia<svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a></div></details>
-                <details class="ob-faq-item"><summary>Como entro no Grupo de Novos Estudantes?<span class="ob-faq-toggle" aria-hidden="true"></span></summary><div class="ob-faq-answer"><p>O link de WhatsApp não é público. Preenche o formulário de acolhimento com os teus dados e, após confirmação, a equipa do NEAIST envia-te o convite.</p><a class="ob-text-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header" target="_blank" rel="noopener noreferrer" data-onboarding-action="group">Preencher formulário<svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a></div></details>
-                <details class="ob-faq-item"><summary>Como posso pedir um mentor?<span class="ob-faq-toggle" aria-hidden="true"></span></summary><div class="ob-faq-answer"><p>No mesmo formulário de acolhimento podes indicar se queres participar no Programa de Mentoria do NEAIST. A equipa entra depois em contacto contigo relativamente aos próximos passos.</p><a class="ob-text-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header" target="_blank" rel="noopener noreferrer" data-onboarding-action="mentor">Quero um Mentor<svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a></div></details>
-                <details class="ob-faq-item"><summary>O NEAIST pode tratar dos meus processos administrativos?<span class="ob-faq-toggle" aria-hidden="true"></span></summary><div class="ob-faq-answer"><p>O NEAIST pode ajudar-te a encontrar informação, recursos e os serviços adequados, mas os procedimentos administrativos são tratados pelos serviços oficiais competentes. Para estudantes internacionais, o Núcleo de Admissões Internacionais do Técnico é um dos principais pontos de apoio.</p></div></details>
-                <details class="ob-faq-item"><summary>Como posso contactar o NEAIST?<span class="ob-faq-toggle" aria-hidden="true"></span></summary><div class="ob-faq-answer"><p>Escreve-nos para <a href="mailto:neaist.sa@aeist.pt">neaist.sa@aeist.pt</a> ou consulta a nossa página de contactos para conheceres os canais oficiais do núcleo.</p><a href="contactos.html" class="ob-text-link">Contactar o NEAIST<svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a></div></details>
-            </div></div>
-        </section>
-
-        <section class="ob-final" id="ajuda" aria-labelledby="welcome-title"><div class="container ob-final-inner"><p class="ob-eyebrow">O TEU PERCURSO. A NOSSA COMUNIDADE.</p><h2 id="welcome-title">ESTAMOS AQUI<br> PARA TE RECEBER.</h2><p>Começar uma nova etapa pode trazer muitas dúvidas. Não precisas de descobrir tudo sozinho — consulta o Guia, conhece a comunidade e fala connosco sempre que precisares de orientação.</p><div class="ob-final-actions"><a class="ob-button ob-button-light" href="files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf" target="_blank" rel="noopener noreferrer" data-guide-link>Consultar o Guia<svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a><a class="ob-button ob-button-outline-light" href="https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header" target="_blank" rel="noopener noreferrer" data-onboarding-action="group">Pedir acesso ao grupo<svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a></div><a href="contactos.html" class="ob-text-link">Precisas de orientação? Fala connosco<svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a></div></section>
+        <section class="ob-final" id="ajuda" aria-labelledby="welcome-title"><div class="container ob-final-inner"><p class="ob-eyebrow" data-i18n="onboarding_final_eyebrow">O TEU PERCURSO. A NOSSA COMUNIDADE.</p><h2 id="welcome-title" data-i18n-html="onboarding_final_title">ESTAMOS AQUI<br> PARA TE RECEBER.</h2><p data-i18n="onboarding_final_intro">Começar uma nova etapa pode trazer muitas dúvidas. Não precisas de descobrir tudo sozinho — consulta o Guia, conhece a comunidade e fala connosco sempre que precisares de orientação.</p><div class="ob-final-actions"><a class="ob-button ob-button-light" href="files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf" target="_blank" rel="noopener noreferrer" data-guide-link><span data-i18n="onboarding_guide_cta">Consultar o Guia</span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a><a class="ob-button ob-button-outline-light" href="https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header" target="_blank" rel="noopener noreferrer" data-onboarding-action="group"><span data-i18n="onboarding_group_cta">Pedir acesso ao grupo</span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a></div><a href="contactos.html" class="ob-text-link"><span data-i18n="onboarding_final_contact">Precisas de orientação? Fala connosco</span><svg class="ob-icon " aria-hidden="true" width="24" height="24"><use href="#ob-arrow"></use></svg></a></div></section>
     </main>
 
     <!-- Footer -->
@@ -281,7 +254,7 @@
         </div>
     </footer>
 
-    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo" data-onboarding-aria-label="onboarding_back_to_top">
         <i class="fas fa-arrow-up"></i>
     </button>
 
