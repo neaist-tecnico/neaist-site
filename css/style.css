@@ -4935,3 +4935,25 @@ section {
         height: auto;
     }
 }
+
+/* Keep all top-level navigation links visible, including Novos Alunos. */
+.navbar .hamburger { border: 0; background: transparent; padding: 12px; margin-right: -12px; }
+.navbar .container { max-width: 1440px; }
+.navbar .logo { flex: 0 0 265px; font-size: 1.8rem; }
+.navbar .logo-subtext { font-size: 0.65rem; max-width: 185px; }
+.navbar .nav-link { font-size: 0.82rem; padding-inline: 0.6rem; }
+.navbar .nav-item-dropdown:not(.open):not(:hover):not(:focus-within) .nav-dropdown-menu { display: none; }
+@media (max-width: 1279px) {
+    .navbar .logo { flex: 0 1 265px; }
+    .navbar .hamburger { display: flex; margin-right: 0; }
+    .navbar .nav-menu { position: fixed; top: 0; right: 0; width: min(86vw, 360px); height: 100vh; height: 100dvh; padding: 100px 24px 30px; overflow-y: auto; background: white; box-shadow: -5px 0 15px #102d3d18; }
+    .navbar .nav-menu:not(.active) { display: none; }
+    .navbar .nav-menu.active { display: block; }
+    .navbar .nav-list { flex-direction: column; align-items: stretch; gap: 0.35rem; }
+    .navbar .nav-link { width: 100%; justify-content: space-between; padding: 0.85rem 1rem; font-size: 0.9rem; }
+    .navbar .nav-dropdown-menu { position: static; min-width: 0; max-height: none; box-shadow: none; transform: none; opacity: 1; visibility: visible; pointer-events: auto; border-radius: 10px; background: var(--light-bg); }
+    .navbar .nav-item-dropdown:not(.open) .nav-dropdown-menu { display: none; }
+    .navbar .nav-item-dropdown.open .nav-dropdown-menu { display: block; max-height: none; margin-top: 0.35rem; padding: 0.35rem; border: 1px solid var(--ob-border, #d5e4eb); }
+    .navbar .nav-dropdown-menu::before { display: none; }
+    .navbar .nav-dropdown-link { white-space: normal; }
+}

@@ -17,7 +17,7 @@
     // Add keyboard state to this page's existing shared mobile navigation.
     const toggle = document.getElementById('hamburger');
     const menu = document.getElementById('navMenu');
-    const mobile = window.matchMedia('(max-width: 1199px)');
+    const mobile = window.matchMedia('(max-width: 1279px)');
     const syncMenu = () => {
         const expanded = menu.classList.contains('active');
         toggle.setAttribute('aria-expanded', String(expanded));

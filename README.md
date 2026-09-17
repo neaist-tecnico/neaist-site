@@ -66,13 +66,17 @@ Apache `.htaccess` redirects; use the direct `.html` URL above locally.
 ## Content notes
 
 - HTML pages are hand-maintained static files.
+- Shared translations/styles and onboarding assets use `?v=` URLs in the HTML
+  to refresh browser caches after deployment. When changing these assets, update
+  their version in every referencing page to the first 12 characters of the
+  file's SHA-256 hash.
 - Images used by the live site are kept under `images/`.
 - PDFs and downloadable resources are kept under `files/`.
 - Video assets are kept under `media/`.
 
 ## Novo no Técnico
 
-- Keep the public route `guia-caloiro.html`; the navigation label is “Novo no Técnico”.
+- Keep the public route `guia-caloiro.html`; the top-level navigation label is “Novos Alunos” in PT and “New Students” in EN, after Académico.
 - The current guide is the verified **eight-page final 2026/2027 edition** at
   `files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf`. Its cover image
   in the same directory is rendered from the actual first page.
