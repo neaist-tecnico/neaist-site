@@ -6,13 +6,11 @@
     }
 
     const searchInput = section.querySelector(".course-resource-search");
-    const filterButtons = Array.from(section.querySelectorAll(".course-resource-filter"));
     const cards = Array.from(section.querySelectorAll(".course-area-card"));
     const status = section.querySelector(".course-resource-status");
     const emptyState = section.querySelector(".course-resource-empty");
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
     const finePointer = window.matchMedia("(hover: hover) and (pointer: fine)");
-    let activeFilter = "all";
 
     function normalizeText(value) {
         return (value || "")
@@ -35,10 +33,8 @@
         let visibleCount = 0;
 
         cards.forEach((card) => {
-            const categories = card.dataset.courseCategories || "";
-            const matchesFilter = activeFilter === "all" || categories.split(" ").includes(activeFilter);
             const matchesSearch = !query || normalizeText(card.textContent).includes(query);
-            const isVisible = matchesFilter && matchesSearch;
+            const isVisible = matchesSearch;
 
             card.classList.toggle("is-filtered-out", !isVisible);
             if (isVisible) {
@@ -52,18 +48,6 @@
 
         updateStatus(visibleCount);
     }
-
-    filterButtons.forEach((button) => {
-        button.addEventListener("click", () => {
-            activeFilter = button.dataset.courseFilter || "all";
-            filterButtons.forEach((filterButton) => {
-                const isActive = filterButton === button;
-                filterButton.classList.toggle("active", isActive);
-                filterButton.setAttribute("aria-pressed", String(isActive));
-            });
-            updateCards();
-        });
-    });
 
     if (searchInput) {
         searchInput.addEventListener("input", updateCards);
@@ -91,8 +75,8 @@
                 const x = (event.clientX - bounds.left) / bounds.width - 0.5;
                 const y = (event.clientY - bounds.top) / bounds.height - 0.5;
 
-                card.style.setProperty("--card-rotate-x", `${(-y * 5).toFixed(2)}deg`);
-                card.style.setProperty("--card-rotate-y", `${(x * 5).toFixed(2)}deg`);
+                card.style.setProperty("--card-rotate-x", `${(-y * 3).toFixed(2)}deg`);
+                card.style.setProperty("--card-rotate-y", `${(x * 3).toFixed(2)}deg`);
             });
 
             card.addEventListener("pointerleave", () => {

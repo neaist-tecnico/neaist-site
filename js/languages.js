@@ -18,7 +18,7 @@ const translations = {
         nav_gallery: "Galeria",
         nav_africa_day: "Dia de África",
         nav_resources: "Recursos",
-        nav_guide: "Welcome to Técnico",
+        nav_guide: "Novo no Técnico",
         nav_mentoring: "Programa Mentorado",
         nav_contact: "Contactos",
         nav_recruitment: "Recrutamento",
@@ -364,7 +364,7 @@ const translations = {
         nav_gallery: "Gallery",
         nav_africa_day: "Africa Day",
         nav_resources: "Resources",
-        nav_guide: "Welcome to Técnico",
+        nav_guide: "New at Técnico",
         nav_mentoring: "Mentoring Program",
         nav_contact: "Contact",
         nav_recruitment: "Recruitment",
@@ -789,72 +789,11 @@ const pageCopy = {
             description: "Learn about NEAIST, the African Students Association at Instituto Superior Técnico, its mission, values, and role in supporting African students at IST."
         }
     },
+    // The onboarding hub is authored in Portuguese; the shared navigation remains bilingual.
     "guia-caloiro.html": {
         pt: {
-            title: "Welcome to Técnico | Guia para Novos Alunos 2026/27 — NEAIST",
-            description: "Novo no Técnico? Encontra informação útil para os teus primeiros passos, Guia para Novos Alunos 2026/27, Mentorado NEAIST, Study Squads e respostas às dúvidas mais frequentes.",
-            stepLists: [
-                "Confirmar matrícula e inscrição",
-                "Organizar alojamento",
-                "Tratar de documentação necessária (visto, autorização de residência)",
-                "Abrir conta bancária (se possível online)",
-                "Juntar-te aos grupos do NEAIST nas redes sociais",
-                "Participar na Semana de Receção aos Caloiros",
-                "Conhecer o campus e as instalações",
-                "Ativar conta Fénix",
-                "Fazer o cartão de estudante",
-                "Conhecer outros estudantes africanos no NEAIST",
-                "Familiarizar-te com o Fénix e os recursos online",
-                "Organizar horário de estudo",
-                "Explorar Lisboa e os arredores",
-                "Participar em eventos do NEAIST",
-                "Juntar-te a grupos de estudo"
-            ],
-            faqQuestions: [
-                "Como faço para me inscrever nas cadeiras?",
-                "Onde posso encontrar alojamento?",
-                "Como funciona o sistema de avaliação?",
-                "O NEAIST pode ajudar-me com questões administrativas?"
-            ],
-            faqAnswers: [
-                "A inscrição nas cadeiras é feita através do sistema Fénix durante o período de inscrições. Consulta o calendário académico para as datas exatas.",
-                "Podes candidatar-te às residências universitárias através dos Serviços de Ação Social. Também há grupos no Facebook para partilha de apartamentos. O NEAIST pode ajudar-te a conectar com outros estudantes à procura de alojamento.",
-                "A avaliação varia por cadeira mas geralmente inclui testes, projetos, trabalhos e exames finais. A nota mínima de aprovação é 9.5 (em 20). Consulta o Fénix para detalhes específicos de cada cadeira.",
-                "Sim. O NEAIST está aqui para apoiar estudantes africanos em todas as questões, desde integração académica até questões administrativas como vistos e autorizações de residência. Não hesites em contactar-nos."
-            ]
-        },
-        en: {
-            title: "Welcome to Técnico | New Students Guide 2026/27 — NEAIST",
-            description: "New at Técnico? Find useful first-step information, the 2026/27 New Students Guide, NEAIST Mentoring, Study Squads, and frequent questions.",
-            stepLists: [
-                "Confirm enrolment and registration",
-                "Arrange accommodation",
-                "Handle the necessary documentation (visa, residence permit)",
-                "Open a bank account (if possible online)",
-                "Join NEAIST groups on social media",
-                "Take part in Freshers' Reception Week",
-                "Get to know the campus and facilities",
-                "Activate your Fénix account",
-                "Get your student card",
-                "Meet other African students through NEAIST",
-                "Become familiar with Fénix and online resources",
-                "Set up a study schedule",
-                "Explore Lisbon and the surrounding area",
-                "Take part in NEAIST events",
-                "Join study groups"
-            ],
-            faqQuestions: [
-                "How do I register for courses?",
-                "Where can I find accommodation?",
-                "How does the assessment system work?",
-                "Can NEAIST help me with administrative issues?"
-            ],
-            faqAnswers: [
-                "Course registration is done through the Fénix system during the registration period. Check the academic calendar for the exact dates.",
-                "You can apply for university residences through the Social Services. There are also Facebook groups for apartment sharing. NEAIST can help connect you with other students looking for accommodation.",
-                "Assessment varies by course but usually includes tests, projects, assignments, and final exams. The minimum passing grade is 9.5 out of 20. Check Fénix for the specific details of each course.",
-                "Yes. NEAIST is here to support African students in everything from academic integration to administrative matters such as visas and residence permits. Feel free to contact us."
-            ]
+            title: "Novo no Técnico | NEAIST",
+            description: "Recursos do NEAIST para novos estudantes do Instituto Superior Técnico: Guia para Novos Alunos, mentoria, Study Squads e acesso à comunidade."
         }
     },
     "mentoria.html": {
@@ -1160,11 +1099,9 @@ const pageCopy = {
             ],
             courseBadges: ["Núcleo", "Comunidade", "Núcleo", "Arquivo", "Núcleo", "Arquivo", "Comunidade", "Arquivo", "Comunidade", "Arquivo", "Núcleo", "Arquivo", "Comunidade", "Arquivo"],
             courseCtas: ["Abrir AeroCloud", "Abrir repositório", "Abrir Drive", "Ver Resumos LEIC-A", "Abrir LEIC My Box", "Abrir biblioteca", "Abrir NEETI Shelf", "Abrir repositório"],
-            courseControlsLabel: "Procurar e filtrar recursos por curso",
+            courseControlsLabel: "Procurar recursos por curso",
             courseSearchLabel: "Procurar por curso ou recurso",
             courseSearchPlaceholder: "Procurar curso ou recurso",
-            courseFiltersLabel: "Filtrar por área",
-            courseFilters: ["Todos", "Engenharia", "Informática", "Matemática"],
             courseStatusTemplate: "{count} recursos visíveis.",
             courseDisclaimerTitle: "Nota importante.",
             courseDisclaimerText: "Estes são recursos de apoio criados por estudantes e núcleos. Confirma sempre a informação oficial sobre unidades curriculares no Fénix.",
@@ -1243,11 +1180,9 @@ const pageCopy = {
             ],
             courseBadges: ["Student group", "Community", "Student group", "Archive", "Student group", "Archive", "Community", "Archive", "Community", "Archive", "Student group", "Archive", "Community", "Archive"],
             courseCtas: ["Open AeroCloud", "Open repository", "Open Drive", "View LEIC-A summaries", "Open LEIC My Box", "Open library", "Open NEETI Shelf", "Open repository"],
-            courseControlsLabel: "Search and filter course resources",
+            courseControlsLabel: "Search course resources",
             courseSearchLabel: "Search by course or resource",
             courseSearchPlaceholder: "Search course or resource",
-            courseFiltersLabel: "Filter by area",
-            courseFilters: ["All", "Engineering", "Computing", "Mathematics"],
             courseStatusTemplate: "{count} resources visible.",
             courseDisclaimerTitle: "Important note.",
             courseDisclaimerText: "These are support resources created by students and student groups. Always confirm official course-unit information on Fénix.",
@@ -1873,18 +1808,6 @@ function applyPageSpecificTranslations() {
         return;
     }
 
-    if (pageName === "guia-caloiro.html") {
-        applyTextList(".timeline-content li", copy.stepLists.map((item) => `✓ ${item}`));
-        document.querySelectorAll(".timeline-content li").forEach((element, index) => {
-            if (copy.stepLists[index]) {
-                element.innerHTML = `<i class="fas fa-check"></i> ${copy.stepLists[index]}`;
-            }
-        });
-        applyTextList(".faq-question h4", copy.faqQuestions);
-        applyTextList(".faq-answer p", copy.faqAnswers);
-        return;
-    }
-
     if (pageName === "mentoria.html") {
         applyTextList(".benefit-card:first-child li", copy.benefitsMentees.map((item) => `• ${item}`));
         applyTextList(".benefit-card:last-child li", copy.benefitsMentors.map((item) => `• ${item}`));
@@ -1991,8 +1914,6 @@ function applyPageSpecificTranslations() {
         applyAttr(".course-resource-controls", "aria-label", copy.courseControlsLabel);
         applyAttr(".course-resource-search", "placeholder", copy.courseSearchPlaceholder);
         applyAttr(".course-resource-search", "aria-label", copy.courseSearchLabel);
-        applyAttr(".course-resource-filters", "aria-label", copy.courseFiltersLabel);
-        applyTextList(".course-resource-filter", copy.courseFilters);
         applyText(".course-disclaimer-title", copy.courseDisclaimerTitle);
         applyText(".course-disclaimer-text", copy.courseDisclaimerText);
         applyText(".course-resource-disclaimer a span", copy.courseDisclaimerLink);
