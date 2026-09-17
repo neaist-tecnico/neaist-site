@@ -73,7 +73,7 @@ Apache `.htaccess` redirects; use the direct `.html` URL above locally.
 ## Novo no Técnico
 
 - Keep the public route `guia-caloiro.html`; the navigation label is “Novo no Técnico”.
-- The current guide is the verified **eight-page 2026/2027 edition** at
+- The current guide is the verified **eight-page final 2026/2027 edition** at
   `files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf`. Its cover image
   in the same directory is rendered from the actual first page.
 - Group access and mentor requests use the same existing Google Form. The URL is
