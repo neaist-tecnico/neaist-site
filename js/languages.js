@@ -697,7 +697,7 @@ const translations = {
         onboarding_mentor_cta: "Request a mentor",
         onboarding_hero_note: "From your first day to feeling at home.",
         onboarding_cover_label: "A GUIDE TO YOUR NEW CHAPTER",
-        onboarding_cover_caption: "8 pages to help you get started. In Portuguese.",
+        onboarding_cover_caption: "8 pages to help you get started.",
         onboarding_start_link: "Find your starting point",
         onboarding_start_eyebrow: "YOUR STARTING POINT",
         onboarding_start_title: "Start here",
@@ -763,7 +763,7 @@ const translations = {
         onboarding_final_intro: "Starting a new chapter can bring plenty of questions. You don’t have to figure it all out on your own — read the Guide, meet the community and get in touch whenever you need guidance.",
         onboarding_final_contact: "Need guidance? Get in touch",
         onboarding_mentor_support: "Mentoring support",
-        onboarding_cover_alt: "Cover of NEAIST’s New Students Guide 2026/2027 (in Portuguese)",
+        onboarding_cover_alt: "Cover of NEAIST’s New Students Guide 2026/2027",
         onboarding_study_alt: "NEAIST Study Squads poster",
         onboarding_back_to_top: "Back to top",
         onboarding_menu_open: "Open menu",
@@ -2192,6 +2192,21 @@ function applyPageSpecificTranslations() {
     }
 }
 
+// Keep every guide link and cover in sync on both the onboarding and resources pages.
+function applyGuideLanguage() {
+    const directory = "files/caloiros/2026-2027/";
+    const guide = currentLanguage === "en"
+        ? { pdf: "new-students-guide-neaist-2026-2027.pdf", cover: "new-students-guide-2026-2027-cover.jpg" }
+        : { pdf: "guia-novos-alunos-neaist-2026-2027.pdf", cover: "guia-novos-alunos-2026-2027-capa.jpg" };
+
+    document.querySelectorAll("[data-guide-link]").forEach((link) => {
+        link.setAttribute("href", directory + guide.pdf);
+    });
+    document.querySelectorAll("[data-guide-cover]").forEach((cover) => {
+        cover.setAttribute("src", directory + guide.cover);
+    });
+}
+
 function enableLanguageButtons() {
     document.querySelectorAll('.lang-btn[data-lang="en"]').forEach((button) => {
         button.disabled = false;
@@ -2224,6 +2239,7 @@ function updatePageLanguage() {
 
     applyCommonTranslations();
     applyPageSpecificTranslations();
+    applyGuideLanguage();
 
     if (typeof window.renderNewsSections === "function") {
         window.renderNewsSections();

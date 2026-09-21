@@ -77,9 +77,10 @@ Apache `.htaccess` redirects; use the direct `.html` URL above locally.
 ## Novo no Técnico
 
 - Keep the public route `guia-caloiro.html`; the top-level navigation label is “Novos Alunos” in PT and “New Students” in EN, after Académico.
-- The current guide is the verified **eight-page final 2026/2027 edition** at
-  `files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf`. Its cover image
-  in the same directory is rendered from the actual first page.
+- Both final 2026/2027 guides have **eight pages** and live in
+  `files/caloiros/2026-2027/`: `guia-novos-alunos-neaist-2026-2027.pdf` (PT) and
+  `new-students-guide-neaist-2026-2027.pdf` (EN). Their cover images in the same
+  directory are rendered from the actual first pages.
 - Group access and mentor requests use the same existing Google Form. The URL is
   centralized in `NEAIST_ONBOARDING` in `js/onboarding.js`; when changing a destination,
   also update the matching HTML `href` fallbacks so links still work without JavaScript.
@@ -87,5 +88,7 @@ Apache `.htaccess` redirects; use the direct `.html` URL above locally.
 - The whole hub uses the site's PT/EN switch, including accessibility labels and
   page metadata. The selected language is remembered across visits. Its copy lives
   under `onboarding_*` keys in `js/languages.js`; the HTML keeps Portuguese fallbacks.
-- The same guide and onboarding form are linked in both languages. The English
-  page identifies the guide PDF as Portuguese; the PDF itself is not translated.
+- Guide links on the onboarding and resources pages, plus the onboarding cover,
+  follow the selected language. `applyGuideLanguage()` in `js/languages.js` maps
+  the editions through `[data-guide-link]` and `[data-guide-cover]`. Keep Portuguese
+  HTML fallbacks in sync. Both languages use the same onboarding form.

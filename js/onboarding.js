@@ -1,17 +1,13 @@
-// Shared destinations for the onboarding hub. Keep HTML href fallbacks in sync so
+// Form destination for the onboarding hub. Keep HTML href fallbacks in sync so
 // every action also works with JavaScript disabled (no client-side rendering).
 (() => {
     'use strict';
     const NEAIST_ONBOARDING = Object.freeze({
-        formUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header',
-        guideUrl: 'files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf'
+        formUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header'
     });
 
     document.querySelectorAll('[data-onboarding-action]').forEach((link) => {
         link.href = NEAIST_ONBOARDING.formUrl;
-    });
-    document.querySelectorAll('[data-guide-link]').forEach((link) => {
-        link.href = NEAIST_ONBOARDING.guideUrl;
     });
 
     // Add keyboard state to this page's existing shared mobile navigation.
