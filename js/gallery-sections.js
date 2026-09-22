@@ -1,6 +1,4 @@
 (function () {
-    // Intrinsic sizes reserve space before gallery photos load.
-    const GALLERY_IMAGE_DIMENSIONS = {"DiadeAfricaPics":{"Achismos1.JPEG":[1330,2364],"Achismos2.JPEG":[3762,6688],"Achismos3.JPEG":[1330,2364],"Achismos4.JPEG":[1330,2364],"Achismos_1.JPEG":[1330,2364],"Celine_Rogerio.JPEG":[1330,2364],"DDA_Group.JPG":[6072,3416],"DDA_group2.JPG":[8064,4536],"Dra Marta.JPEG":[1330,2364],"Eric_Celine_Rogerio.JPEG":[1330,2364],"Eric_DraMarta_Miza.JPEG":[3762,6688],"Eric_LuisCastro.JPEG":[1330,2364],"Eric_LuisCastro1.JPEG":[1330,2364],"Eric_Luis_Rogerio.JPEG":[1330,2364],"Eric_Miza_Marta.JPEG":[3762,6688],"Eric_Rogerio.JPEG":[1330,2364],"Eric_Rogerio_Celine.JPEG":[1330,2364],"Eric_Rogerio_Celine2.JPEG":[1330,2364],"Eric_Sostenes_Miza.JPEG":[3762,6688],"Eric_Sostenes_Miza_Ludo.JPEG":[3762,6688],"Eric_Tarissa_Feliciana.JPEG":[1330,2364],"Eric_Tarissa_Fely.JPEG":[1330,2364],"EricwithFunnyFace.JPEG":[1330,2364],"FullSizeRender.JPEG":[1330,2364],"Great_DDA_group.JPG":[6072,3416],"Group Dia de Africa Foto.JPG":[6072,3416],"IMG_8980.JPEG":[1330,2364],"IMG_8997.JPEG":[1330,2364],"IMG_8999.JPEG":[1330,2364],"IMG_9002.JPEG":[1330,2364],"IMG_9004.JPEG":[1330,2364],"IMG_9012.JPEG":[1330,2364],"IMG_9014.JPEG":[1330,2364],"IMG_9018.JPEG":[1330,2364],"IMG_9019.JPEG":[1330,2364],"IMG_9020.JPEG":[1330,2364],"IMG_9022.JPEG":[1330,2364],"IMG_9024.JPEG":[1330,2364],"IMG_9025.JPEG":[1330,2364],"IMG_9026.JPEG":[1330,2364],"IMG_9027.JPEG":[1330,2364],"IMG_9029.JPEG":[1330,2364],"IMG_9034.JPEG":[1330,2364],"IMG_9035.JPEG":[1330,2364],"IMG_9036.JPEG":[1330,2364],"IMG_9043.JPEG":[1330,2364],"IMG_9050.JPEG":[1330,2364],"IMG_9051.JPEG":[1330,2364],"IMG_9054.JPEG":[1330,2364],"IMG_9065.JPEG":[1330,2364],"IMG_9068.JPEG":[1330,2364],"IMG_9081.JPEG":[1330,2364],"IMG_9082.JPEG":[1330,2364],"IMG_9086.JPEG":[1330,2364],"IMG_9088.JPEG":[1330,2364],"IMG_9090.JPEG":[1330,2364],"IMG_9091.JPEG":[1330,2364],"IMG_9092.JPEG":[1330,2364],"IMG_9098.JPEG":[3762,6688],"IMG_9099.JPEG":[3762,6688],"IMG_9100.JPEG":[3762,6688],"IMG_9101.JPEG":[3762,6688],"IMG_9102.JPEG":[1330,2364],"IMG_9103.JPEG":[1330,2364],"IMG_9104.JPEG":[1330,2364],"IMG_9105.JPEG":[1330,2364],"IMG_9112.JPEG":[3762,6688],"IMG_9113.JPEG":[1330,2364],"IMG_9114.JPEG":[3762,6688],"IMG_9115.JPEG":[3762,6688],"IMG_9116.JPEG":[3762,6688],"IMG_9119.JPEG":[3762,6688],"IMG_9121.JPEG":[3762,6688],"IMG_9122.JPEG":[3762,6688],"IMG_9130.JPEG":[1330,2364],"IMG_9134.JPEG":[1330,2364],"IMG_9135.JPEG":[1330,2364],"IMG_9155.JPG":[8064,4536],"IMG_9156.JPG":[4536,8064],"IMG_9157.JPG":[4536,8064],"LuisCastro_Rogerio_Eric.JPEG":[1330,2364],"Luis_Eric.JPEG":[1330,2364],"Luis_Rogerio_Eric.JPEG":[1330,2364],"NicePic.JPEG":[1330,2364],"NicePic2.JPEG":[1330,2364],"NicePic3.JPEG":[1330,2364],"NicePic4.JPEG":[1330,2364],"NicePic5.JPEG":[1330,2364],"NicePic6.JPEG":[1330,2364],"Prof Rego.JPEG":[2364,1330],"ProfRogerioDDA.JPEG":[1330,2364],"Profs Pedro_Marta_Luis.JPEG":[1330,2364],"Proper_DDA_Group.JPG":[6072,3416],"Rogerio_LuisCastro_Eric.JPEG":[1330,2364],"Rogerio_Marta_Pedro.JPEG":[1330,2364],"Rogerio_Pedro.JPEG":[1330,2364],"Rogerio_Pedro2.JPEG":[1330,2364],"TIC_Entrance.JPEG":[1330,2364],"Top_Rogerio.JPEG":[1330,2364]},"tomadadePosse26":{"Alayna1.jpeg":[1600,1200],"Andreia1.jpeg":[1600,1200],"Ayanda1.jpeg":[1600,1200],"Ayanda2.jpeg":[1600,1200],"Bibiana Abrantes.jpeg":[1600,1200],"Bibiana2.jpeg":[1600,1200],"Bibiana_Jenifer_Simone.jpeg":[1600,1200],"CelineAcia.jpeg":[1600,1200],"Celine_Simone.jpeg":[1600,1200],"Celine_Tarissa.jpeg":[1600,1200],"Davane1.jpeg":[1600,1200],"Davane2.jpeg":[1600,1200],"Davane3.jpeg":[1600,1200],"EquipaTomadaDePosse.jpeg":[1600,1200],"EquipaTomadaDePosse26.jpeg":[1600,1200],"EricSoloVibe.jpeg":[1600,1200],"EvanioTarissaEricCeline.jpeg":[1600,1200],"Feliciana.jpeg":[1600,1200],"Feliciana2.jpeg":[1600,1200],"GroupTomadaDePosse26needsLight.jpeg":[1600,1200],"GroupTomadaDePosseneedsLight2.jpeg":[1600,1200],"Jenifer.jpeg":[1600,1200],"Jenifer2.jpeg":[1600,1200],"LuisCastro.jpeg":[1600,1200],"LuisCastro_DanielRocha.jpeg":[852,1200],"Miza2.jpeg":[1600,1200],"MizaMabunda.jpeg":[1600,1200],"Ndully1.jpeg":[1600,1200],"Ndully2.jpeg":[1600,1200],"NdullyEricDavane.jpeg":[1600,1200],"Nice Group Pic.jpeg":[1600,1200],"Nice Sala Pic.jpeg":[1600,1200],"PicComEvanioSimoneEricLuisCastro.jpeg":[1600,1200],"PresEric.jpeg":[1600,1200],"ProfLuis.jpeg":[1200,1600],"Simone.jpeg":[1600,1200],"Simone_Feliciana.jpeg":[1600,1200],"Tarissa1.jpeg":[1200,1600],"Tarissa2.jpeg":[1200,1600],"WhatsApp Image 2026-05-23 at 18.35.21.jpeg":[1600,1200],"WhatsApp Image 2026-05-23 at 18.35.22.jpeg":[1600,1200],"WhatsApp Image 2026-05-23 at 18.35.28.jpeg":[1600,1200],"WhatsApp Image 2026-05-23 at 18.35.50 (1).jpeg":[1600,1200],"WhatsApp Image 2026-05-23 at 18.35.51.jpeg":[1600,1200],"WhatsApp Image 2026-05-23 at 18.35.52 (1).jpeg":[1600,1200],"WhatsApp Image 2026-05-23 at 18.35.52 (2).jpeg":[1600,1200],"WhatsApp Image 2026-05-23 at 18.35.52.jpeg":[1600,1200],"WhatsApp Image 2026-05-23 at 18.35.53 (6).jpeg":[1600,1200],"WhatsApp Image 2026-05-23 at 18.35.53 (7).jpeg":[1200,1600],"WhatsApp Image 2026-05-23 at 18.35.53.jpeg":[1600,1200],"WhatsApp Image 2026-05-23 at 18.35.54 (1).jpeg":[1200,1600],"WhatsApp Image 2026-05-23 at 18.35.54 (6).jpeg":[1200,1600],"WhatsApp Image 2026-05-23 at 18.35.55 (1).jpeg":[1200,1600],"WhatsApp Image 2026-05-23 at 18.35.55 (2).jpeg":[1200,1600],"WhatsApp Image 2026-05-23 at 18.35.55 (3).jpeg":[1200,1600],"WhatsApp Image 2026-05-23 at 18.35.55 (4).jpeg":[1200,1600],"WhatsApp Image 2026-05-23 at 18.35.55 (5).jpeg":[1200,1600],"WhatsApp Image 2026-05-23 at 18.35.55 (6).jpeg":[1200,1600]},"Game Day":{"IMG_7705.JPEG":[2066,3672],"IMG_7714.JPEG":[3762,6688],"IMG_7765.JPEG":[3762,6688],"IMG_7774.JPEG":[3762,6688],"IMG_7775.JPEG":[1330,2364],"IMG_7778.JPEG":[2066,3672],"NEAIST GAME DAY (1).png":[1055,1491],"game_day_C9_clean.jpeg":[1080,1920]}};
     const GALLERY_SECTION_COPY = {
         pt: {
             dia: {
@@ -37,8 +35,6 @@
                 kicker: "Convívio",
                 title: "Game Day",
                 subtitle: "Arquivo fotográfico das atividades de lazer e convívio promovidas pelo NEAIST, com jogos e momentos informais entre estudantes.",
-                button: "Ler sobre o Game Day",
-                href: "noticia-game-day-2026.html",
                 folder: "Game Day",
                 captions: [
                     "Momento do Game Day",
@@ -84,8 +80,6 @@
                 kicker: "Community",
                 title: "Game Day",
                 subtitle: "Photo archive of the leisure and community activities promoted by NEAIST, with games and informal moments among students.",
-                button: "Read about Game Day",
-                href: "noticia-game-day-2026.html",
                 folder: "Game Day",
                 captions: [
                     "Moment from Game Day",
@@ -119,15 +113,11 @@
 
     function renderGalleryCards(grid, sectionCopy) {
         grid.innerHTML = sectionCopy.files.map((filename, index) => {
-            const caption = `${sectionCopy.captions[index % sectionCopy.captions.length]} — NEAIST`;
+            const caption = sectionCopy.captions[index % sectionCopy.captions.length];
             const imagePath = encodeURI(`images/${sectionCopy.folder}/${filename}`);
-            const dimensions = GALLERY_IMAGE_DIMENSIONS[sectionCopy.folder]?.[filename];
-            const size = dimensions ? `width="${dimensions[0]}" height="${dimensions[1]}"` : "";
-            const loading = sectionCopy.folder === "DiadeAfricaPics" && index < 4 ? "eager" : "lazy";
-            const photo = `<img src="${imagePath}" alt="${escapeHtml(caption)}" ${size} loading="${loading}" decoding="async">`;
             return `
                 <figure class="gallery-photo fade-in-up${getDelayClass(index)}">
-                    ${index === 0 && sectionCopy.href ? `<a href="${sectionCopy.href}" aria-label="${escapeHtml(sectionCopy.button)}">${photo}</a>` : photo}
+                    <img src="${imagePath}" alt="${escapeHtml(caption)}" loading="lazy">
                 </figure>
             `;
         }).join("");
@@ -147,8 +137,6 @@
         }
 
         const grid = section.querySelector("[data-gallery-grid]");
-        const heading = section.querySelector("[data-gallery-heading]");
-        if (heading) heading.textContent = sectionCopy.title;
 
         if (grid) {
             renderGalleryCards(grid, sectionCopy);

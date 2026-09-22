@@ -59,7 +59,7 @@ Apache `.htaccess` redirects; use the direct `.html` URL above locally.
 - `js/main.js`: navigation, interactions, and shared behavior
 - `js/languages.js`: shared PT/EN content and page-specific copy
 - `js/news-data.js`: homepage and archive news cards
-- `js/gallery-sections.js`: gallery sections, captions, image dimensions and event links
+- `js/gallery-data.js`: gallery image list
 - `css/onboarding.css`: styles scoped to Novo no Técnico
 - `js/onboarding.js`: shared onboarding destinations and page accessibility helpers
 
@@ -73,37 +73,6 @@ Apache `.htaccess` redirects; use the direct `.html` URL above locally.
 - Images used by the live site are kept under `images/`.
 - PDFs and downloadable resources are kept under `files/`.
 - Video assets are kept under `media/`.
-
-## SEO maintenance
-
-The deployable HTML includes metadata and JSON-LD directly. No additional browser
-library or server build is required. The audit and remaining hosting requirements
-are documented in [the SEO report](docs/seo/report.md).
-
-Edit titles, descriptions and social-image assignments in `scripts/seo-pages.json`.
-After content changes have been committed, regenerate metadata, source-history
-dates, the sitemap and asset hashes with:
-
-```bash
-python3 -m venv /tmp/neaist-seo-check
-/tmp/neaist-seo-check/bin/pip install -r scripts/requirements-seo.txt
-/tmp/neaist-seo-check/bin/python scripts/build_seo.py
-/tmp/neaist-seo-check/bin/python scripts/check_seo.py
-```
-
-`lastmod` uses meaningful HTML text changes and the content sources declared per
-page (news, gallery and guide editions). It is not reset to each deployment date.
-Article publication dates must be confirmed before adding `datePublished`.
-
-Edit redirect mappings in `scripts/legacy-redirects.json`, then run
-`python3 scripts/build_redirects.py`. Test the generated rules on Apache using
-`scripts/check_seo.py --http ORIGIN`; Python's preview server cannot test them.
-See [hosting requirements and post-deployment checks](docs/seo/hosting.md).
-
-Social cards are checked-in 1200 × 630 JPEGs in `images/social/`. The optional
-`scripts/render-social.mjs` renderer uses Playwright and the existing logo/photos
-to rebuild them. The deployment workflow validates the static SEO before rsync
-and excludes development scripts and audit reports from publication.
 
 ## Novo no Técnico
 

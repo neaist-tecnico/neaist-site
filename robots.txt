@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
 
-# Legacy routes must remain crawlable so search engines can see permanent redirects.
-# Tournament pages carry noindex; they are deliberately not blocked here.
 Sitemap: https://neaist.tecnico.ulisboa.pt/sitemap.xml
