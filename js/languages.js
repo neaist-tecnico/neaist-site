@@ -1034,7 +1034,7 @@ const pageCopy = {
                 ["Ndully Malate — Coordenador"],
                 ["Feliciana Carlos — Coordenadora", "Amabel André — Membro", "Prosperity Oguama — Membro"],
                 ["Francisco Davane — Coordenador", "Ayanda Amone — Membro"],
-                ["Alayna Lalgy — Coordenadora", "Andreia Andrade — Membro"]
+                ["Alayna Lalgy — Coordenadora", "Andreia Sofia Trindade de Andrade — Membro"]
             ]
         },
         en: {
@@ -1093,7 +1093,7 @@ const pageCopy = {
                 ["Ndully Malate — Coordinator"],
                 ["Feliciana Carlos — Coordinator", "Amabel André — Member", "Prosperity Oguama — Member"],
                 ["Francisco Davane — Coordinator", "Ayanda Amone — Member"],
-                ["Alayna Lalgy — Coordinator", "Andreia Andrade — Member"]
+                ["Alayna Lalgy — Coordinator", "Andreia Sofia Trindade de Andrade — Member"]
             ]
         }
     },
