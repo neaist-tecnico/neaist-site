@@ -1,0 +1,3050 @@
+{
+  "sourceCommit": "8f8c38434514866c8e070a0cbc2dfd0417f0ce40",
+  "pages": [
+    {
+      "file": "contactos.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/contactos.html",
+      "title": "Contactos | NEAIST",
+      "description": "Contacta o NEAIST, Núcleo de Estudantes Africanos do Instituto Superior Técnico, por email ou Instagram para apoio, parcerias e informações.",
+      "canonicals": [
+        "https://neaist.tecnico.ulisboa.pt/contactos.html"
+      ],
+      "robots": "index, follow (implicit)",
+      "h1": [
+        "Contactos"
+      ],
+      "headings": [
+        [
+          "h1",
+          "Contactos"
+        ],
+        [
+          "h2",
+          "Fala connosco"
+        ],
+        [
+          "h4",
+          "Email"
+        ],
+        [
+          "h4",
+          "Instagram"
+        ],
+        [
+          "h3",
+          "NEAIST"
+        ],
+        [
+          "h4",
+          "Links Rápidos"
+        ],
+        [
+          "h4",
+          "Contacto"
+        ]
+      ],
+      "og": {
+        "og:type": "website",
+        "og:title": "Contactos | NEAIST",
+        "og:description": "Email e Instagram do NEAIST para apoio, contacto institucional e parcerias no Instituto Superior Técnico.",
+        "og:url": "https://neaist.tecnico.ulisboa.pt/contactos.html",
+        "og:image": "https://neaist.tecnico.ulisboa.pt/images/branding/neaist-preview.svg"
+      },
+      "twitter": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Contactos | NEAIST",
+        "twitter:description": "Entra em contacto com o NEAIST para apoio, parcerias e informações.",
+        "twitter:image": "https://neaist.tecnico.ulisboa.pt/images/branding/neaist-preview.svg"
+      },
+      "structuredData": [],
+      "socialImage": "https://neaist.tecnico.ulisboa.pt/images/branding/neaist-preview.svg",
+      "inSitemap": true,
+      "shouldIndex": true,
+      "images": [
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo"
+        },
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo",
+          "class": [
+            "footer-brand-logo"
+          ]
+        },
+        {
+          "src": "images/branding/tecnico-logo.png",
+          "alt": "Técnico logo",
+          "class": [
+            "footer-tech-logo"
+          ]
+        }
+      ],
+      "links": [
+        "index.html",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "study-squads.html",
+        "mentoria.html",
+        "recursos.html",
+        "guia-caloiro.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "contactos.html",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "mailto:neaist.sa@aeist.pt",
+        "https://www.instagram.com/nea_ist/",
+        "https://www.facebook.com/NEAISTECNICO/",
+        "https://www.instagram.com/nea_ist/",
+        "https://www.tiktok.com/@neaist_",
+        "mailto:neaist.sa@aeist.pt",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "recursos.html",
+        "contactos.html"
+      ]
+    },
+    {
+      "file": "dia-de-africa.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/dia-de-africa.html",
+      "title": "Dia de África no Técnico | NEAIST",
+      "description": "Recap do Dia de África no Técnico, promovido pelo NEAIST a 27 de Maio de 2026, com programa, fotografias e destaques do encontro.",
+      "canonicals": [
+        "https://neaist.tecnico.ulisboa.pt/dia-de-africa.html"
+      ],
+      "robots": "index, follow (implicit)",
+      "h1": [
+        "NEAIST promove Dia de África no Técnico"
+      ],
+      "headings": [
+        [
+          "h1",
+          "NEAIST promove Dia de África no Técnico"
+        ],
+        [
+          "h2",
+          "Dia de África no Técnico: Ubuntu — Eu Sou Porque Nós Somos"
+        ],
+        [
+          "h2",
+          "Ubuntu: Eu Sou Porque Nós Somos"
+        ],
+        [
+          "h2",
+          "Registos do Dia de África no Técnico"
+        ],
+        [
+          "h3",
+          "NEAIST"
+        ],
+        [
+          "h4",
+          "Links Rápidos"
+        ],
+        [
+          "h4",
+          "Contacto"
+        ]
+      ],
+      "og": {
+        "og:type": "article",
+        "og:title": "Dia de África no Técnico | NEAIST",
+        "og:description": "Memória do Dia de África no Técnico, com programa, agradecimento e registos fotográficos do encontro organizado pelo NEAIST.",
+        "og:url": "https://neaist.tecnico.ulisboa.pt/dia-de-africa.html",
+        "og:image": "https://neaist.tecnico.ulisboa.pt/images/news/dia-de-africa-2026/group-photo.jpg"
+      },
+      "twitter": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Dia de África no Técnico | NEAIST",
+        "twitter:description": "Recap do encontro promovido pelo NEAIST no Técnico Innovation Center a 27 de Maio de 2026.",
+        "twitter:image": "https://neaist.tecnico.ulisboa.pt/images/news/dia-de-africa-2026/group-photo.jpg"
+      },
+      "structuredData": [],
+      "socialImage": "https://neaist.tecnico.ulisboa.pt/images/news/dia-de-africa-2026/group-photo.jpg",
+      "inSitemap": true,
+      "shouldIndex": true,
+      "images": [
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo"
+        },
+        {
+          "src": "images/events/dia-de-africa-with-name.jpeg",
+          "alt": "Cartaz do Dia de África no Técnico com o subtítulo Ubuntu: Eu Sou Porque Nós Somos"
+        },
+        {
+          "src": "images/events/dia-de-africa-agenda.jpeg",
+          "alt": "Programa do Dia de África no Técnico"
+        },
+        {
+          "src": "images/news/dia-de-africa-2026/group-photo.jpg",
+          "alt": "Fotografia de grupo no Dia de África do NEAIST no Técnico"
+        },
+        {
+          "src": "images/news/dia-de-africa-2026/tic-entrance.jpeg",
+          "alt": "Entrada do Técnico Innovation Center no Dia de África do NEAIST"
+        },
+        {
+          "src": "images/news/dia-de-africa-2026/professor-sostenes-rego.jpeg",
+          "alt": "Intervenção do Dr. Sóstenes Rego durante o Dia de África do NEAIST"
+        },
+        {
+          "src": "images/news/dia-de-africa-2026/audience-and-exhibition.jpeg",
+          "alt": "Participantes e exposição cultural durante o Dia de África do NEAIST"
+        },
+        {
+          "src": "images/news/dia-de-africa-2026/group-photo-2.jpg",
+          "alt": "Outro momento de fotografia de grupo no Dia de África do NEAIST"
+        },
+        {
+          "src": "images/news/dia-de-africa-2026/cultural-display.jpeg",
+          "alt": "Exposição cultural apresentada durante o Dia de África do NEAIST"
+        },
+        {
+          "src": "images/news/dia-de-africa-2026/community-moment.jpeg",
+          "alt": "Momento de convívio entre participantes no Dia de África do NEAIST"
+        },
+        {
+          "src": "images/news/dia-de-africa-2026/guests-and-organizers.jpeg",
+          "alt": "Convidados e organizadores no Dia de África do NEAIST"
+        },
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo",
+          "class": [
+            "footer-brand-logo"
+          ]
+        },
+        {
+          "src": "images/branding/tecnico-logo.png",
+          "alt": "Técnico logo",
+          "class": [
+            "footer-tech-logo"
+          ]
+        }
+      ],
+      "links": [
+        "index.html",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "study-squads.html",
+        "mentoria.html",
+        "recursos.html",
+        "guia-caloiro.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "contactos.html",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "noticias.html",
+        "#fotografias",
+        "https://www.facebook.com/NEAISTECNICO/",
+        "https://www.instagram.com/nea_ist/",
+        "https://www.tiktok.com/@neaist_",
+        "mailto:neaist.sa@aeist.pt",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "recursos.html",
+        "contactos.html"
+      ]
+    },
+    {
+      "file": "equipa.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/equipa.html",
+      "title": "Equipa 2026 | NEAIST — Direção e Órgãos Sociais",
+      "description": "Conhece a Direção 2026, os órgãos sociais e os departamentos do NEAIST, Núcleo de Estudantes Africanos do Instituto Superior Técnico.",
+      "canonicals": [
+        "https://neaist.tecnico.ulisboa.pt/equipa.html"
+      ],
+      "robots": "index, follow (implicit)",
+      "h1": [
+        "Direção e Equipa NEAIST 2026"
+      ],
+      "headings": [
+        [
+          "h1",
+          "Direção e Equipa NEAIST 2026"
+        ],
+        [
+          "h2",
+          "A equipa que coordena o NEAIST"
+        ],
+        [
+          "h2",
+          "Estrutura institucional"
+        ],
+        [
+          "h3",
+          "Presidência"
+        ],
+        [
+          "h3",
+          "Mesa da Assembleia Geral"
+        ],
+        [
+          "h3",
+          "Conselho Fiscal"
+        ],
+        [
+          "h2",
+          "Áreas de trabalho"
+        ],
+        [
+          "h3",
+          "Projetos & Parcerias"
+        ],
+        [
+          "h3",
+          "Desporto"
+        ],
+        [
+          "h3",
+          "Assuntos Académicos"
+        ],
+        [
+          "h3",
+          "Comunidade e Cultura"
+        ],
+        [
+          "h3",
+          "Comunicação e Imagem"
+        ],
+        [
+          "h3",
+          "NEAIST"
+        ],
+        [
+          "h4",
+          "Links Rápidos"
+        ],
+        [
+          "h4",
+          "Contacto"
+        ]
+      ],
+      "og": {
+        "og:type": "website",
+        "og:title": "Equipa 2026 | NEAIST — Direção e Órgãos Sociais",
+        "og:description": "Conhece a Direção 2026, os órgãos sociais e os departamentos do NEAIST.",
+        "og:url": "https://neaist.tecnico.ulisboa.pt/equipa.html",
+        "og:image": "https://neaist.tecnico.ulisboa.pt/images/news/tomada-posse-direcao-neaist-2026.jpeg"
+      },
+      "twitter": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Equipa 2026 | NEAIST — Direção e Órgãos Sociais",
+        "twitter:description": "Conhece a Direção 2026, os órgãos sociais e os departamentos do NEAIST.",
+        "twitter:image": "https://neaist.tecnico.ulisboa.pt/images/news/tomada-posse-direcao-neaist-2026.jpeg"
+      },
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "NEAIST - Núcleo de Estudantes Africanos do Instituto Superior Técnico",
+          "alternateName": [
+            "NEAIST",
+            "Núcleo de Estudantes Africanos do IST",
+            "African Students Association at Instituto Superior Técnico"
+          ],
+          "url": "https://neaist.tecnico.ulisboa.pt/",
+          "member": [
+            {
+              "@type": "Person",
+              "name": "Eric Muthami",
+              "jobTitle": "Presidente do NEAIST"
+            },
+            {
+              "@type": "Person",
+              "name": "Celine Machaieie",
+              "jobTitle": "Vice-Presidente do NEAIST"
+            },
+            {
+              "@type": "Person",
+              "name": "Miza Mabunda",
+              "jobTitle": "Tesoureira do NEAIST"
+            },
+            {
+              "@type": "Person",
+              "name": "Evanio Rodrigues",
+              "jobTitle": "Presidente da Mesa da Assembleia Geral do NEAIST"
+            },
+            {
+              "@type": "Person",
+              "name": "Jennifer de Matos",
+              "jobTitle": "1.ª Vogal da Mesa da Assembleia Geral do NEAIST"
+            },
+            {
+              "@type": "Person",
+              "name": "Simone Langa",
+              "jobTitle": "2.ª Vogal da Mesa da Assembleia Geral do NEAIST"
+            },
+            {
+              "@type": "Person",
+              "name": "Tarissa Pinto",
+              "jobTitle": "Presidente do Conselho Fiscal do NEAIST"
+            },
+            {
+              "@type": "Person",
+              "name": "Bibiana Abrantes",
+              "jobTitle": "1.ª Vogal do Conselho Fiscal do NEAIST"
+            },
+            {
+              "@type": "Person",
+              "name": "Denilson Vieira",
+              "jobTitle": "Vogal do Conselho Fiscal do NEAIST"
+            },
+            {
+              "@type": "Person",
+              "name": "Haiani Antonio",
+              "jobTitle": "Coordenadora de Projetos & Parcerias do NEAIST"
+            },
+            {
+              "@type": "Person",
+              "name": "Ndully Malate",
+              "jobTitle": "Coordenador de Desporto do NEAIST"
+            },
+            {
+              "@type": "Person",
+              "name": "Feliciana Carlos",
+              "jobTitle": "Coordenadora de Assuntos Académicos do NEAIST"
+            },
+            {
+              "@type": "Person",
+              "name": "Amabel André",
+              "jobTitle": "Membro de Assuntos Académicos do NEAIST"
+            },
+            {
+              "@type": "Person",
+              "name": "Prosperity Oguama",
+              "jobTitle": "Membro de Assuntos Académicos do NEAIST"
+            },
+            {
+              "@type": "Person",
+              "name": "Francisco Davane",
+              "jobTitle": "Coordenador de Comunidade e Cultura do NEAIST"
+            },
+            {
+              "@type": "Person",
+              "name": "Ayanda Amone",
+              "jobTitle": "Membro de Comunidade e Cultura do NEAIST"
+            },
+            {
+              "@type": "Person",
+              "name": "Alayna Lalgy",
+              "jobTitle": "Coordenadora de Comunicação e Imagem do NEAIST"
+            },
+            {
+              "@type": "Person",
+              "name": "Andreia Andrade",
+              "jobTitle": "Membro de Comunicação e Imagem do NEAIST"
+            }
+          ]
+        }
+      ],
+      "socialImage": "https://neaist.tecnico.ulisboa.pt/images/news/tomada-posse-direcao-neaist-2026.jpeg",
+      "inSitemap": true,
+      "shouldIndex": true,
+      "images": [
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo"
+        },
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo",
+          "class": [
+            "footer-brand-logo"
+          ]
+        },
+        {
+          "src": "images/branding/tecnico-logo.png",
+          "alt": "Técnico logo",
+          "class": [
+            "footer-tech-logo"
+          ]
+        }
+      ],
+      "links": [
+        "index.html",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "study-squads.html",
+        "mentoria.html",
+        "recursos.html",
+        "guia-caloiro.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "contactos.html",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "https://www.facebook.com/NEAISTECNICO/",
+        "https://www.instagram.com/nea_ist/",
+        "https://www.tiktok.com/@neaist_",
+        "mailto:neaist.sa@aeist.pt",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "recursos.html",
+        "contactos.html"
+      ]
+    },
+    {
+      "file": "galeria.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/galeria.html",
+      "title": "Galeria | NEAIST — Comunidade Africana no Técnico",
+      "description": "Galeria do NEAIST organizada por evento, com arquivos do Dia de África, tomada de posse e Game Day da comunidade africana no Técnico.",
+      "canonicals": [
+        "https://neaist.tecnico.ulisboa.pt/galeria.html"
+      ],
+      "robots": "index, follow (implicit)",
+      "h1": [
+        "Galeria"
+      ],
+      "headings": [
+        [
+          "h1",
+          "Galeria"
+        ],
+        [
+          "h3",
+          "NEAIST"
+        ],
+        [
+          "h4",
+          "Links Rápidos"
+        ],
+        [
+          "h4",
+          "Contacto"
+        ]
+      ],
+      "og": {
+        "og:type": "website",
+        "og:title": "Galeria | NEAIST — Comunidade Africana no Técnico",
+        "og:description": "Arquivo visual do NEAIST organizado por evento, com galerias do Dia de África, tomada de posse e Game Day.",
+        "og:url": "https://neaist.tecnico.ulisboa.pt/galeria.html",
+        "og:image": "https://neaist.tecnico.ulisboa.pt/images/news/tomada-posse-direcao-neaist-2026.jpeg"
+      },
+      "twitter": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Galeria | NEAIST",
+        "twitter:description": "Galerias do NEAIST organizadas por evento, com momentos do Dia de África, tomada de posse e Game Day.",
+        "twitter:image": "https://neaist.tecnico.ulisboa.pt/images/news/tomada-posse-direcao-neaist-2026.jpeg"
+      },
+      "structuredData": [],
+      "socialImage": "https://neaist.tecnico.ulisboa.pt/images/news/tomada-posse-direcao-neaist-2026.jpeg",
+      "inSitemap": true,
+      "shouldIndex": true,
+      "images": [
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo"
+        },
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo",
+          "class": [
+            "footer-brand-logo"
+          ]
+        },
+        {
+          "src": "images/branding/tecnico-logo.png",
+          "alt": "Técnico logo",
+          "class": [
+            "footer-tech-logo"
+          ]
+        }
+      ],
+      "links": [
+        "index.html",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "study-squads.html",
+        "mentoria.html",
+        "recursos.html",
+        "guia-caloiro.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "contactos.html",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "https://www.facebook.com/NEAISTECNICO/",
+        "https://www.instagram.com/nea_ist/",
+        "https://www.tiktok.com/@neaist_",
+        "mailto:neaist.sa@aeist.pt",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "recursos.html",
+        "contactos.html"
+      ]
+    },
+    {
+      "file": "google3787be196031a932.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/google3787be196031a932.html",
+      "title": null,
+      "description": null,
+      "canonicals": [],
+      "robots": "index, follow (implicit)",
+      "h1": [],
+      "headings": [],
+      "og": {},
+      "twitter": {},
+      "structuredData": [],
+      "socialImage": null,
+      "inSitemap": false,
+      "shouldIndex": false,
+      "images": [],
+      "links": []
+    },
+    {
+      "file": "guia-caloiro.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/guia-caloiro.html",
+      "title": "Novo no Técnico | NEAIST",
+      "description": "Recursos do NEAIST para novos estudantes do Instituto Superior Técnico: Guia para Novos Alunos, mentoria, Study Squads e acesso à comunidade.",
+      "canonicals": [
+        "https://neaist.tecnico.ulisboa.pt/guia-caloiro.html"
+      ],
+      "robots": "index, follow (implicit)",
+      "h1": [
+        "NOVO NO TÉCNICO ?"
+      ],
+      "headings": [
+        [
+          "h1",
+          "NOVO NO TÉCNICO ?"
+        ],
+        [
+          "h2",
+          "Começa aqui"
+        ],
+        [
+          "h3",
+          "Guia para Novos Alunos 2026/27"
+        ],
+        [
+          "h3",
+          "Grupo de Novos Estudantes"
+        ],
+        [
+          "h3",
+          "Programa de Mentoria"
+        ],
+        [
+          "h2",
+          "Primeiros passos"
+        ],
+        [
+          "h3",
+          "Antes de chegares"
+        ],
+        [
+          "h3",
+          "Primeira semana"
+        ],
+        [
+          "h3",
+          "Primeiro mês"
+        ],
+        [
+          "h2",
+          "O que podes precisar nos primeiros dias"
+        ],
+        [
+          "h3",
+          "Fénix"
+        ],
+        [
+          "h3",
+          "Alojamento"
+        ],
+        [
+          "h3",
+          "NIF"
+        ],
+        [
+          "h3",
+          "SNS"
+        ],
+        [
+          "h3",
+          "AIMA"
+        ],
+        [
+          "h3",
+          "Study Squads"
+        ],
+        [
+          "h2",
+          "Não precisas de descobrir tudo sozinho."
+        ],
+        [
+          "h2",
+          "Grupo de Novos Estudantes 2026/27"
+        ],
+        [
+          "h2",
+          "Estudar também é mais fácil em comunidade."
+        ],
+        [
+          "h2",
+          "ESTAMOS AQUI PARA TE RECEBER."
+        ],
+        [
+          "h3",
+          "NEAIST"
+        ],
+        [
+          "h4",
+          "Links Rápidos"
+        ],
+        [
+          "h4",
+          "Contacto"
+        ]
+      ],
+      "og": {
+        "og:type": "website",
+        "og:title": "Novo no Técnico | NEAIST",
+        "og:description": "Recursos do NEAIST para novos estudantes do Instituto Superior Técnico: Guia para Novos Alunos, mentoria, Study Squads e acesso à comunidade.",
+        "og:url": "https://neaist.tecnico.ulisboa.pt/guia-caloiro.html",
+        "og:image": "https://neaist.tecnico.ulisboa.pt/images/branding/neaist-preview.svg"
+      },
+      "twitter": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Novo no Técnico | NEAIST",
+        "twitter:description": "Recursos do NEAIST para novos estudantes do Instituto Superior Técnico: Guia para Novos Alunos, mentoria, Study Squads e acesso à comunidade.",
+        "twitter:image": "https://neaist.tecnico.ulisboa.pt/images/branding/neaist-preview.svg"
+      },
+      "structuredData": [],
+      "socialImage": "https://neaist.tecnico.ulisboa.pt/images/branding/neaist-preview.svg",
+      "inSitemap": true,
+      "shouldIndex": true,
+      "images": [
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo"
+        },
+        {
+          "src": "files/caloiros/2026-2027/guia-novos-alunos-2026-2027-capa.jpg",
+          "alt": "Capa do Guia para Novos Alunos 2026/2027 do NEAIST",
+          "data-onboarding-alt": "onboarding_cover_alt",
+          "data-guide-cover": "",
+          "width": "805",
+          "height": "1137",
+          "fetchpriority": "high"
+        },
+        {
+          "class": [
+            "ob-study-poster"
+          ],
+          "src": "files/study-squads/study-squads-poster.png",
+          "alt": "Cartaz Study Squads do NEAIST",
+          "data-onboarding-alt": "onboarding_study_alt",
+          "width": "1055",
+          "height": "1491",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo",
+          "class": [
+            "footer-brand-logo"
+          ]
+        },
+        {
+          "src": "images/branding/tecnico-logo.png",
+          "alt": "Técnico logo",
+          "class": [
+            "footer-tech-logo"
+          ]
+        }
+      ],
+      "links": [
+        "#conteudo",
+        "index.html",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "study-squads.html",
+        "mentoria.html",
+        "recursos.html",
+        "guia-caloiro.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "contactos.html",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf",
+        "https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header",
+        "https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header",
+        "files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf",
+        "#comeca-aqui",
+        "files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf",
+        "https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header",
+        "https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header",
+        "https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header",
+        "mentoria.html",
+        "https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header",
+        "study-squads.html",
+        "recursos.html",
+        "files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf",
+        "https://docs.google.com/forms/d/e/1FAIpQLSdWEEdEibkHmomE9jwtozgM7lZSU0niKHMRODGaSGuAUcgUpA/viewform?usp=header",
+        "contactos.html",
+        "https://www.facebook.com/NEAISTECNICO/",
+        "https://www.instagram.com/nea_ist/",
+        "https://www.tiktok.com/@neaist_",
+        "mailto:neaist.sa@aeist.pt",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "recursos.html",
+        "contactos.html"
+      ]
+    },
+    {
+      "file": "index.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/",
+      "title": "NEAIST — Núcleo de Estudantes Africanos do Instituto Superior Técnico",
+      "description": "Website oficial do NEAIST, Núcleo de Estudantes Africanos do Instituto Superior Técnico. Comunidade, integração, cultura e apoio académico para estudantes africanos no IST.",
+      "canonicals": [
+        "https://neaist.tecnico.ulisboa.pt/"
+      ],
+      "robots": "index, follow (implicit)",
+      "h1": [
+        "NEAIST — Núcleo de Estudantes Africanos do Instituto Superior Técnico"
+      ],
+      "headings": [
+        [
+          "h1",
+          "NEAIST — Núcleo de Estudantes Africanos do Instituto Superior Técnico"
+        ],
+        [
+          "h3",
+          "Dia de Africa 2026"
+        ],
+        [
+          "h3",
+          "Colaboradores 2026"
+        ],
+        [
+          "h3",
+          "Tomada de Posse"
+        ],
+        [
+          "h2",
+          "Uma tarde de cultura, memória e comunidade"
+        ],
+        [
+          "h2",
+          "Comunidade africana no Técnico"
+        ],
+        [
+          "h3",
+          "Comunidade"
+        ],
+        [
+          "h3",
+          "Apoio Académico"
+        ],
+        [
+          "h3",
+          "Eventos Culturais"
+        ],
+        [
+          "h3",
+          "Programa Mentorado"
+        ],
+        [
+          "h2",
+          "Notícias e iniciativas do NEAIST"
+        ],
+        [
+          "h2",
+          "Apoio académico e integração"
+        ],
+        [
+          "h3",
+          "Comunidade ativa"
+        ],
+        [
+          "h3",
+          "Eventos culturais e académicos"
+        ],
+        [
+          "h3",
+          "Representação estudantil"
+        ],
+        [
+          "h3",
+          "Apoio à integração"
+        ],
+        [
+          "h2",
+          "Junta-te a Nós!"
+        ],
+        [
+          "h3",
+          "NEAIST"
+        ],
+        [
+          "h4",
+          "Links Rápidos"
+        ],
+        [
+          "h4",
+          "Contacto"
+        ]
+      ],
+      "og": {
+        "og:type": "website",
+        "og:title": "NEAIST — Núcleo de Estudantes Africanos do Instituto Superior Técnico",
+        "og:description": "Comunidade, integração, cultura e apoio académico para estudantes africanos no Instituto Superior Técnico.",
+        "og:url": "https://neaist.tecnico.ulisboa.pt/",
+        "og:image": "https://neaist.tecnico.ulisboa.pt/images/branding/neaist-preview.svg"
+      },
+      "twitter": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "NEAIST — Núcleo de Estudantes Africanos do IST",
+        "twitter:description": "Comunidade, integração, cultura e apoio académico para estudantes africanos no Técnico.",
+        "twitter:image": "https://neaist.tecnico.ulisboa.pt/images/branding/neaist-preview.svg"
+      },
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "StudentOrganization",
+          "name": "NEAIST - Núcleo de Estudantes Africanos do Instituto Superior Técnico",
+          "alternateName": [
+            "NEAIST",
+            "Núcleo de Estudantes Africanos do IST",
+            "African Students Association at Instituto Superior Técnico",
+            "African Students Association Técnico"
+          ],
+          "url": "https://neaist.tecnico.ulisboa.pt/",
+          "logo": "https://neaist.tecnico.ulisboa.pt/images/branding/neaist-logo.png",
+          "description": "O NEAIST é o Núcleo de Estudantes Africanos do Instituto Superior Técnico, dedicado à integração, representação, cultura e apoio académico dos estudantes africanos no IST.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Av. Rovisco Pais, 1",
+            "addressLocality": "Lisboa",
+            "postalCode": "1049-001",
+            "addressCountry": "PT"
+          },
+          "email": "neaist.sa@aeist.pt",
+          "sameAs": [
+            "https://www.instagram.com/nea_ist/",
+            "https://www.facebook.com/NEAISTECNICO/",
+            "https://www.tiktok.com/@neaist_"
+          ]
+        }
+      ],
+      "socialImage": "https://neaist.tecnico.ulisboa.pt/images/branding/neaist-preview.svg",
+      "inSitemap": true,
+      "shouldIndex": true,
+      "images": [
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo"
+        },
+        {
+          "src": "images/news/dia-de-africa-no-tecnico-2026.jpeg",
+          "alt": "Dia de África no Técnico 2026 — cartaz oficial do NEAIST"
+        },
+        {
+          "src": "images/news/collaboradores-2026.png",
+          "alt": "Cartaz de recrutamento NEAIST 2026"
+        },
+        {
+          "src": "images/news/tomada-posse-direcao-neaist-2026.jpeg",
+          "alt": "Tomada de posse da direção do NEAIST 2026 no Instituto Superior Técnico"
+        },
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo",
+          "class": [
+            "footer-brand-logo"
+          ]
+        },
+        {
+          "src": "images/branding/tecnico-logo.png",
+          "alt": "Técnico logo",
+          "class": [
+            "footer-tech-logo"
+          ]
+        }
+      ],
+      "links": [
+        "index.html",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "study-squads.html",
+        "mentoria.html",
+        "recursos.html",
+        "guia-caloiro.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "contactos.html",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "loja.html",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "equipa.html",
+        "dia-de-africa.html",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "noticia-tomada-posse-2026.html",
+        "dia-de-africa.html",
+        "noticias.html",
+        "contactos.html",
+        "https://www.facebook.com/NEAISTECNICO/",
+        "https://www.instagram.com/nea_ist/",
+        "https://www.tiktok.com/@neaist_",
+        "mailto:neaist.sa@aeist.pt",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "recursos.html",
+        "contactos.html"
+      ]
+    },
+    {
+      "file": "loja.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/loja.html",
+      "title": "Loja | Merchandising Oficial NEAIST",
+      "description": "Loja do NEAIST com esferográficas, T-shirts, garrafas térmicas e tote bags. Encomenda através do formulário oficial.",
+      "canonicals": [
+        "https://neaist.tecnico.ulisboa.pt/loja.html"
+      ],
+      "robots": "index, follow (implicit)",
+      "h1": [
+        "Loja NEAIST"
+      ],
+      "headings": [
+        [
+          "h1",
+          "Loja NEAIST"
+        ],
+        [
+          "h2",
+          "Encomenda pelo formulário do NEAIST"
+        ],
+        [
+          "h3",
+          "Esferográfica de Ponta Sensível ao Toque"
+        ],
+        [
+          "h3",
+          "T-Shirt do Núcleo"
+        ],
+        [
+          "h3",
+          "Garrafa Térmica de Toque Suave"
+        ],
+        [
+          "h3",
+          "Tote Bag NEAIST"
+        ],
+        [
+          "h2",
+          "Processo de encomenda"
+        ],
+        [
+          "h3",
+          "Escolhe os artigos"
+        ],
+        [
+          "h3",
+          "Aguarda validação"
+        ],
+        [
+          "h3",
+          "Recebe pagamento e entrega"
+        ],
+        [
+          "h3",
+          "NEAIST"
+        ],
+        [
+          "h4",
+          "Links Rápidos"
+        ],
+        [
+          "h4",
+          "Contacto"
+        ]
+      ],
+      "og": {
+        "og:type": "website",
+        "og:title": "Loja | Merchandising Oficial NEAIST",
+        "og:description": "Explora o merchandising oficial do NEAIST e encomenda através do formulário oficial.",
+        "og:url": "https://neaist.tecnico.ulisboa.pt/loja.html",
+        "og:image": "https://neaist.tecnico.ulisboa.pt/images/merch/tshirt-nucleo.png"
+      },
+      "twitter": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Loja | NEAIST",
+        "twitter:description": "Merchandising oficial do NEAIST com preços, variantes e formulário de encomenda.",
+        "twitter:image": "https://neaist.tecnico.ulisboa.pt/images/merch/tshirt-nucleo.png"
+      },
+      "structuredData": [],
+      "socialImage": "https://neaist.tecnico.ulisboa.pt/images/merch/tshirt-nucleo.png",
+      "inSitemap": true,
+      "shouldIndex": true,
+      "images": [
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo"
+        },
+        {
+          "src": "images/merch/esferografica-neaist.png",
+          "alt": "Esferográfica NEAIST"
+        },
+        {
+          "src": "images/merch/tshirt-nucleo.png",
+          "alt": "T-Shirt do Núcleo NEAIST"
+        },
+        {
+          "src": "images/merch/garrafa-termica.png",
+          "alt": "Garrafa Térmica NEAIST"
+        },
+        {
+          "src": "images/merch/tote-bag.png",
+          "alt": "Tote Bag NEAIST"
+        },
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo",
+          "class": [
+            "footer-brand-logo"
+          ]
+        },
+        {
+          "src": "images/branding/tecnico-logo.png",
+          "alt": "Técnico logo",
+          "class": [
+            "footer-tech-logo"
+          ]
+        }
+      ],
+      "links": [
+        "index.html",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "study-squads.html",
+        "mentoria.html",
+        "recursos.html",
+        "guia-caloiro.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "contactos.html",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "https://docs.google.com/forms/d/e/1FAIpQLSfRIntC-MMPKtlxT_y6q4eUb-OVmZkbQIjHFe_fZceGcwGd-w/viewform",
+        "https://www.facebook.com/NEAISTECNICO/",
+        "https://www.instagram.com/nea_ist/",
+        "https://www.tiktok.com/@neaist_",
+        "mailto:neaist.sa@aeist.pt",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "recursos.html",
+        "contactos.html"
+      ]
+    },
+    {
+      "file": "mentoria.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/mentoria.html",
+      "title": "Programa Mentorado | NEAIST — Apoio à Integração",
+      "description": "Programa Mentorado do NEAIST para apoiar a integração de estudantes africanos no Instituto Superior Técnico através de mentoria entre colegas.",
+      "canonicals": [
+        "https://neaist.tecnico.ulisboa.pt/mentoria.html"
+      ],
+      "robots": "index, follow (implicit)",
+      "h1": [
+        "Programa Mentorado"
+      ],
+      "headings": [
+        [
+          "h1",
+          "Programa Mentorado"
+        ],
+        [
+          "h2",
+          "O Que é o Programa Mentorado?"
+        ],
+        [
+          "h2",
+          "Benefícios do Programa"
+        ],
+        [
+          "h3",
+          "Para Mentorados"
+        ],
+        [
+          "h3",
+          "Para Mentores"
+        ],
+        [
+          "h2",
+          "Como Funciona?"
+        ],
+        [
+          "h3",
+          "Inscrição"
+        ],
+        [
+          "h3",
+          "Emparelhamento"
+        ],
+        [
+          "h3",
+          "Primeiro Encontro"
+        ],
+        [
+          "h3",
+          "Acompanhamento"
+        ],
+        [
+          "h2",
+          "Novo projeto de apoio académico"
+        ],
+        [
+          "h4",
+          "Study Squads NEAIST"
+        ],
+        [
+          "h4",
+          "Candidatura a Tutor"
+        ],
+        [
+          "h2",
+          "Quer Participar?"
+        ],
+        [
+          "h3",
+          "NEAIST"
+        ],
+        [
+          "h4",
+          "Links Rápidos"
+        ],
+        [
+          "h4",
+          "Contacto"
+        ]
+      ],
+      "og": {
+        "og:type": "website",
+        "og:title": "Programa Mentorado | NEAIST — Apoio à Integração",
+        "og:description": "Mentoria entre estudantes para integrar, orientar e apoiar a comunidade africana no Técnico.",
+        "og:url": "https://neaist.tecnico.ulisboa.pt/mentoria.html",
+        "og:image": "https://neaist.tecnico.ulisboa.pt/images/branding/neaist-preview.svg"
+      },
+      "twitter": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Programa Mentorado | NEAIST",
+        "twitter:description": "Apoio à integração e mentoria entre colegas no Instituto Superior Técnico.",
+        "twitter:image": "https://neaist.tecnico.ulisboa.pt/images/branding/neaist-preview.svg"
+      },
+      "structuredData": [],
+      "socialImage": "https://neaist.tecnico.ulisboa.pt/images/branding/neaist-preview.svg",
+      "inSitemap": true,
+      "shouldIndex": true,
+      "images": [
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo"
+        },
+        {
+          "src": "images/gallery/wp-legacy/mentimg3.jpg",
+          "alt": "Mentorados e mentores do NEAIST em momento de convívio e integração"
+        },
+        {
+          "src": "files/study-squads/study-squads-poster.png",
+          "alt": "Study Squads NEAIST — grupos de estudo com apoio de tutores"
+        },
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo",
+          "class": [
+            "footer-brand-logo"
+          ]
+        },
+        {
+          "src": "images/branding/tecnico-logo.png",
+          "alt": "Técnico logo",
+          "class": [
+            "footer-tech-logo"
+          ]
+        }
+      ],
+      "links": [
+        "index.html",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "study-squads.html",
+        "mentoria.html",
+        "recursos.html",
+        "guia-caloiro.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "contactos.html",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "study-squads.html",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeh4LVB7fIxfBD5aBc_p2V5zvk1f-D_hd54MXaNZPrn2RKCSA/viewform?usp=header",
+        "study-squads.html",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeh4LVB7fIxfBD5aBc_p2V5zvk1f-D_hd54MXaNZPrn2RKCSA/viewform?usp=header",
+        "https://www.facebook.com/NEAISTECNICO/",
+        "https://www.instagram.com/nea_ist/",
+        "https://www.tiktok.com/@neaist_",
+        "mailto:neaist.sa@aeist.pt",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "recursos.html",
+        "contactos.html"
+      ]
+    },
+    {
+      "file": "noticia-game-day-2026.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/noticia-game-day-2026.html",
+      "title": "Game Day NEAIST | 23 de Abril de 2026",
+      "description": "Notícia do NEAIST sobre o Game Day de 23 de Abril de 2026, uma tarde de jogos, convívio e comunidade entre estudantes no Técnico.",
+      "canonicals": [
+        "https://neaist.tecnico.ulisboa.pt/noticia-game-day-2026.html"
+      ],
+      "robots": "index, follow (implicit)",
+      "h1": [
+        "Game Day NEAIST"
+      ],
+      "headings": [
+        [
+          "h1",
+          "Game Day NEAIST"
+        ],
+        [
+          "h2",
+          "Obrigado por terem vindo 💫"
+        ],
+        [
+          "h2",
+          "Como foi a tarde"
+        ],
+        [
+          "h3",
+          "Uma tarde feita de convívio"
+        ],
+        [
+          "h3",
+          "Jogos, alegria e partilha"
+        ],
+        [
+          "h3",
+          "O primeiro de muitos"
+        ],
+        [
+          "h2",
+          "Momentos do Game Day"
+        ],
+        [
+          "h3",
+          "O convite para o Game Day"
+        ],
+        [
+          "h3",
+          "Um pouco da energia que se viveu"
+        ],
+        [
+          "h2",
+          "Imagens do encontro"
+        ],
+        [
+          "h2",
+          "Fica atento aos próximos eventos"
+        ],
+        [
+          "h3",
+          "NEAIST"
+        ],
+        [
+          "h4",
+          "Links Rápidos"
+        ],
+        [
+          "h4",
+          "Contacto"
+        ]
+      ],
+      "og": {
+        "og:type": "article",
+        "og:title": "Game Day NEAIST | 23 de Abril de 2026",
+        "og:description": "Recap do Game Day do NEAIST, com agradecimento aos estudantes que participaram e um vídeo do evento.",
+        "og:url": "https://neaist.tecnico.ulisboa.pt/noticia-game-day-2026.html",
+        "og:image": "https://neaist.tecnico.ulisboa.pt/images/news/game-day-2026-poster.png"
+      },
+      "twitter": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Game Day NEAIST",
+        "twitter:description": "Uma tarde de jogos, comunidade e boa energia vivida pelo NEAIST a 23 de Abril de 2026.",
+        "twitter:image": "https://neaist.tecnico.ulisboa.pt/images/news/game-day-2026-poster.png"
+      },
+      "structuredData": [],
+      "socialImage": "https://neaist.tecnico.ulisboa.pt/images/news/game-day-2026-poster.png",
+      "inSitemap": true,
+      "shouldIndex": true,
+      "images": [
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo"
+        },
+        {
+          "src": "images/news/game-day-2026-poster.png",
+          "alt": "Poster do Game Day do NEAIST"
+        },
+        {
+          "src": "images/news/game-day-2026-poster.png",
+          "alt": "Poster do Game Day do NEAIST a 23 de Abril de 2026"
+        },
+        {
+          "src": "images/news/game-day/img-7705.jpeg",
+          "alt": "Estudantes a participar no Game Day do NEAIST"
+        },
+        {
+          "src": "images/news/game-day/img-7714.jpeg",
+          "alt": "Momento de convívio durante o Game Day do NEAIST"
+        },
+        {
+          "src": "images/news/game-day/img-7765.jpeg",
+          "alt": "Estudantes reunidos durante a tarde do Game Day do NEAIST"
+        },
+        {
+          "src": "images/news/game-day/img-7774.jpeg",
+          "alt": "Atividade do Game Day do NEAIST no espaço C9"
+        },
+        {
+          "src": "images/news/game-day/img-7775.jpeg",
+          "alt": "Ambiente do primeiro Game Day do NEAIST"
+        },
+        {
+          "src": "images/news/game-day/img-7778.jpeg",
+          "alt": "Participação dos estudantes no Game Day do NEAIST"
+        },
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo",
+          "class": [
+            "footer-brand-logo"
+          ]
+        },
+        {
+          "src": "images/branding/tecnico-logo.png",
+          "alt": "Técnico logo",
+          "class": [
+            "footer-tech-logo"
+          ]
+        }
+      ],
+      "links": [
+        "index.html",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "study-squads.html",
+        "mentoria.html",
+        "recursos.html",
+        "guia-caloiro.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "contactos.html",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "noticias.html",
+        "#momentos",
+        "https://www.instagram.com/nea_ist/",
+        "noticias.html",
+        "https://www.facebook.com/NEAISTECNICO/",
+        "https://www.instagram.com/nea_ist/",
+        "https://www.tiktok.com/@neaist_",
+        "mailto:neaist.sa@aeist.pt",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "recursos.html",
+        "contactos.html"
+      ]
+    },
+    {
+      "file": "noticia-tomada-posse-2026.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/noticia-tomada-posse-2026.html",
+      "title": "Tomada de Posse - Mandato 2025/2026 | NEAIST",
+      "description": "Notícia institucional do NEAIST sobre a tomada de posse do mandato 2025/2026 e o início de um novo ciclo de representação e compromisso no Técnico.",
+      "canonicals": [
+        "https://neaist.tecnico.ulisboa.pt/noticia-tomada-posse-2026.html"
+      ],
+      "robots": "index, follow (implicit)",
+      "h1": [
+        "Tomada de Posse - Mandato 2025/2026"
+      ],
+      "headings": [
+        [
+          "h1",
+          "Tomada de Posse - Mandato 2025/2026"
+        ],
+        [
+          "h2",
+          "Um novo ciclo para o NEAIST"
+        ],
+        [
+          "h2",
+          "Representação, união e continuidade"
+        ],
+        [
+          "h2",
+          "Agradecimento à comunidade"
+        ],
+        [
+          "h2",
+          "Momentos da tomada de posse"
+        ],
+        [
+          "h2",
+          "Momentos partilhados pelo NEAIST"
+        ],
+        [
+          "h3",
+          "Publicação oficial"
+        ],
+        [
+          "h3",
+          "Convite à comunidade"
+        ],
+        [
+          "h3",
+          "NEAIST"
+        ],
+        [
+          "h4",
+          "Links Rápidos"
+        ],
+        [
+          "h4",
+          "Contacto"
+        ]
+      ],
+      "og": {
+        "og:type": "article",
+        "og:title": "Tomada de Posse - Mandato 2025/2026 | NEAIST",
+        "og:description": "Momento institucional do NEAIST que marcou o início do mandato 2025/2026 e de um novo ciclo de representação, união e compromisso no Instituto Superior Técnico.",
+        "og:url": "https://neaist.tecnico.ulisboa.pt/noticia-tomada-posse-2026.html",
+        "og:image": "https://neaist.tecnico.ulisboa.pt/images/tomadadePosse26/EquipaTomadaDePosse26.jpeg"
+      },
+      "twitter": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Tomada de Posse - Mandato 2025/2026 | NEAIST",
+        "twitter:description": "Notícia institucional do NEAIST sobre a nova direção e o novo ciclo de representação do mandato 2025/2026 no Técnico.",
+        "twitter:image": "https://neaist.tecnico.ulisboa.pt/images/tomadadePosse26/EquipaTomadaDePosse26.jpeg"
+      },
+      "structuredData": [],
+      "socialImage": "https://neaist.tecnico.ulisboa.pt/images/tomadadePosse26/EquipaTomadaDePosse26.jpeg",
+      "inSitemap": true,
+      "shouldIndex": true,
+      "images": [
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo"
+        },
+        {
+          "src": "images/tomadadePosse26/Alayna1.jpeg",
+          "alt": "Momento da cerimónia de tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/Andreia1.jpeg",
+          "alt": "Registo da equipa e convidados durante a tomada de posse"
+        },
+        {
+          "src": "images/tomadadePosse26/Ayanda1.jpeg",
+          "alt": "Fotografia de grupo da tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/Ayanda2.jpeg",
+          "alt": "Momento institucional da cerimónia"
+        },
+        {
+          "src": "images/tomadadePosse26/Bibiana Abrantes.jpeg",
+          "alt": "Participantes durante a tomada de posse do mandato 2025/2026"
+        },
+        {
+          "src": "images/tomadadePosse26/Bibiana2.jpeg",
+          "alt": "Momento da cerimónia de tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/Bibiana_Jenifer_Simone.jpeg",
+          "alt": "Registo da equipa e convidados durante a tomada de posse"
+        },
+        {
+          "src": "images/tomadadePosse26/CelineAcia.jpeg",
+          "alt": "Fotografia de grupo da tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/Celine_Simone.jpeg",
+          "alt": "Momento institucional da cerimónia"
+        },
+        {
+          "src": "images/tomadadePosse26/Celine_Tarissa.jpeg",
+          "alt": "Participantes durante a tomada de posse do mandato 2025/2026"
+        },
+        {
+          "src": "images/tomadadePosse26/Davane1.jpeg",
+          "alt": "Momento da cerimónia de tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/Davane2.jpeg",
+          "alt": "Registo da equipa e convidados durante a tomada de posse"
+        },
+        {
+          "src": "images/tomadadePosse26/Davane3.jpeg",
+          "alt": "Fotografia de grupo da tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/EquipaTomadaDePosse.jpeg",
+          "alt": "Momento institucional da cerimónia"
+        },
+        {
+          "src": "images/tomadadePosse26/EquipaTomadaDePosse26.jpeg",
+          "alt": "Participantes durante a tomada de posse do mandato 2025/2026"
+        },
+        {
+          "src": "images/tomadadePosse26/EricSoloVibe.jpeg",
+          "alt": "Momento da cerimónia de tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/EvanioTarissaEricCeline.jpeg",
+          "alt": "Registo da equipa e convidados durante a tomada de posse"
+        },
+        {
+          "src": "images/tomadadePosse26/Feliciana.jpeg",
+          "alt": "Fotografia de grupo da tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/Feliciana2.jpeg",
+          "alt": "Momento institucional da cerimónia"
+        },
+        {
+          "src": "images/tomadadePosse26/GroupTomadaDePosse26needsLight.jpeg",
+          "alt": "Participantes durante a tomada de posse do mandato 2025/2026"
+        },
+        {
+          "src": "images/tomadadePosse26/GroupTomadaDePosseneedsLight2.jpeg",
+          "alt": "Momento da cerimónia de tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/Jenifer.jpeg",
+          "alt": "Registo da equipa e convidados durante a tomada de posse"
+        },
+        {
+          "src": "images/tomadadePosse26/Jenifer2.jpeg",
+          "alt": "Fotografia de grupo da tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/LuisCastro.jpeg",
+          "alt": "Momento institucional da cerimónia"
+        },
+        {
+          "src": "images/tomadadePosse26/LuisCastro_DanielRocha.jpeg",
+          "alt": "Participantes durante a tomada de posse do mandato 2025/2026"
+        },
+        {
+          "src": "images/tomadadePosse26/Miza2.jpeg",
+          "alt": "Momento da cerimónia de tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/MizaMabunda.jpeg",
+          "alt": "Registo da equipa e convidados durante a tomada de posse"
+        },
+        {
+          "src": "images/tomadadePosse26/Ndully1.jpeg",
+          "alt": "Fotografia de grupo da tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/Ndully2.jpeg",
+          "alt": "Momento institucional da cerimónia"
+        },
+        {
+          "src": "images/tomadadePosse26/NdullyEricDavane.jpeg",
+          "alt": "Participantes durante a tomada de posse do mandato 2025/2026"
+        },
+        {
+          "src": "images/tomadadePosse26/Nice Group Pic.jpeg",
+          "alt": "Momento da cerimónia de tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/Nice Sala Pic.jpeg",
+          "alt": "Registo da equipa e convidados durante a tomada de posse"
+        },
+        {
+          "src": "images/tomadadePosse26/PicComEvanioSimoneEricLuisCastro.jpeg",
+          "alt": "Fotografia de grupo da tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/PresEric.jpeg",
+          "alt": "Momento institucional da cerimónia"
+        },
+        {
+          "src": "images/tomadadePosse26/ProfLuis.jpeg",
+          "alt": "Participantes durante a tomada de posse do mandato 2025/2026"
+        },
+        {
+          "src": "images/tomadadePosse26/Simone.jpeg",
+          "alt": "Momento da cerimónia de tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/Simone_Feliciana.jpeg",
+          "alt": "Registo da equipa e convidados durante a tomada de posse"
+        },
+        {
+          "src": "images/tomadadePosse26/Tarissa1.jpeg",
+          "alt": "Fotografia de grupo da tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/Tarissa2.jpeg",
+          "alt": "Momento institucional da cerimónia"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.21.jpeg",
+          "alt": "Participantes durante a tomada de posse do mandato 2025/2026"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.22.jpeg",
+          "alt": "Momento da cerimónia de tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.28.jpeg",
+          "alt": "Registo da equipa e convidados durante a tomada de posse"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.29.jpeg",
+          "alt": "Fotografia de grupo da tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.30 (1).jpeg",
+          "alt": "Momento institucional da cerimónia"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.30.jpeg",
+          "alt": "Participantes durante a tomada de posse do mandato 2025/2026"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.32.jpeg",
+          "alt": "Momento da cerimónia de tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.50 (1).jpeg",
+          "alt": "Registo da equipa e convidados durante a tomada de posse"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.51.jpeg",
+          "alt": "Fotografia de grupo da tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.52 (1).jpeg",
+          "alt": "Momento institucional da cerimónia"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.52 (2).jpeg",
+          "alt": "Participantes durante a tomada de posse do mandato 2025/2026"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.52.jpeg",
+          "alt": "Momento da cerimónia de tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.53 (6).jpeg",
+          "alt": "Registo da equipa e convidados durante a tomada de posse"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.53 (7).jpeg",
+          "alt": "Fotografia de grupo da tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.53.jpeg",
+          "alt": "Momento institucional da cerimónia"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.54 (1).jpeg",
+          "alt": "Participantes durante a tomada de posse do mandato 2025/2026"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.54 (6).jpeg",
+          "alt": "Momento da cerimónia de tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.54.jpeg",
+          "alt": "Registo da equipa e convidados durante a tomada de posse"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.55 (1).jpeg",
+          "alt": "Fotografia de grupo da tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.55 (2).jpeg",
+          "alt": "Momento institucional da cerimónia"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.55 (3).jpeg",
+          "alt": "Participantes durante a tomada de posse do mandato 2025/2026"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.55 (4).jpeg",
+          "alt": "Momento da cerimónia de tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.55 (5).jpeg",
+          "alt": "Registo da equipa e convidados durante a tomada de posse"
+        },
+        {
+          "src": "images/tomadadePosse26/WhatsApp Image 2026-05-23 at 18.35.55 (6).jpeg",
+          "alt": "Fotografia de grupo da tomada de posse do NEAIST"
+        },
+        {
+          "src": "images/tomadadePosse26/tomada-posse-2024-2025-presidente.jpg",
+          "alt": "Momento institucional da cerimónia"
+        },
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo",
+          "class": [
+            "footer-brand-logo"
+          ]
+        },
+        {
+          "src": "images/branding/tecnico-logo.png",
+          "alt": "Técnico logo",
+          "class": [
+            "footer-tech-logo"
+          ]
+        }
+      ],
+      "links": [
+        "index.html",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "study-squads.html",
+        "mentoria.html",
+        "recursos.html",
+        "guia-caloiro.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "contactos.html",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "noticias.html",
+        "#fotografias",
+        "https://www.instagram.com/p/DWQwQ_qgj0p/",
+        "https://www.instagram.com/p/DWJ6CFUgrTS/",
+        "https://www.facebook.com/NEAISTECNICO/",
+        "https://www.instagram.com/nea_ist/",
+        "https://www.tiktok.com/@neaist_",
+        "mailto:neaist.sa@aeist.pt",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "recursos.html",
+        "contactos.html"
+      ]
+    },
+    {
+      "file": "noticias.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/noticias.html",
+      "title": "Notícias | NEAIST — Estudantes Africanos no Técnico",
+      "description": "Notícias, eventos e iniciativas do NEAIST: comunidade africana no Técnico, apoio académico, cultura e representação estudantil.",
+      "canonicals": [
+        "https://neaist.tecnico.ulisboa.pt/noticias.html"
+      ],
+      "robots": "index, follow (implicit)",
+      "h1": [
+        "Notícias e Arquivo NEAIST"
+      ],
+      "headings": [
+        [
+          "h1",
+          "Notícias e Arquivo NEAIST"
+        ],
+        [
+          "h2",
+          "Momentos institucionais, cultura e oportunidades"
+        ],
+        [
+          "h3",
+          "NEAIST"
+        ],
+        [
+          "h4",
+          "Links Rápidos"
+        ],
+        [
+          "h4",
+          "Contacto"
+        ]
+      ],
+      "og": {
+        "og:type": "website",
+        "og:title": "Notícias | NEAIST — Estudantes Africanos no Técnico",
+        "og:description": "Arquivo de eventos, oportunidades e momentos institucionais da comunidade africana no Instituto Superior Técnico.",
+        "og:url": "https://neaist.tecnico.ulisboa.pt/noticias.html",
+        "og:image": "https://neaist.tecnico.ulisboa.pt/images/news/tomada-posse-direcao-neaist-2026.jpeg"
+      },
+      "twitter": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Notícias | NEAIST",
+        "twitter:description": "Eventos, oportunidades e notícias da comunidade africana no Técnico.",
+        "twitter:image": "https://neaist.tecnico.ulisboa.pt/images/news/tomada-posse-direcao-neaist-2026.jpeg"
+      },
+      "structuredData": [],
+      "socialImage": "https://neaist.tecnico.ulisboa.pt/images/news/tomada-posse-direcao-neaist-2026.jpeg",
+      "inSitemap": true,
+      "shouldIndex": true,
+      "images": [
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo"
+        },
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo",
+          "class": [
+            "footer-brand-logo"
+          ]
+        },
+        {
+          "src": "images/branding/tecnico-logo.png",
+          "alt": "Técnico logo",
+          "class": [
+            "footer-tech-logo"
+          ]
+        }
+      ],
+      "links": [
+        "index.html",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "study-squads.html",
+        "mentoria.html",
+        "recursos.html",
+        "guia-caloiro.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "contactos.html",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "https://www.facebook.com/NEAISTECNICO/",
+        "https://www.instagram.com/nea_ist/",
+        "https://www.tiktok.com/@neaist_",
+        "mailto:neaist.sa@aeist.pt",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "recursos.html",
+        "contactos.html"
+      ]
+    },
+    {
+      "file": "recursos.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/recursos.html",
+      "title": "Recursos Académicos | NEAIST",
+      "description": "Recursos académicos do NEAIST para estudantes africanos no Técnico, com Study Squads, Guia para Novos Alunos 2026/27, apoio institucional e materiais por curso.",
+      "canonicals": [
+        "https://neaist.tecnico.ulisboa.pt/recursos.html"
+      ],
+      "robots": "index, follow (implicit)",
+      "h1": [
+        "Recursos"
+      ],
+      "headings": [
+        [
+          "h1",
+          "Recursos"
+        ],
+        [
+          "h2",
+          "Documentos, guias e recursos por curso"
+        ],
+        [
+          "h2",
+          "Destaques NEAIST"
+        ],
+        [
+          "h3",
+          "Study Squads NEAIST"
+        ],
+        [
+          "h3",
+          "Candidatura a Tutor"
+        ],
+        [
+          "h3",
+          "Estatutos do NEAIST"
+        ],
+        [
+          "h3",
+          "Projeto Study Squads"
+        ],
+        [
+          "h3",
+          "Guia para Novos Alunos - 2026/27"
+        ],
+        [
+          "h2",
+          "Apoio Institucional"
+        ],
+        [
+          "h3",
+          "Fénix"
+        ],
+        [
+          "h3",
+          "Técnico"
+        ],
+        [
+          "h3",
+          "Associação de Estudantes / AEIST"
+        ],
+        [
+          "h3",
+          "NAPE"
+        ],
+        [
+          "h3",
+          "NDA"
+        ],
+        [
+          "h3",
+          "Serviços de Saúde"
+        ],
+        [
+          "h3",
+          "Residências e Alojamento"
+        ],
+        [
+          "h3",
+          "Bolsas e Apoio Financeiro"
+        ],
+        [
+          "h3",
+          "Mobilidade / Núcleo de Mobilidade e Cooperação Internacional"
+        ],
+        [
+          "h2",
+          "Recursos por Curso"
+        ],
+        [
+          "h3",
+          "Engenharia Aeroespacial"
+        ],
+        [
+          "h3",
+          "Engenharia Biomédica"
+        ],
+        [
+          "h3",
+          "Engenharia Eletrotécnica e de Computadores"
+        ],
+        [
+          "h3",
+          "Engenharia Informática"
+        ],
+        [
+          "h3",
+          "Engenharia Naval e Oceânica"
+        ],
+        [
+          "h3",
+          "Telecomunicações e Informática"
+        ],
+        [
+          "h3",
+          "Matemática Aplicada e Computação"
+        ],
+        [
+          "h3",
+          "NEAIST"
+        ],
+        [
+          "h4",
+          "Links Rápidos"
+        ],
+        [
+          "h4",
+          "Contacto"
+        ]
+      ],
+      "og": {
+        "og:type": "website",
+        "og:title": "Recursos Académicos | NEAIST",
+        "og:description": "Study Squads, Guia para Novos Alunos 2026/27, apoio institucional e recursos por curso para estudantes africanos no Técnico.",
+        "og:url": "https://neaist.tecnico.ulisboa.pt/recursos.html",
+        "og:image": "https://neaist.tecnico.ulisboa.pt/files/study-squads/study-squads-poster.png"
+      },
+      "twitter": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Recursos Académicos | NEAIST",
+        "twitter:description": "Recursos por curso, apoio institucional, Guia para Novos Alunos 2026/27 e Study Squads para estudantes africanos no IST.",
+        "twitter:image": "https://neaist.tecnico.ulisboa.pt/files/study-squads/study-squads-poster.png"
+      },
+      "structuredData": [],
+      "socialImage": "https://neaist.tecnico.ulisboa.pt/files/study-squads/study-squads-poster.png",
+      "inSitemap": true,
+      "shouldIndex": true,
+      "images": [
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo"
+        },
+        {
+          "src": "files/study-squads/study-squads-poster.png",
+          "alt": "Study Squads NEAIST — grupos de estudo com apoio de tutores"
+        },
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo",
+          "class": [
+            "footer-brand-logo"
+          ]
+        },
+        {
+          "src": "images/branding/tecnico-logo.png",
+          "alt": "Técnico logo",
+          "class": [
+            "footer-tech-logo"
+          ]
+        }
+      ],
+      "links": [
+        "index.html",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "study-squads.html",
+        "mentoria.html",
+        "recursos.html",
+        "guia-caloiro.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "contactos.html",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeh4LVB7fIxfBD5aBc_p2V5zvk1f-D_hd54MXaNZPrn2RKCSA/viewform?usp=header",
+        "study-squads.html",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeh4LVB7fIxfBD5aBc_p2V5zvk1f-D_hd54MXaNZPrn2RKCSA/viewform?usp=header",
+        "files/Estatuto%20NEAIST%202021%20(1).pdf",
+        "files/study-squads/Projeto%20Study%20Squads%20NEAIST.pdf",
+        "files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf",
+        "https://fenix.tecnico.ulisboa.pt",
+        "https://tecnico.ulisboa.pt",
+        "https://aeist.pt/",
+        "https://nape.tecnico.ulisboa.pt/",
+        "https://nda.tecnico.ulisboa.pt/",
+        "http://saude.tecnico.ulisboa.pt/",
+        "https://tecnico.ulisboa.pt/pt/viver/residencias/",
+        "https://nape.tecnico.ulisboa.pt/apoio-ao-estudante/apoio-financeiro-e-bolsas/",
+        "https://aai.tecnico.ulisboa.pt/",
+        "https://aerotec.pt/",
+        "https://nebm.tecnico.ulisboa.pt/repositorio.php",
+        "https://drive.google.com/drive/folders/1HjuUvki3FrK9BKkcequsfCHxNjIVtWbz",
+        "https://resumos.leic.pt/",
+        "https://leicmybox.org",
+        "https://bibliotecadenaval.wixsite.com/biblioteca-virtual",
+        "http://neeti.ist.utl.pt/shelf.html",
+        "https://repositorio.nmath.pt/",
+        "https://fenix.tecnico.ulisboa.pt/",
+        "https://www.facebook.com/NEAISTECNICO/",
+        "https://www.instagram.com/nea_ist/",
+        "https://www.tiktok.com/@neaist_",
+        "mailto:neaist.sa@aeist.pt",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "recursos.html",
+        "contactos.html"
+      ]
+    },
+    {
+      "file": "semana-africa-ulisboa.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/semana-africa-ulisboa.html",
+      "title": "Semana de África ULisboa — Sem Margem | NEAIST",
+      "description": "Participação do NEAIST na Semana de África ULisboa Sem Margem, iniciativa da Universidade de Lisboa dedicada à cultura, história e pensamento africano.",
+      "canonicals": [
+        "https://neaist.tecnico.ulisboa.pt/semana-africa-ulisboa.html"
+      ],
+      "robots": "index, follow (implicit)",
+      "h1": [
+        "Semana de África ULisboa — Sem Margem"
+      ],
+      "headings": [
+        [
+          "h1",
+          "Semana de África ULisboa — Sem Margem"
+        ],
+        [
+          "h2",
+          "Participação do NEAIST"
+        ],
+        [
+          "h3",
+          "Africa Quiz Challenge: Challenge the Narrative"
+        ],
+        [
+          "h2",
+          "Momentos em destaque"
+        ],
+        [
+          "h2",
+          "Explorar o programa completo"
+        ],
+        [
+          "h3",
+          "NEAIST"
+        ],
+        [
+          "h4",
+          "Links Rápidos"
+        ],
+        [
+          "h4",
+          "Contacto"
+        ]
+      ],
+      "og": {
+        "og:type": "article",
+        "og:title": "Semana de África ULisboa — Sem Margem | NEAIST",
+        "og:description": "Destaque da participação do NEAIST na programação da Semana de África Sem Margem, organizada pela Universidade de Lisboa.",
+        "og:url": "https://neaist.tecnico.ulisboa.pt/semana-africa-ulisboa.html",
+        "og:image": "https://neaist.tecnico.ulisboa.pt/images/news/semana-de-africa-ulisboa.jpg"
+      },
+      "twitter": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Semana de África ULisboa — Sem Margem | NEAIST",
+        "twitter:description": "Participação do NEAIST no Africa Quiz Challenge, integrado na Semana de África Sem Margem da ULisboa.",
+        "twitter:image": "https://neaist.tecnico.ulisboa.pt/images/news/semana-de-africa-ulisboa.jpg"
+      },
+      "structuredData": [],
+      "socialImage": "https://neaist.tecnico.ulisboa.pt/images/news/semana-de-africa-ulisboa.jpg",
+      "inSitemap": true,
+      "shouldIndex": true,
+      "images": [
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo"
+        },
+        {
+          "src": "images/news/semana-de-africa-ulisboa.jpg",
+          "alt": "Cartaz da Semana de África Sem Margem da Universidade de Lisboa"
+        },
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo",
+          "class": [
+            "footer-brand-logo"
+          ]
+        },
+        {
+          "src": "images/branding/tecnico-logo.png",
+          "alt": "Técnico logo",
+          "class": [
+            "footer-tech-logo"
+          ]
+        }
+      ],
+      "links": [
+        "index.html",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "study-squads.html",
+        "mentoria.html",
+        "recursos.html",
+        "guia-caloiro.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "contactos.html",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "noticias.html",
+        "https://www.ulisboa.pt/evento/sem-margem-semana-de-africa-da-ulisboa",
+        "https://www.ulisboa.pt/evento/sem-margem-semana-de-africa-da-ulisboa",
+        "https://www.ulisboa.pt/evento/sem-margem-semana-de-africa-da-ulisboa",
+        "https://www.facebook.com/NEAISTECNICO/",
+        "https://www.instagram.com/nea_ist/",
+        "https://www.tiktok.com/@neaist_",
+        "mailto:neaist.sa@aeist.pt",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "recursos.html",
+        "contactos.html"
+      ]
+    },
+    {
+      "file": "sobre-nos.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/sobre-nos.html",
+      "title": "Sobre Nós | NEAIST — Núcleo de Estudantes Africanos do IST",
+      "description": "Conhece o NEAIST, Núcleo de Estudantes Africanos do Instituto Superior Técnico, a sua missão, valores e papel no apoio aos estudantes africanos no IST.",
+      "canonicals": [
+        "https://neaist.tecnico.ulisboa.pt/sobre-nos.html"
+      ],
+      "robots": "index, follow (implicit)",
+      "h1": [
+        "Sobre Nós"
+      ],
+      "headings": [
+        [
+          "h1",
+          "Sobre Nós"
+        ],
+        [
+          "h2",
+          "Quem Somos"
+        ],
+        [
+          "h3",
+          "Missão"
+        ],
+        [
+          "h3",
+          "Visão"
+        ],
+        [
+          "h3",
+          "Valores"
+        ],
+        [
+          "h2",
+          "O Que Fazemos"
+        ],
+        [
+          "h4",
+          "Apoio Académico"
+        ],
+        [
+          "h4",
+          "Eventos Culturais"
+        ],
+        [
+          "h4",
+          "Mentoria"
+        ],
+        [
+          "h4",
+          "Comunidade & Rede"
+        ],
+        [
+          "h4",
+          "Desporto & Lazer"
+        ],
+        [
+          "h4",
+          "Palestras & Workshops"
+        ],
+        [
+          "h3",
+          "NEAIST"
+        ],
+        [
+          "h4",
+          "Links Rápidos"
+        ],
+        [
+          "h4",
+          "Contacto"
+        ]
+      ],
+      "og": {
+        "og:type": "website",
+        "og:title": "Sobre Nós | NEAIST — Núcleo de Estudantes Africanos do IST",
+        "og:description": "Conhece a missão, valores e história do NEAIST, associação de estudantes africanos no Instituto Superior Técnico.",
+        "og:url": "https://neaist.tecnico.ulisboa.pt/sobre-nos.html",
+        "og:image": "https://neaist.tecnico.ulisboa.pt/images/branding/neaist-preview.svg"
+      },
+      "twitter": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Sobre Nós | NEAIST",
+        "twitter:description": "História, missão e valores do NEAIST no apoio aos estudantes africanos no Técnico.",
+        "twitter:image": "https://neaist.tecnico.ulisboa.pt/images/branding/neaist-preview.svg"
+      },
+      "structuredData": [],
+      "socialImage": "https://neaist.tecnico.ulisboa.pt/images/branding/neaist-preview.svg",
+      "inSitemap": true,
+      "shouldIndex": true,
+      "images": [
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo"
+        },
+        {
+          "src": "images/DiadeAfricaPics/Great_DDA_group.JPG",
+          "alt": "Fotografia de grupo do NEAIST no Dia de África"
+        },
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo",
+          "class": [
+            "footer-brand-logo"
+          ]
+        },
+        {
+          "src": "images/branding/tecnico-logo.png",
+          "alt": "Técnico logo",
+          "class": [
+            "footer-tech-logo"
+          ]
+        }
+      ],
+      "links": [
+        "index.html",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "study-squads.html",
+        "mentoria.html",
+        "recursos.html",
+        "guia-caloiro.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "contactos.html",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "https://www.facebook.com/NEAISTECNICO/",
+        "https://www.instagram.com/nea_ist/",
+        "https://www.tiktok.com/@neaist_",
+        "mailto:neaist.sa@aeist.pt",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "recursos.html",
+        "contactos.html"
+      ]
+    },
+    {
+      "file": "study-squads.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/study-squads.html",
+      "title": "Study Squads | Apoio Académico NEAIST",
+      "description": "Study Squads NEAIST: apoio académico e grupos de estudo para estudantes do Técnico, com candidaturas abertas para Tutores.",
+      "canonicals": [
+        "https://neaist.tecnico.ulisboa.pt/study-squads.html"
+      ],
+      "robots": "index, follow (implicit)",
+      "h1": [
+        "Study Squads NEAIST"
+      ],
+      "headings": [
+        [
+          "h1",
+          "Study Squads NEAIST"
+        ],
+        [
+          "h2",
+          "O que são os Study Squads?"
+        ],
+        [
+          "h3",
+          "Projeto Study Squads NEAIST"
+        ],
+        [
+          "h2",
+          "O papel do Tutor"
+        ],
+        [
+          "h3",
+          "Organizar sessões de estudo"
+        ],
+        [
+          "h3",
+          "Facilitar a discussão de exercícios"
+        ],
+        [
+          "h3",
+          "Apoiar colegas com dúvidas"
+        ],
+        [
+          "h3",
+          "Promover regularidade"
+        ],
+        [
+          "h3",
+          "Criar um ambiente seguro e colaborativo"
+        ],
+        [
+          "h3",
+          "Encaminhar dúvidas mais complexas quando necessário"
+        ],
+        [
+          "h2",
+          "Quem pode candidatar-se?"
+        ],
+        [
+          "h2",
+          "Áreas inicialmente consideradas"
+        ],
+        [
+          "h2",
+          "Como será o funcionamento?"
+        ],
+        [
+          "h3",
+          "Durante o semestre: sessões regulares"
+        ],
+        [
+          "h3",
+          "Época de avaliações: reforço"
+        ],
+        [
+          "h3",
+          "Formato: presencial, online ou híbrido"
+        ],
+        [
+          "h3",
+          "Horários definidos conforme disponibilidade"
+        ],
+        [
+          "h2",
+          "Queres ser Tutor?"
+        ],
+        [
+          "h3",
+          "NEAIST"
+        ],
+        [
+          "h4",
+          "Links Rápidos"
+        ],
+        [
+          "h4",
+          "Contacto"
+        ]
+      ],
+      "og": {
+        "og:type": "website",
+        "og:title": "Study Squads | Apoio Académico NEAIST",
+        "og:description": "Grupos de estudo e apoio académico do NEAIST para estudantes africanos no Instituto Superior Técnico.",
+        "og:url": "https://neaist.tecnico.ulisboa.pt/study-squads.html",
+        "og:image": "https://neaist.tecnico.ulisboa.pt/files/study-squads/study-squads-poster.png"
+      },
+      "twitter": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Study Squads | Apoio Académico NEAIST",
+        "twitter:description": "Apoio académico, tutoria e grupos de estudo Study Squads para estudantes do Técnico.",
+        "twitter:image": "https://neaist.tecnico.ulisboa.pt/files/study-squads/study-squads-poster.png"
+      },
+      "structuredData": [],
+      "socialImage": "https://neaist.tecnico.ulisboa.pt/files/study-squads/study-squads-poster.png",
+      "inSitemap": true,
+      "shouldIndex": true,
+      "images": [
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo"
+        },
+        {
+          "src": "files/study-squads/study-squads-poster.png",
+          "alt": "Study Squads NEAIST — grupos de estudo com apoio de tutores"
+        },
+        {
+          "src": "images/branding/neaist-logo.png",
+          "alt": "NEAIST logo",
+          "class": [
+            "footer-brand-logo"
+          ]
+        },
+        {
+          "src": "images/branding/tecnico-logo.png",
+          "alt": "Técnico logo",
+          "class": [
+            "footer-tech-logo"
+          ]
+        }
+      ],
+      "links": [
+        "index.html",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "study-squads.html",
+        "mentoria.html",
+        "recursos.html",
+        "guia-caloiro.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "contactos.html",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeh4LVB7fIxfBD5aBc_p2V5zvk1f-D_hd54MXaNZPrn2RKCSA/viewform?usp=header",
+        "files/study-squads/Projeto%20Study%20Squads%20NEAIST.pdf",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeh4LVB7fIxfBD5aBc_p2V5zvk1f-D_hd54MXaNZPrn2RKCSA/viewform?usp=header",
+        "https://www.facebook.com/NEAISTECNICO/",
+        "https://www.instagram.com/nea_ist/",
+        "https://www.tiktok.com/@neaist_",
+        "mailto:neaist.sa@aeist.pt",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header",
+        "index.html",
+        "sobre-nos.html",
+        "equipa.html",
+        "galeria.html",
+        "loja.html",
+        "noticias.html",
+        "dia-de-africa.html",
+        "recursos.html",
+        "contactos.html"
+      ]
+    },
+    {
+      "file": "torneio/admin.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/torneio/admin.html",
+      "title": "Admin | NEAIST Championship",
+      "description": null,
+      "canonicals": [],
+      "robots": "noindex, nofollow",
+      "h1": [
+        "Admin do torneio",
+        "Painel do torneio"
+      ],
+      "headings": [
+        [
+          "h1",
+          "Admin do torneio"
+        ],
+        [
+          "h1",
+          "Painel do torneio"
+        ],
+        [
+          "h2",
+          "Definições do torneio"
+        ],
+        [
+          "h2",
+          "Equipas"
+        ],
+        [
+          "h2",
+          "Jogadores"
+        ],
+        [
+          "h2",
+          "Sorteio de grupos"
+        ],
+        [
+          "h2",
+          "Jogos e resultados"
+        ],
+        [
+          "h2",
+          "Marcadores"
+        ]
+      ],
+      "og": {},
+      "twitter": {},
+      "structuredData": [],
+      "socialImage": null,
+      "inSitemap": false,
+      "shouldIndex": false,
+      "images": [
+        {
+          "src": "../images/branding/neaist-logo.png",
+          "alt": "NEAIST logo"
+        }
+      ],
+      "links": [
+        "index.html",
+        "index.html",
+        "admin.html"
+      ]
+    },
+    {
+      "file": "torneio/calendario.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/torneio/calendario.html",
+      "title": "Calendário | NEAIST Championship",
+      "description": "Calendário de jogos do NEAIST Championship.",
+      "canonicals": [],
+      "robots": "index, follow (implicit)",
+      "h1": [
+        "Calendário"
+      ],
+      "headings": [
+        [
+          "h1",
+          "Calendário"
+        ]
+      ],
+      "og": {},
+      "twitter": {},
+      "structuredData": [],
+      "socialImage": null,
+      "inSitemap": false,
+      "shouldIndex": false,
+      "images": [
+        {
+          "src": "../images/branding/neaist-logo.png",
+          "alt": "NEAIST logo"
+        }
+      ],
+      "links": [
+        "index.html",
+        "index.html",
+        "equipas.html",
+        "calendario.html",
+        "resultados.html",
+        "classificacao.html",
+        "regras.html",
+        "admin.html",
+        "../index.html",
+        "mailto:neaist.sa@aeist.pt"
+      ]
+    },
+    {
+      "file": "torneio/classificacao.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/torneio/classificacao.html",
+      "title": "Classificação | NEAIST Championship",
+      "description": "Classificação do NEAIST Championship.",
+      "canonicals": [],
+      "robots": "index, follow (implicit)",
+      "h1": [
+        "Classificação"
+      ],
+      "headings": [
+        [
+          "h1",
+          "Classificação"
+        ]
+      ],
+      "og": {},
+      "twitter": {},
+      "structuredData": [],
+      "socialImage": null,
+      "inSitemap": false,
+      "shouldIndex": false,
+      "images": [
+        {
+          "src": "../images/branding/neaist-logo.png",
+          "alt": "NEAIST logo"
+        }
+      ],
+      "links": [
+        "index.html",
+        "index.html",
+        "equipas.html",
+        "calendario.html",
+        "resultados.html",
+        "classificacao.html",
+        "regras.html",
+        "admin.html",
+        "../index.html",
+        "mailto:neaist.sa@aeist.pt"
+      ]
+    },
+    {
+      "file": "torneio/equipas.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/torneio/equipas.html",
+      "title": "Equipas | NEAIST Championship",
+      "description": "Lista de equipas do NEAIST Championship.",
+      "canonicals": [],
+      "robots": "index, follow (implicit)",
+      "h1": [
+        "Equipas"
+      ],
+      "headings": [
+        [
+          "h1",
+          "Equipas"
+        ]
+      ],
+      "og": {},
+      "twitter": {},
+      "structuredData": [],
+      "socialImage": null,
+      "inSitemap": false,
+      "shouldIndex": false,
+      "images": [
+        {
+          "src": "../images/branding/neaist-logo.png",
+          "alt": "NEAIST logo"
+        }
+      ],
+      "links": [
+        "index.html",
+        "index.html",
+        "equipas.html",
+        "calendario.html",
+        "resultados.html",
+        "classificacao.html",
+        "regras.html",
+        "admin.html",
+        "../index.html",
+        "mailto:neaist.sa@aeist.pt"
+      ]
+    },
+    {
+      "file": "torneio/index.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/torneio/index.html",
+      "title": "NEAIST Championship | Torneio",
+      "description": "Página oficial do NEAIST Championship com calendário, equipas, resultados e classificação.",
+      "canonicals": [],
+      "robots": "index, follow (implicit)",
+      "h1": [
+        "NEAIST Championship"
+      ],
+      "headings": [
+        [
+          "h1",
+          "NEAIST Championship"
+        ],
+        [
+          "h2",
+          "Agenda"
+        ],
+        [
+          "h2",
+          "Comunicados"
+        ]
+      ],
+      "og": {},
+      "twitter": {},
+      "structuredData": [],
+      "socialImage": null,
+      "inSitemap": false,
+      "shouldIndex": false,
+      "images": [
+        {
+          "src": "../images/branding/neaist-logo.png",
+          "alt": "NEAIST logo"
+        }
+      ],
+      "links": [
+        "index.html",
+        "index.html",
+        "equipas.html",
+        "calendario.html",
+        "resultados.html",
+        "classificacao.html",
+        "regras.html",
+        "admin.html",
+        "../index.html",
+        "calendario.html",
+        "classificacao.html",
+        "mailto:neaist.sa@aeist.pt"
+      ]
+    },
+    {
+      "file": "torneio/jogo.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/torneio/jogo.html",
+      "title": "Jogo | NEAIST Championship",
+      "description": "Detalhes do jogo do NEAIST Championship.",
+      "canonicals": [],
+      "robots": "index, follow (implicit)",
+      "h1": [],
+      "headings": [],
+      "og": {},
+      "twitter": {},
+      "structuredData": [],
+      "socialImage": null,
+      "inSitemap": false,
+      "shouldIndex": false,
+      "images": [
+        {
+          "src": "../images/branding/neaist-logo.png",
+          "alt": "NEAIST logo"
+        }
+      ],
+      "links": [
+        "index.html",
+        "index.html",
+        "equipas.html",
+        "calendario.html",
+        "resultados.html",
+        "classificacao.html",
+        "regras.html",
+        "admin.html",
+        "../index.html",
+        "mailto:neaist.sa@aeist.pt"
+      ]
+    },
+    {
+      "file": "torneio/regras.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/torneio/regras.html",
+      "title": "Regras | NEAIST Championship",
+      "description": "Regras oficiais do NEAIST Championship.",
+      "canonicals": [],
+      "robots": "index, follow (implicit)",
+      "h1": [
+        "Regras do torneio"
+      ],
+      "headings": [
+        [
+          "h1",
+          "Regras do torneio"
+        ]
+      ],
+      "og": {},
+      "twitter": {},
+      "structuredData": [],
+      "socialImage": null,
+      "inSitemap": false,
+      "shouldIndex": false,
+      "images": [
+        {
+          "src": "../images/branding/neaist-logo.png",
+          "alt": "NEAIST logo"
+        }
+      ],
+      "links": [
+        "index.html",
+        "index.html",
+        "equipas.html",
+        "calendario.html",
+        "resultados.html",
+        "classificacao.html",
+        "regras.html",
+        "admin.html",
+        "../index.html",
+        "mailto:neaist.sa@aeist.pt"
+      ]
+    },
+    {
+      "file": "torneio/resultados.html",
+      "url": "https://neaist.tecnico.ulisboa.pt/torneio/resultados.html",
+      "title": "Resultados | NEAIST Championship",
+      "description": "Resultados do NEAIST Championship.",
+      "canonicals": [],
+      "robots": "index, follow (implicit)",
+      "h1": [
+        "Resultados"
+      ],
+      "headings": [
+        [
+          "h1",
+          "Resultados"
+        ]
+      ],
+      "og": {},
+      "twitter": {},
+      "structuredData": [],
+      "socialImage": null,
+      "inSitemap": false,
+      "shouldIndex": false,
+      "images": [
+        {
+          "src": "../images/branding/neaist-logo.png",
+          "alt": "NEAIST logo"
+        }
+      ],
+      "links": [
+        "index.html",
+        "index.html",
+        "equipas.html",
+        "calendario.html",
+        "resultados.html",
+        "classificacao.html",
+        "regras.html",
+        "admin.html",
+        "../index.html",
+        "mailto:neaist.sa@aeist.pt"
+      ]
+    }
+  ]
+}

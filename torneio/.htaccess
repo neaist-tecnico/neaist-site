@@ -1,0 +1,5 @@
+# Keep the intentionally unlisted tournament and its API out of search results.
+# Do not block crawling in robots.txt: crawlers must be able to see noindex.
+<IfModule mod_headers.c>
+    Header always set X-Robots-Tag "noindex, follow"
+</IfModule>

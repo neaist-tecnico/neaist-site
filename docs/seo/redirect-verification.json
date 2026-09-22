@@ -1,0 +1,1283 @@
+{
+  "origin": "http://127.0.0.1:8088",
+  "localApache": true,
+  "checkedAt": "2026-09-21T14:03:51.423095+01:00",
+  "results": [
+    {
+      "path": "/wp-content/uploads/2022/02/Guia-para-Novos-Alunos.pdf",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/guia-caloiro.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/wp-content/uploads/2022/02/Guia-1-Primeiros-Passos-Caloiros-1.pdf",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/guia-caloiro.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/wp-content/uploads/2022/03/Regulamento-Mentores-1.pdf",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/guia-caloiro.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/wp-content/uploads/2022/02/Guia-2-Proximos-Passos-Caloiros.pdf",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/guia-caloiro.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/guia-do-caloiro/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/guia-caloiro.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/programa-mentorado/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/mentoria.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/sobre-nos/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/sobre-nos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/contactos/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/contactos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/recursos/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/recursos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/252-2/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/galeria.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/galeria/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/galeria.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/sessoes-informativas/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/noticias.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/inicio/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/files/Guia-para-Novos-Alunos.pdf",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/files/Guia-2-Proximos-Passos-Caloiros.pdf",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/files/GUIA PARA NOVOS ALUNOS NEAIST.docx (1).pdf",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/?p=18",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/?page_id=18",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.php?p=18",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.html?p=18.html",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.html%3Fp=18.html",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/?p=20",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/contactos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/?page_id=20",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/contactos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.php?p=20",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/contactos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.html?p=20.html",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/contactos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.html%3Fp=20.html",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/contactos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/?p=22",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/sobre-nos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/?page_id=22",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/sobre-nos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.php?p=22",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/sobre-nos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.html?p=22.html",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/sobre-nos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.html%3Fp=22.html",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/sobre-nos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/?p=27",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/recursos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/?page_id=27",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/recursos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.php?p=27",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/recursos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.html?p=27.html",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/recursos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.html%3Fp=27.html",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/recursos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/?p=29",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/guia-caloiro.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/?page_id=29",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/guia-caloiro.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.php?p=29",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/guia-caloiro.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.html?p=29.html",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/guia-caloiro.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.html%3Fp=29.html",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/guia-caloiro.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/?p=252",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/galeria.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/?page_id=252",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/galeria.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.php?p=252",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/galeria.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.html?p=252.html",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/galeria.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.html%3Fp=252.html",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/galeria.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/?p=544",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/mentoria.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/?page_id=544",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/mentoria.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.php?p=544",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/mentoria.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.html?p=544.html",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/mentoria.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.html%3Fp=544.html",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/mentoria.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/?p=737",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/noticias.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/?page_id=737",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/noticias.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.php?p=737",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/noticias.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.html?p=737.html",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/noticias.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.html%3Fp=737.html",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/noticias.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.html",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.htm",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.php",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/INDEX.HTML",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/index.html/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/sobre-nos",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/sobre-nos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/sobre-nos/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/sobre-nos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/sobre-nos.html/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/sobre-nos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/SOBRE-NOS.HTML",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/sobre-nos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/equipa",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/equipa.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/equipa/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/equipa.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/equipa.html/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/equipa.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/EQUIPA.HTML",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/equipa.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/guia-caloiro",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/guia-caloiro.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/guia-caloiro/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/guia-caloiro.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/guia-caloiro.html/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/guia-caloiro.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/GUIA-CALOIRO.HTML",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/guia-caloiro.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/recursos",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/recursos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/recursos/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/recursos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/recursos.html/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/recursos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/RECURSOS.HTML",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/recursos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/study-squads",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/study-squads.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/study-squads/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/study-squads.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/study-squads.html/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/study-squads.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/STUDY-SQUADS.HTML",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/study-squads.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/mentoria",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/mentoria.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/mentoria/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/mentoria.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/mentoria.html/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/mentoria.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/MENTORIA.HTML",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/mentoria.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/noticias",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/noticias.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/noticias/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/noticias.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/noticias.html/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/noticias.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/NOTICIAS.HTML",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/noticias.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/dia-de-africa",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/dia-de-africa.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/dia-de-africa/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/dia-de-africa.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/dia-de-africa.html/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/dia-de-africa.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/DIA-DE-AFRICA.HTML",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/dia-de-africa.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/semana-africa-ulisboa",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/semana-africa-ulisboa.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/semana-africa-ulisboa/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/semana-africa-ulisboa.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/semana-africa-ulisboa.html/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/semana-africa-ulisboa.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/SEMANA-AFRICA-ULISBOA.HTML",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/semana-africa-ulisboa.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/noticia-tomada-posse-2026",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/noticia-tomada-posse-2026.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/noticia-tomada-posse-2026/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/noticia-tomada-posse-2026.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/noticia-tomada-posse-2026.html/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/noticia-tomada-posse-2026.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/NOTICIA-TOMADA-POSSE-2026.HTML",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/noticia-tomada-posse-2026.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/noticia-game-day-2026",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/noticia-game-day-2026.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/noticia-game-day-2026/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/noticia-game-day-2026.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/noticia-game-day-2026.html/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/noticia-game-day-2026.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/NOTICIA-GAME-DAY-2026.HTML",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/noticia-game-day-2026.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/galeria",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/galeria.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/galeria/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/galeria.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/galeria.html/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/galeria.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/GALERIA.HTML",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/galeria.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/loja",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/loja.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/loja/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/loja.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/loja.html/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/loja.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/LOJA.HTML",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/loja.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/contactos",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/contactos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/contactos/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/contactos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/contactos.html/",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/contactos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/CONTACTOS.HTML",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/contactos.html",
+      "expectedStatus": 301,
+      "passed": true,
+      "destinationStatus": 200,
+      "singleHop": true
+    },
+    {
+      "path": "/seo-check-missing/nested-page",
+      "status": 404,
+      "location": null,
+      "expectedStatus": 404,
+      "passed": true,
+      "custom404": true
+    },
+    {
+      "path": "/?p=999999999",
+      "status": 410,
+      "location": null,
+      "expectedStatus": 410,
+      "passed": true
+    },
+    {
+      "path": "/wp-includes/obsolete-file.js",
+      "status": 404,
+      "location": null,
+      "expectedStatus": 404,
+      "passed": true,
+      "custom404": true
+    },
+    {
+      "path": "/wp-content/uploads/unrelated-old-file.pdf",
+      "status": 404,
+      "location": null,
+      "expectedStatus": 404,
+      "passed": true,
+      "custom404": true
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/sobre-nos.html",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/equipa.html",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/guia-caloiro.html",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/recursos.html",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/study-squads.html",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/mentoria.html",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/noticias.html",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/dia-de-africa.html",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/semana-africa-ulisboa.html",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/noticia-tomada-posse-2026.html",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/noticia-game-day-2026.html",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/galeria.html",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/loja.html",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/contactos.html",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/images/social/dia-de-africa.jpg",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/images/social/galeria.jpg",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/images/social/game-day.jpg",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/images/social/loja.jpg",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/images/social/neaist.jpg",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/images/social/novos-alunos.jpg",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/images/social/semana-africa.jpg",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/images/social/study-squads.jpg",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/images/social/tomada-posse.jpg",
+      "status": 200,
+      "location": null,
+      "expectedStatus": 200,
+      "passed": true
+    },
+    {
+      "path": "/",
+      "requestScheme": "http",
+      "host": "neaist.tecnico.ulisboa.pt",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/",
+      "passed": true
+    },
+    {
+      "path": "/sobre-nos.html",
+      "requestScheme": "http",
+      "host": "neaist.tecnico.ulisboa.pt",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/sobre-nos.html",
+      "passed": true
+    },
+    {
+      "path": "/sobre-nos/",
+      "requestScheme": "http",
+      "host": "www.neaist.tecnico.ulisboa.pt",
+      "status": 301,
+      "location": "https://neaist.tecnico.ulisboa.pt/sobre-nos.html",
+      "passed": true
+    }
+  ]
+}

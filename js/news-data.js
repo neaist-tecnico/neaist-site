@@ -9,6 +9,8 @@ const NEWS_ITEMS = [
         date: '2026-05-24',
         categoryId: 'oportunidades',
         image: 'files/study-squads/study-squads-poster.png',
+        imageWidth: 1055,
+        imageHeight: 1491,
         url: 'https://docs.google.com/forms/d/e/1FAIpQLSeh4LVB7fIxfBD5aBc_p2V5zvk1f-D_hd54MXaNZPrn2RKCSA/viewform?usp=header',
         external: true,
         copy: {
@@ -36,6 +38,8 @@ const NEWS_ITEMS = [
         homepagePriority: 2,
         categoryId: 'eventos',
         image: 'images/news/dia-de-africa-2026/group-photo.jpg',
+        imageWidth: 6072,
+        imageHeight: 3416,
         url: 'dia-de-africa.html',
         copy: {
             pt: {
@@ -57,6 +61,8 @@ const NEWS_ITEMS = [
         date: '2026-05-22',
         categoryId: 'oportunidades',
         image: 'images/news/collaboradores-2026.png',
+        imageWidth: 960,
+        imageHeight: 237,
         mediaFit: 'contain',
         url: 'https://docs.google.com/forms/d/e/1FAIpQLSeaPowt7ku00SvK6ykEAOBPSun59V1UjDE_cMkKSTwUMCJJ-Q/viewform?usp=header',
         external: true,
@@ -81,6 +87,8 @@ const NEWS_ITEMS = [
         homepagePriority: 1,
         categoryId: 'eventos',
         image: 'images/news/semana-de-africa-ulisboa.jpg',
+        imageWidth: 353,
+        imageHeight: 500,
         url: 'semana-africa-ulisboa.html',
         copy: {
             pt: {
@@ -108,6 +116,8 @@ const NEWS_ITEMS = [
         date: '2026-04-12',
         categoryId: 'arquivo',
         image: 'images/news/rtp-30-years.jpeg',
+        imageWidth: 1200,
+        imageHeight: 1600,
         url: 'noticias.html#rtp-africa-30-anos',
         copy: {
             pt: {
@@ -129,6 +139,8 @@ const NEWS_ITEMS = [
         date: '2026-03-23',
         categoryId: 'institucional',
         image: 'images/news/tomada-posse-direcao-neaist-2026.jpeg',
+        imageWidth: 1600,
+        imageHeight: 1200,
         url: 'noticia-tomada-posse-2026.html',
         copy: {
             pt: {
@@ -150,6 +162,8 @@ const NEWS_ITEMS = [
         date: '2026-04-23',
         categoryId: 'eventos',
         image: 'images/news/game-day-2026-poster.png',
+        imageWidth: 1080,
+        imageHeight: 1920,
         mediaFit: 'contain',
         url: 'noticia-game-day-2026.html',
         copy: {
@@ -202,7 +216,7 @@ function renderNewsMedia(item) {
     if (item.image) {
         return `
             <div class="highlight-media ${item.mediaFit === 'contain' ? 'highlight-media-contain' : ''}">
-                <img src="${item.image}" alt="${getLocalizedNewsValue(item, 'alt') || getLocalizedNewsValue(item, 'title')}" loading="lazy" decoding="async">
+                <img src="${item.image}" alt="${getLocalizedNewsValue(item, 'alt') || getLocalizedNewsValue(item, 'title')}" width="${item.imageWidth}" height="${item.imageHeight}" loading="lazy" decoding="async">
             </div>
         `;
     }

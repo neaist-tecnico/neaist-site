@@ -524,7 +524,8 @@ img {
     color: var(--white);
 }
 
-.hero-slide-caption h3 {
+.hero-slide-caption h2 {
+    font-size: clamp(1.5rem, 3vw, 2rem);
     margin-bottom: 0.45rem;
     color: var(--white);
 }
@@ -1155,6 +1156,9 @@ section {
 }
 
 .footer-title {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    line-height: 1.2;
     color: var(--white);
     font-size: 1.5rem;
     margin-bottom: var(--spacing-md);
@@ -1207,6 +1211,7 @@ section {
 }
 
 .footer-heading {
+    font-size: clamp(1.25rem, 2.5vw, 1.5rem);
     color: var(--white);
     margin-bottom: var(--spacing-md);
 }
@@ -1498,6 +1503,10 @@ section {
     grid-template-columns: minmax(320px, 0.88fr) minmax(0, 1.12fr);
     gap: var(--spacing-xl);
     align-items: start;
+}
+
+.agenda-grid > * {
+    min-width: 0;
 }
 
 .agenda-image-card,
@@ -2217,6 +2226,12 @@ section {
     border-radius: var(--border-radius);
     border-left: 4px solid var(--primary-color);
     transition: var(--transition);
+}
+
+/* Preserve the existing typography with correctly nested section headings. */
+.activity-card h3,
+.info-content h3 {
+    font-size: clamp(1.25rem, 2.5vw, 1.5rem);
 }
 
 .activity-card:hover {

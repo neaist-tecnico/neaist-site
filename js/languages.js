@@ -5,6 +5,11 @@
 
 const translations = {
     pt: {
+        not_found_title: "Página não encontrada",
+        not_found_description: "A página que procuras não está disponível. Podes voltar ao início, consultar os recursos para novos alunos ou falar connosco.",
+        not_found_home: "Voltar ao início",
+        not_found_guide: "Apoio a novos alunos",
+        not_found_contact: "Contactar o NEAIST",
         // Navigation
         logo_subtext: "Núcleo de Estudantes Africanos no Instituto Superior Técnico",
         nav_home: "Início",
@@ -404,6 +409,11 @@ const translations = {
     },
     
     en: {
+        not_found_title: "Page not found",
+        not_found_description: "The page you are looking for is unavailable. Return to the homepage, explore support for new students or get in touch with us.",
+        not_found_home: "Back to the homepage",
+        not_found_guide: "New student support",
+        not_found_contact: "Contact NEAIST",
         // Navigation
         logo_subtext: "African Students Association at Instituto Superior Técnico",
         nav_home: "Home",
@@ -799,6 +809,10 @@ const translations = {
 };
 
 const pageCopy = {
+    "404.html": {
+        pt: { title: "Página não encontrada | NEAIST", description: "A página que procuras não está disponível. Volta ao início ou consulta os recursos do NEAIST." },
+        en: { title: "Page not found | NEAIST", description: "This page is unavailable. Return to NEAIST’s homepage or explore our student resources." }
+    },
     common: {
         pt: {
             footerLocation: "Instituto Superior Técnico, Lisboa",
@@ -812,7 +826,7 @@ const pageCopy = {
     "index.html": {
         pt: {
             title: "NEAIST — Núcleo de Estudantes Africanos do Instituto Superior Técnico",
-            description: "Website oficial do NEAIST, Núcleo de Estudantes Africanos do Instituto Superior Técnico. Comunidade, integração, cultura e apoio académico para estudantes africanos no IST.",
+            description: "Conhece o NEAIST, a comunidade de estudantes africanos do Instituto Superior Técnico: apoio académico, integração, cultura, mentoria e iniciativas no Técnico.",
             heroKicker: "NEAIST 2026",
             heroTitle: "NEAIST — Núcleo de Estudantes Africanos do Instituto Superior Técnico",
             heroDescriptions: [
@@ -830,8 +844,8 @@ const pageCopy = {
             ]
         },
         en: {
-            title: "NEAIST — African Students Association at Instituto Superior Técnico",
-            description: "Official website of NEAIST, the African Students Association at Instituto Superior Técnico. Community, integration, culture and academic support for African students at IST.",
+            title: "NEAIST | African Students Association at Instituto Superior Técnico",
+            description: "Meet NEAIST, the African student community at Instituto Superior Técnico: academic support, mentoring, cultural activities and help settling into university.",
             heroKicker: "NEAIST 2026",
             heroTitle: "NEAIST — African Students Association at Instituto Superior Técnico",
             heroDescriptions: [
@@ -851,18 +865,18 @@ const pageCopy = {
     },
     "loja.html": {
         pt: {
-            title: "Loja | Merchandising Oficial NEAIST",
-            description: "Loja do NEAIST com esferográficas, T-shirts, garrafas térmicas e tote bags. Encomenda através do formulário oficial."
+            title: "Loja NEAIST | Merchandising",
+            description: "Descobre o merchandising do NEAIST: t-shirts, esferográficas, garrafas térmicas e tote bags. Consulta os artigos e faz a tua encomenda através do formulário."
         },
         en: {
-            title: "Shop | Official NEAIST Merchandise",
-            description: "NEAIST shop with pens, T-shirts, thermal bottles, and tote bags. Order through the official form."
+            title: "NEAIST Shop | Merchandise",
+            description: "Discover NEAIST merchandise: T-shirts, pens, thermal bottles and tote bags. Browse the collection and place your order through the association’s form."
         }
     },
     "contactos.html": {
         pt: {
-            title: "Contactos | NEAIST",
-            description: "Contacta o NEAIST por email ou Instagram para dúvidas, parcerias e informações sobre a comunidade africana no Técnico.",
+            title: "Contactos | NEAIST — Instituto Superior Técnico",
+            description: "Contacta o NEAIST para esclarecer dúvidas, pedir apoio ou propor iniciativas. Encontra o email e as redes sociais do núcleo de estudantes africanos do Técnico.",
             kicker: "Contacto direto",
             directTitle: "Fala connosco",
             directIntro: "Para dúvidas, parcerias ou informações sobre as nossas atividades, usa um dos canais abaixo.",
@@ -873,8 +887,8 @@ const pageCopy = {
             buttons: ["Enviar email", "Instagram"]
         },
         en: {
-            title: "Contact | NEAIST",
-            description: "Contact NEAIST by email or Instagram for questions, partnerships, and information about the African student community at Técnico.",
+            title: "Contact | NEAIST — Instituto Superior Técnico",
+            description: "Contact NEAIST with questions, requests for support or ideas for activities. Find the email and social profiles of Técnico’s African Students Association.",
             kicker: "Direct contact",
             directTitle: "Talk to us",
             directIntro: "For questions, partnerships, or information about our activities, use one of the channels below.",
@@ -887,28 +901,28 @@ const pageCopy = {
     },
     "sobre-nos.html": {
         pt: {
-            title: "Sobre Nós | NEAIST — Núcleo de Estudantes Africanos do IST",
-            description: "Conhece o NEAIST, Núcleo de Estudantes Africanos do Instituto Superior Técnico, a sua missão, valores e papel no apoio aos estudantes africanos no IST."
+            title: "Sobre o NEAIST | Comunidade Africana no Técnico",
+            description: "Conhece a missão, os valores e as iniciativas do NEAIST, o núcleo que representa e apoia a comunidade de estudantes africanos no Instituto Superior Técnico."
         },
         en: {
-            title: "About Us | NEAIST — African Students Association at IST",
-            description: "Learn about NEAIST, the African Students Association at Instituto Superior Técnico, its mission, values, and role in supporting African students at IST."
+            title: "About NEAIST | African Student Community at Técnico",
+            description: "Discover NEAIST’s mission, values and activities supporting and representing the African student community at Instituto Superior Técnico in Lisbon."
         }
     },
     "guia-caloiro.html": {
         pt: {
-            title: "Novo no Técnico | NEAIST",
-            description: "Recursos do NEAIST para novos estudantes do Instituto Superior Técnico: Guia para Novos Alunos, mentoria, Study Squads e acesso à comunidade."
+            title: "Novo no Técnico? | Guia para Novos Alunos — NEAIST",
+            description: "Novo no Técnico? O NEAIST ajuda-te nos primeiros passos: guia 2026/2027, documentação, integração, mentoria, apoio académico e acesso à comunidade estudantil."
         },
         en: {
-            title: "New at Técnico | NEAIST",
-            description: "NEAIST resources for new students at Instituto Superior Técnico: the New Students Guide, mentoring, Study Squads and access to the community."
+            title: "New at Técnico? | New Students Guide — NEAIST",
+            description: "Starting at Técnico? Find NEAIST’s 2026/2027 New Students Guide in English, practical advice, mentoring, academic support and ways to join the community."
         }
     },
     "mentoria.html": {
         pt: {
-            title: "Programa Mentorado | NEAIST",
-            description: "Programa Mentorado do NEAIST para apoiar a integração de novos estudantes africanos no Instituto Superior Técnico.",
+            title: "Mentoria no Técnico | Programa Mentorado NEAIST",
+            description: "Conhece o Programa Mentorado do NEAIST e recebe apoio de estudantes experientes para a tua integração, os primeiros passos e a vida académica no Técnico.",
             benefitsMentees: [
                 "Integração mais fácil na comunidade IST",
                 "Apoio académico personalizado",
@@ -942,8 +956,8 @@ const pageCopy = {
             squadsTutorText: "Formulário para estudantes que queiram integrar a primeira fase do projeto."
         },
         en: {
-            title: "Mentoring Program | NEAIST",
-            description: "NEAIST Mentoring Program designed to support the integration of new African students at Instituto Superior Técnico.",
+            title: "Mentoring at Técnico | NEAIST Mentoring Programme",
+            description: "Discover NEAIST’s mentoring programme and get support from experienced students as you settle in, take your first steps and navigate academic life at Técnico.",
             benefitsMentees: [
                 "Easier integration into the IST community",
                 "Personalized academic support",
@@ -979,8 +993,8 @@ const pageCopy = {
     },
     "equipa.html": {
         pt: {
-            title: "Equipa 2026 | NEAIST",
-            description: "Conhece os órgãos sociais e departamentos do NEAIST para o mandato de 2026, com a equipa responsável pela coordenação, cultura, apoio académico, comunicação e comunidade.",
+            title: "Equipa NEAIST 2026 | Direção e Órgãos Sociais",
+            description: "Conhece a Direção 2026, os órgãos sociais e os departamentos do NEAIST, a equipa que representa e apoia a comunidade africana no Instituto Superior Técnico.",
             pageTitle: "Direção e Equipa NEAIST 2026",
             pageSubtitle: "Conhece a equipa responsável pela coordenação das atividades, projetos e representação do NEAIST durante o mandato de 2026.",
             overviewKicker: "Mandato 2026",
@@ -1038,8 +1052,8 @@ const pageCopy = {
             ]
         },
         en: {
-            title: "Team 2026 | NEAIST",
-            description: "Meet the NEAIST governing bodies and departments for the 2026 term, including the team responsible for coordination, culture, academic support, communication, and community work.",
+            title: "NEAIST Team 2026 | Board and Governing Bodies",
+            description: "Meet NEAIST’s 2026 board, governing bodies and departments: the team supporting and representing the African student community at Instituto Superior Técnico.",
             pageTitle: "NEAIST Board and Team 2026",
             pageSubtitle: "Meet the team responsible for coordinating NEAIST activities, projects, and representation during the 2026 term.",
             overviewKicker: "2026 Term",
@@ -1099,8 +1113,8 @@ const pageCopy = {
     },
     "noticias.html": {
         pt: {
-            title: "Notícias | NEAIST — Estudantes Africanos no Técnico",
-            description: "Arquivo de notícias, eventos, oportunidades e momentos institucionais do NEAIST no Instituto Superior Técnico.",
+            title: "Notícias e Iniciativas | NEAIST",
+            description: "Acompanha as notícias e iniciativas do NEAIST: cultura, convívio, oportunidades e momentos da comunidade de estudantes africanos no Instituto Superior Técnico.",
             pageTitle: "Notícias e Arquivo NEAIST",
             pageSubtitle: "Acompanha os principais momentos, eventos, oportunidades e iniciativas do NEAIST.",
             kicker: "Arquivo NEAIST",
@@ -1110,8 +1124,8 @@ const pageCopy = {
             filters: ["Todos", "Eventos", "Institucional", "Oportunidades", "Arquivo"]
         },
         en: {
-            title: "News | NEAIST — African Students at Técnico",
-            description: "Archive of NEAIST news, events, opportunities, and institutional moments at Instituto Superior Técnico.",
+            title: "News and Activities | NEAIST",
+            description: "Follow NEAIST news and activities: cultural events, community gatherings, opportunities and updates from African students at Instituto Superior Técnico.",
             pageTitle: "NEAIST News and Archive",
             pageSubtitle: "Follow the main moments, events, opportunities, and initiatives of NEAIST.",
             kicker: "NEAIST Archive",
@@ -1123,22 +1137,22 @@ const pageCopy = {
     },
     "galeria.html": {
         pt: {
-            title: "Galeria | NEAIST",
-            description: "Galeria fotográfica do NEAIST com arquivos institucionais, eventos culturais e momentos recentes da comunidade africana no Técnico.",
+            title: "Galeria NEAIST | Fotografias da Comunidade",
+            description: "Explora a galeria do NEAIST: fotografias do Dia de África, da tomada de posse e do Game Day, com a comunidade de estudantes africanos do Técnico em destaque.",
             pageTitle: "Galeria",
             pageSubtitle: "Arquivo visual do NEAIST com galerias organizadas por evento, incluindo Dia de África, tomada de posse e Game Day."
         },
         en: {
-            title: "Gallery | NEAIST",
-            description: "NEAIST photo gallery with institutional archives, cultural events, and recent moments from the African student community at Técnico.",
+            title: "NEAIST Gallery | Community Photographs",
+            description: "Explore NEAIST’s photo gallery: Africa Day, the inauguration ceremony and Game Day, celebrating the African student community at Instituto Superior Técnico.",
             pageTitle: "Gallery",
             pageSubtitle: "NEAIST’s visual archive with event-based galleries, including Africa Day, the inauguration ceremony, and Game Day."
         }
     },
     "recursos.html": {
         pt: {
-            title: "Recursos Académicos | NEAIST",
-            description: "Documentos, Guia para Novos Alunos 2026/27 e recursos académicos do NEAIST, incluindo Study Squads, apoio institucional e repositórios por curso.",
+            title: "Recursos Académicos | NEAIST — Instituto Superior Técnico",
+            description: "Encontra recursos académicos do NEAIST: guias para novos alunos, Study Squads, documentos do núcleo e ligações úteis para estudar no Instituto Superior Técnico.",
             introKicker: "Apoio académico e institucional",
             introTitle: "Documentos, guias e recursos por curso",
             introText: "Reunimos nesta página os principais documentos do NEAIST, guias para novos estudantes, materiais de mentoria e ligações úteis para apoio académico no Técnico.",
@@ -1218,8 +1232,8 @@ const pageCopy = {
             courseEmpty: "Não encontrámos recursos com estes critérios."
         },
         en: {
-            title: "Academic Resources | NEAIST",
-            description: "NEAIST documents, the 2026/27 New Students Guide, and academic resources, including Study Squads, institutional support, and course repositories.",
+            title: "Academic Resources | NEAIST — Instituto Superior Técnico",
+            description: "Explore NEAIST’s academic resources: new student guides, Study Squads, association documents and useful links for studying at Instituto Superior Técnico.",
             introKicker: "Academic and institutional support",
             introTitle: "Documents, guides, and course resources",
             introText: "This page brings together NEAIST’s main documents, guides for new students, mentoring materials, and useful links for academic support at Técnico.",
@@ -1302,7 +1316,7 @@ const pageCopy = {
     "study-squads.html": {
         pt: {
             title: "Study Squads | Apoio Académico NEAIST",
-            description: "Study Squads NEAIST: apoio académico e grupos de estudo para estudantes do Técnico, com candidaturas abertas para Tutores.",
+            description: "Conhece os Study Squads do NEAIST: grupos de estudo com tutores para partilhar dúvidas, criar hábitos de estudo e reforçar o apoio académico entre colegas no Técnico.",
             heroSubtitle: "Candidaturas abertas para Tutores",
             heroTitle: "Study Squads NEAIST",
             heroTexts: [
@@ -1369,7 +1383,7 @@ const pageCopy = {
         },
         en: {
             title: "Study Squads | NEAIST Academic Support",
-            description: "NEAIST Study Squads: academic support and study groups for Técnico students, with Tutor applications now open.",
+            description: "Discover NEAIST Study Squads: tutor-supported study groups to discuss questions, build consistent study habits and learn together at Instituto Superior Técnico.",
             heroSubtitle: "Applications open for Tutors",
             heroTitle: "Study Squads NEAIST",
             heroTexts: [
@@ -1438,7 +1452,7 @@ const pageCopy = {
     "dia-de-africa.html": {
         pt: {
             title: "Dia de África no Técnico | NEAIST",
-            description: "Notícia do Dia de África no Técnico, promovido pelo NEAIST a 27 de Maio de 2026, com artigo, programa e registos fotográficos do encontro.",
+            description: "Revê o Dia de África no Técnico, promovido pelo NEAIST a 27 de maio de 2026: cultura, reflexão, fotografias e encontro da comunidade no Técnico Innovation Center.",
             kicker: "Notícia",
             subtitle: "Ubuntu: Eu Sou Porque Nós Somos",
             pageTitle: "NEAIST promove Dia de África no Técnico",
@@ -1491,7 +1505,7 @@ const pageCopy = {
         },
         en: {
             title: "Africa Day at Técnico | NEAIST",
-            description: "News article about Africa Day at Técnico, organized by NEAIST on May 27, 2026, with the full article, programme, and photo records from the gathering.",
+            description: "Revisit NEAIST’s Africa Day at Técnico on 27 May 2026: culture, reflection, photographs and community at the Técnico Innovation Center in Lisbon.",
             kicker: "News",
             subtitle: "Ubuntu: I Am Because We Are",
             pageTitle: "NEAIST holds Africa Day at Técnico",
@@ -1545,8 +1559,8 @@ const pageCopy = {
     },
     "semana-africa-ulisboa.html": {
         pt: {
-            title: "Semana de África ULisboa — Sem Margem | NEAIST",
-            description: "Participação do NEAIST na Semana de África Sem Margem, iniciativa da Universidade de Lisboa dedicada à cultura africana, ao pensamento e ao encontro entre comunidades académicas.",
+            title: "Semana de África ULisboa | Participação do NEAIST",
+            description: "Conhece a participação do NEAIST na Semana de África «Sem Margem» da ULisboa, em maio de 2026, com o Africa Quiz Challenge e iniciativas de partilha cultural.",
             heroMeta: "25 a 30 de Maio de 2026",
             heroTitle: "Semana de África ULisboa — Sem Margem",
             heroSubtitle: "Participação do NEAIST na programação da Universidade de Lisboa",
@@ -1583,8 +1597,8 @@ const pageCopy = {
             finalButton: "Ver página oficial da ULisboa"
         },
         en: {
-            title: "ULisboa Africa Week — Sem Margem | NEAIST",
-            description: "NEAIST participation in Sem Margem Africa Week, a University of Lisbon initiative dedicated to African culture, thought, and shared academic encounters.",
+            title: "ULisboa Africa Week | NEAIST’s Participation",
+            description: "Discover NEAIST’s participation in ULisboa’s Sem Margem Africa Week in May 2026, including the Africa Quiz Challenge and opportunities for cultural exchange.",
             heroMeta: "May 25 to 30, 2026",
             heroTitle: "ULisboa Africa Week — Sem Margem",
             heroSubtitle: "NEAIST participation in the University of Lisbon programme",
@@ -1623,8 +1637,8 @@ const pageCopy = {
     },
     "noticia-game-day-2026.html": {
         pt: {
-            title: "Game Day NEAIST | 23 de Abril de 2026",
-            description: "Notícia do NEAIST sobre o Game Day de 23 de Abril de 2026, uma tarde de jogos, convívio e comunidade entre estudantes no Técnico.",
+            title: "Game Day NEAIST 2026 | Comunidade e Convívio",
+            description: "Recorda o Game Day do NEAIST de 23 de abril de 2026, no Técnico: uma tarde de jogos e convívio entre estudantes, com fotografias e vídeo dos melhores momentos.",
             heroMeta: "23 de Abril de 2026",
             heroTitle: "Game Day NEAIST",
             heroIntro: "No dia 23 de Abril de 2026, o NEAIST viveu um Game Day bonito, leve e cheio de energia positiva, marcado por jogos, risadas e um convívio que tornou a tarde verdadeiramente enriquecedora.",
@@ -1660,8 +1674,8 @@ const pageCopy = {
             ctaButton: "Ver mais eventos"
         },
         en: {
-            title: "NEAIST Game Day | April 23, 2026",
-            description: "NEAIST article about the Game Day held on April 23, 2026, an afternoon of games, connection, and student community at Técnico.",
+            title: "NEAIST Game Day 2026 | Community and Games",
+            description: "Look back at NEAIST’s Game Day on 23 April 2026 at Técnico: an afternoon of games and student connections, with photographs and a video of the event.",
             heroMeta: "April 23, 2026",
             heroTitle: "NEAIST Game Day",
             heroIntro: "On April 23, 2026, NEAIST enjoyed a beautiful and lively Game Day filled with games, laughter, and a sense of community that made the afternoon truly enriching.",
@@ -1699,8 +1713,8 @@ const pageCopy = {
     },
     "noticia-tomada-posse-2026.html": {
         pt: {
-            title: "Tomada de Posse - Mandato 2025/2026 | NEAIST",
-            description: "Notícia institucional do NEAIST sobre a tomada de posse do mandato 2025/2026 e o início de um novo ciclo de representação e compromisso no Técnico.",
+            title: "Tomada de Posse NEAIST 2026 | Mandato 2025/2026",
+            description: "Revê a tomada de posse do NEAIST a 23 de março de 2026: a equipa do mandato 2025/2026, os convidados e um novo ciclo de representação e comunidade no Técnico.",
             heroMeta: "Institucional · 23 de Março de 2026",
             heroTitle: "Tomada de Posse - Mandato 2025/2026",
             heroIntro: "No dia 23 de Março de 2026, o NEAIST realizou a tomada de posse dos seus órgãos sociais e da equipa do mandato 2025/2026, assinalando o início de um novo ciclo de trabalho, representação e compromisso com a comunidade africana no Instituto Superior Técnico.",
@@ -1734,8 +1748,8 @@ const pageCopy = {
             socialLink: "Ver publicação no Instagram"
         },
         en: {
-            title: "Inauguration - 2025/2026 Term | NEAIST",
-            description: "Institutional NEAIST article about the inauguration of the 2025/2026 term and the beginning of a new cycle of representation and commitment at Técnico.",
+            title: "NEAIST Inauguration 2026 | 2025/2026 Term",
+            description: "Revisit NEAIST’s inauguration on 23 March 2026: the team for the 2025/2026 term, institutional guests and a new chapter of student representation at Técnico.",
             heroMeta: "Institutional · March 23, 2026",
             heroTitle: "Inauguration - 2025/2026 Term",
             heroIntro: "On March 23, 2026, NEAIST held the inauguration of its governing bodies and team for the 2025/2026 term, marking the beginning of a new cycle of work, representation, and commitment to the African community at Instituto Superior Técnico.",
@@ -1772,6 +1786,7 @@ const pageCopy = {
 };
 
 function getCurrentPageName() {
+    if (document.body.dataset.page) return document.body.dataset.page;
     const pageName = window.location.pathname.split("/").pop();
     return pageName || "index.html";
 }
@@ -1894,6 +1909,13 @@ function applyPageSpecificTranslations() {
 
     applyText("title", copy.title);
     applyAttr('meta[name="description"]', "content", copy.description);
+    ['meta[property="og:title"]', 'meta[name="twitter:title"]'].forEach((selector) => {
+        applyAttr(selector, "content", copy.title);
+    });
+    ['meta[property="og:description"]', 'meta[name="twitter:description"]'].forEach((selector) => {
+        applyAttr(selector, "content", copy.description);
+    });
+    applyAttr('meta[property="og:locale"]', "content", currentLanguage === "en" ? "en_GB" : "pt_PT");
 
     if (pageName === "index.html") {
         applyText(".hero-kicker", copy.heroKicker);
@@ -1919,12 +1941,6 @@ function applyPageSpecificTranslations() {
 
     if (pageName === "guia-caloiro.html") {
         applyAttr("main.onboarding", "lang", currentLanguage === "en" ? "en" : "pt-PT");
-        ['meta[property="og:title"]', 'meta[name="twitter:title"]'].forEach((selector) => {
-            applyAttr(selector, "content", copy.title);
-        });
-        ['meta[property="og:description"]', 'meta[name="twitter:description"]'].forEach((selector) => {
-            applyAttr(selector, "content", copy.description);
-        });
         ["alt", "aria-label"].forEach((attribute) => {
             document.querySelectorAll(`[data-onboarding-${attribute}]`).forEach((element) => {
                 const key = element.getAttribute(`data-onboarding-${attribute}`);

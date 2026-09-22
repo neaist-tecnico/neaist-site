@@ -1,54 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version='1.0' encoding='utf-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://neaist.tecnico.ulisboa.pt/</loc>
-  </url>
-  <url>
-    <loc>https://neaist.tecnico.ulisboa.pt/index.html</loc>
+    <lastmod>2026-08-27T22:20:22+01:00</lastmod>
   </url>
   <url>
     <loc>https://neaist.tecnico.ulisboa.pt/sobre-nos.html</loc>
+    <lastmod>2026-06-04T21:25:01+01:00</lastmod>
   </url>
   <url>
     <loc>https://neaist.tecnico.ulisboa.pt/equipa.html</loc>
-  </url>
-  <url>
-    <loc>https://neaist.tecnico.ulisboa.pt/loja.html</loc>
-  </url>
-  <url>
-    <loc>https://neaist.tecnico.ulisboa.pt/study-squads.html</loc>
-  </url>
-  <url>
-    <loc>https://neaist.tecnico.ulisboa.pt/mentoria.html</loc>
+    <lastmod>2026-06-22T22:03:25+01:00</lastmod>
   </url>
   <url>
     <loc>https://neaist.tecnico.ulisboa.pt/guia-caloiro.html</loc>
-  </url>
-  <url>
-    <loc>https://neaist.tecnico.ulisboa.pt/files/caloiros/2026-2027/guia-novos-alunos-neaist-2026-2027.pdf</loc>
-  </url>
-  <url>
-    <loc>https://neaist.tecnico.ulisboa.pt/noticias.html</loc>
-  </url>
-  <url>
-    <loc>https://neaist.tecnico.ulisboa.pt/noticia-game-day-2026.html</loc>
-  </url>
-  <url>
-    <loc>https://neaist.tecnico.ulisboa.pt/semana-africa-ulisboa.html</loc>
-  </url>
-  <url>
-    <loc>https://neaist.tecnico.ulisboa.pt/noticia-tomada-posse-2026.html</loc>
-  </url>
-  <url>
-    <loc>https://neaist.tecnico.ulisboa.pt/dia-de-africa.html</loc>
-  </url>
-  <url>
-    <loc>https://neaist.tecnico.ulisboa.pt/galeria.html</loc>
+    <lastmod>2026-09-21T13:12:20+01:00</lastmod>
   </url>
   <url>
     <loc>https://neaist.tecnico.ulisboa.pt/recursos.html</loc>
+    <lastmod>2026-09-21T13:12:20+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://neaist.tecnico.ulisboa.pt/study-squads.html</loc>
+    <lastmod>2026-05-24T23:33:50+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://neaist.tecnico.ulisboa.pt/mentoria.html</loc>
+    <lastmod>2026-06-04T23:05:09+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://neaist.tecnico.ulisboa.pt/noticias.html</loc>
+    <lastmod>2026-06-04T21:25:01+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://neaist.tecnico.ulisboa.pt/dia-de-africa.html</loc>
+    <lastmod>2026-06-04T23:05:09+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://neaist.tecnico.ulisboa.pt/semana-africa-ulisboa.html</loc>
+    <lastmod>2026-05-27T04:16:46+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://neaist.tecnico.ulisboa.pt/noticia-tomada-posse-2026.html</loc>
+    <lastmod>2026-06-04T21:25:01+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://neaist.tecnico.ulisboa.pt/noticia-game-day-2026.html</loc>
+    <lastmod>2026-05-27T03:08:05+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://neaist.tecnico.ulisboa.pt/galeria.html</loc>
+    <lastmod>2026-06-04T23:05:09+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://neaist.tecnico.ulisboa.pt/loja.html</loc>
+    <lastmod>2026-05-27T01:58:22+01:00</lastmod>
   </url>
   <url>
     <loc>https://neaist.tecnico.ulisboa.pt/contactos.html</loc>
+    <lastmod>2026-05-23T22:05:47+01:00</lastmod>
   </url>
 </urlset>

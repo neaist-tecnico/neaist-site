@@ -1,0 +1,100 @@
+[
+  {
+    "url": "https://neaist.tecnico.ulisboa.pt/",
+    "status": 200,
+    "location": null,
+    "server": "Apache/2.4.68 (Debian)",
+    "type": "text/html"
+  },
+  {
+    "url": "http://neaist.tecnico.ulisboa.pt/",
+    "status": 200,
+    "location": null,
+    "server": "Apache/2.4.68 (Debian)",
+    "type": "text/html"
+  },
+  {
+    "url": "https://neaist.tecnico.ulisboa.pt/index.html",
+    "status": 200,
+    "location": null,
+    "server": "Apache/2.4.68 (Debian)",
+    "type": "text/html"
+  },
+  {
+    "url": "https://neaist.tecnico.ulisboa.pt/index.htm",
+    "status": 404,
+    "location": null,
+    "server": "Apache/2.4.68 (Debian)",
+    "type": "text/html; charset=iso-8859-1"
+  },
+  {
+    "url": "https://neaist.tecnico.ulisboa.pt/sobre-nos/",
+    "status": 404,
+    "location": null,
+    "server": "Apache/2.4.68 (Debian)",
+    "type": "text/html; charset=iso-8859-1"
+  },
+  {
+    "url": "https://neaist.tecnico.ulisboa.pt/sobre-nos",
+    "status": 200,
+    "location": null,
+    "server": "Apache/2.4.68 (Debian)",
+    "type": "text/html"
+  },
+  {
+    "url": "https://neaist.tecnico.ulisboa.pt/sobre-nos.html/",
+    "status": 404,
+    "location": null,
+    "server": "Apache/2.4.68 (Debian)",
+    "type": "text/html; charset=iso-8859-1"
+  },
+  {
+    "url": "https://neaist.tecnico.ulisboa.pt/Sobre-Nos.html",
+    "status": 404,
+    "location": null,
+    "server": "Apache/2.4.68 (Debian)",
+    "type": "text/html; charset=iso-8859-1"
+  },
+  {
+    "url": "https://neaist.tecnico.ulisboa.pt/seo-audit-missing-page-20260921",
+    "status": 404,
+    "location": null,
+    "server": "Apache/2.4.68 (Debian)",
+    "type": "text/html; charset=iso-8859-1"
+  },
+  {
+    "url": "https://neaist.tecnico.ulisboa.pt/wp-content/uploads/2022/02/Guia-para-Novos-Alunos.pdf",
+    "status": 404,
+    "location": null,
+    "server": "Apache/2.4.68 (Debian)",
+    "type": "text/html; charset=iso-8859-1"
+  },
+  {
+    "url": "https://neaist.tecnico.ulisboa.pt/wp-content/uploads/2022/02/Guia-1-Primeiros-Passos-Caloiros-1.pdf",
+    "status": 404,
+    "location": null,
+    "server": "Apache/2.4.68 (Debian)",
+    "type": "text/html; charset=iso-8859-1"
+  },
+  {
+    "url": "https://neaist.tecnico.ulisboa.pt/wp-content/uploads/2022/03/Regulamento-Mentores-1.pdf",
+    "status": 404,
+    "location": null,
+    "server": "Apache/2.4.68 (Debian)",
+    "type": "text/html; charset=iso-8859-1"
+  },
+  {
+    "url": "https://neaist.tecnico.ulisboa.pt/torneio/",
+    "status": 200,
+    "location": null,
+    "server": "Apache/2.4.68 (Debian)",
+    "type": "text/html"
+  },
+  {
+    "url": "https://neaist.tecnico.ulisboa.pt/torneio/README.md",
+    "status": 404,
+    "location": null,
+    "server": "Apache/2.4.68 (Debian)",
+    "type": "text/html; charset=iso-8859-1"
+  }
+]

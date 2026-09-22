@@ -29,7 +29,9 @@ jobs:
       - name: Validate files before deploy
         run: |
           test -f index.html
-          echo "index.html found. Continuing deploy."
+          python3 -m venv "$RUNNER_TEMP/neaist-seo-check"
+          "$RUNNER_TEMP/neaist-seo-check/bin/pip" install -r scripts/requirements-seo.txt
+          "$RUNNER_TEMP/neaist-seo-check/bin/python" scripts/check_seo.py
 
       - name: Deploy files with rsync
         run: |
@@ -41,6 +43,9 @@ jobs:
             --exclude "torneio/api/config.local.php" \
             --exclude ".DS_Store" \
             --exclude "README.md" \
+            --exclude "docs/" \
+            --exclude "scripts/" \
+            --exclude "torneio/schema.sql" \
             -e "ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes" \
             ./ "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_PATH }}/"
             
